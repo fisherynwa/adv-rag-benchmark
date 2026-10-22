@@ -80,27 +80,6 @@ The number check flagged one answer per system ("83 ports"), a false positive: t
 **Cost:** $0 on a free Kaggle GPU. With a mid-tier API model (~$2 per million input tokens), answering a million
 questions would cost about $4,900 with sentence window 5 vs. $31,200 with full context, before prompt caching.
 
-## The benchmark
-
-A fictional 25-page annual report, *Kerrowan Marine Systems plc*, with **154 questions** in 8 types:
-
-| Type | Count | What it tests |
-|---|---|---|
-| Single fact | 52 | One fact, one page |
-| Table lookup | 16 | Answer only in a table |
-| Near-duplicate trap | 18 | T3 vs. T3-S, 2024 vs. 2025, Port Lennox vs. Port Lenham |
-| Multi-step, same section | 20 | Two facts on one page, often with arithmetic |
-| Cross-section | 20 | Facts on pages far apart |
-| Summary | 12 | A section-level answer |
-| Superseded figure | 6 | A figure corrected later in the report; the earlier one is a trap |
-| Unanswerable | 10 | Not in the report; the right answer is "the report does not say" |
-
-Every question records its reference answer and the **exact evidence sentence(s) with their page**. A
-verification script checks that each evidence sentence really is on the stated page of the rendered PDF, that
-every trap figure appears where expected, that the unanswerable questions' answers appear nowhere, and that the
-report's own arithmetic adds up.
-
-**Why fictional:** the model cannot answer from memory, so a correct answer has to come from retrieval.
 
 ## How it is measured
 
@@ -145,24 +124,6 @@ answers it was based on.
    takes about 5.5 hours on a T4.
 2. **Colab (optional):** run `notebooks/test_retest_colab.ipynb` with the `best_rag.zip` from the Kaggle output.
 3. **Rebuild the benchmark (optional):** `cd benchmark && python build_pdf.py && python verify_and_build.py`.
-
-## Tests
-
-The benchmark's logic is also a small package, `src/ragbench`, tested with pytest on every push (GitHub Actions).
-The tests run offline in about 5 seconds: no GPU, no Ollama, no model download.
-
-```bash
-pip install -e ".[test]"
-pytest
-```
-
-| Test file | What it checks |
-|---|---|
-| `test_metrics.py` | Evidence found, bootstrap intervals (including the zero-width "1.00 to 1.00" case), n, Cohen's kappa, failure split |
-| `test_hallucination.py` | Refusal phrases, number extraction, the known "Eighty-three" false positive, the hallucination table |
-| `test_judge.py` | Unreadable replies count as missing; a **regression test for the judge bug**, run against a fake Ollama server inside a running event loop, as in a notebook |
-| `test_systems.py` | Every RAG system builds and answers with mock models; sentence windows are swapped in; export and reload give the same search result |
-| `test_benchmark_data.py` | 154 questions and their types, the dev/test split, every evidence sentence on its stated page of the PDF, unanswerable terms absent |
 
 ## Repository layout
 
