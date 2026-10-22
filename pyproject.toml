@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ragbench"
+version = "1.0.0"
+description = "Benchmark LlamaIndex RAG methods on a document with exact ground truth"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "llama-index-core==0.14.25",
+    "llama-index-llms-ollama==0.11.0",
+    "llama-index-embeddings-ollama==0.10.0",
+    "numpy",
+    "pandas",
+]
+
+[project.optional-dependencies]
+test = ["pytest", "pypdf", "nest_asyncio"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

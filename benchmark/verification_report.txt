@@ -1,0 +1,8 @@
+Pages: 25 | characters: 61,520 (~15,380 tokens)
+Questions: 154 | cross_section=20, multihop_section=20, near_duplicate=18, single=52, summary=12, superseded=6, table=16, unanswerable=10
+Split: dev=103 test=51 (stratified by type, seed 42) | LabelledRagDataset files written
+Arithmetic checks: 24/24 pass
+ERRORS: 0
+NOTES (evidence also appears on another page; recorded as also_on_pages): 2
+Q009: evidence also appears on page(s) [20]: Margaret Oduya, Chair
+Q110: evidence also appears on page(s) [4]: The Rotterdam service centre opened in June 2025

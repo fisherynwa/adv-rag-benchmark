@@ -1,0 +1,783 @@
+{
+    "examples": [
+        {
+            "query": "Which non-executive director advises the Board on Harbourline, and what was the platform's 2025 availability?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "he advises the Board on Harbourline",
+                "the platform achieved availability of 99.96%"
+            ],
+            "reference_answer": "Kwame Mensah; availability was 99.96%.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What revenue guidance has Kerrowan given for 2026, and what is the Course 2028 revenue target?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "The Board expects Group revenue for 2026 of between \u00a3200m and \u00a3210m",
+                "Group revenue \u00a3260m \u00a3184.6m"
+            ],
+            "reference_answer": "\u00a3200m to \u00a3210m for 2026; \u00a3260m by 2028.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "When and where is the 2026 annual general meeting, and when will the final dividend be paid?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "The annual general meeting will be held on 7 May 2026 at the Port Lennox Maritime Hall",
+                "Final dividend paid 22 May 2026"
+            ],
+            "reference_answer": "7 May 2026 at the Port Lennox Maritime Hall; the final dividend will be paid on 22 May 2026.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the Course 2028 operating margin target, and how far was the 2025 margin from it?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Operating margin 17% 14.7%",
+                "giving an operating margin of 14.7%"
+            ],
+            "reference_answer": "17%; the 2025 margin of 14.7% was 2.3 points short.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How did the Kestrel 400X firmware recall affect Q1 revenue and the product quality risk rating?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "partly because Kestrel 400X shipments were paused during the firmware recall in March",
+                "The risk was therefore rated as increased."
+            ],
+            "reference_answer": "Kestrel 400X shipments were paused, making Q1 the weakest quarter, and the product quality risk was rated as increased.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the 2028 renewable electricity target and what share was achieved in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "100% renewable electricity by 2028",
+                "Renewable sources supplied 71% of the electricity"
+            ],
+            "reference_answer": "100% by 2028; 71% in 2025.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How much was spent on capital expenditure in 2025 and what is expected for 2026?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Capital expenditure was \u00a314.9m",
+                "Capital expenditure in 2026 is expected to be between \u00a312m and \u00a314m"
+            ],
+            "reference_answer": "\u00a314.9m in 2025; between \u00a312m and \u00a314m expected in 2026.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Which segment had the highest operating margin in 2025, and how much did it improve on 2024?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Harbourline software had the highest margin of the three segments at 17.4%, up from 12.8% a year earlier"
+            ],
+            "reference_answer": "Harbourline software at 17.4%, up 4.6 points from 12.8%.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What share of Group revenue came from the United Kingdom and the rest of Europe combined?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "United Kingdom 22%",
+                "Rest of Europe 39%"
+            ],
+            "reference_answer": "61% (22% UK plus 39% rest of Europe).",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many Kestrel sonar units were shipped in 2025 across both models?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "The company shipped 1,020 Kestrel 400 units in 2025.",
+                "Shipments of the Kestrel 400X reached 445 units in 2025"
+            ],
+            "reference_answer": "1,465 (1,020 Kestrel 400 plus 445 Kestrel 400X).",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "By how many tonnes did total Scope 1 and 2 emissions fall in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Total Scope 1 and 2 4,870 5,610 -13.2%"
+            ],
+            "reference_answer": "By 740 tonnes CO2e, from 5,610 to 4,870.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many employees worked in manufacturing and quality plus research and development at the end of 2025, according to the preliminary count?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Manufacturing and quality 512",
+                "Research and development 186"
+            ],
+            "reference_answer": "698 (512 plus 186).",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How much did net cash increase in 2025, and what was it at the year end?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "net cash rose by \u00a39.4m to \u00a338.5m at 31 December 2025"
+            ],
+            "reference_answer": "It increased by \u00a39.4m to \u00a338.5m.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many Tidewatch buoys of all models were shipped in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "The company shipped 2,140 Tidewatch T3 units in 2025",
+                "860 Tidewatch T3-S units were shipped during the year",
+                "A total of 310 Tidewatch T5 units were shipped in 2025."
+            ],
+            "reference_answer": "3,310 (2,140 T3, 860 T3-S and 310 T5).",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What was the Harbourline software segment's operating margin in 2024?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "up from 12.8% a year earlier"
+            ],
+            "reference_answer": "12.8%.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Which Kerrowan factory assembles the Kestrel sonar range?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "It assembles the Kestrel sonar range and builds towfish bodies"
+            ],
+            "reference_answer": "Port Lenham in Cornwall, England.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What was the total dividend per share for 2024?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Total dividend per share 11.4p 9.8p"
+            ],
+            "reference_answer": "9.8 pence.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What is the maximum working range of the Kestrel 400X?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "with a maximum working range of 650 metres per side"
+            ],
+            "reference_answer": "650 metres per side.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What was the list price of the Tidewatch T3 in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "its list price in 2025 was \u00a318,500"
+            ],
+            "reference_answer": "\u00a318,500.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What were Kerrowan's Scope 1 emissions in 2024?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Scope 1 (fuel and company vehicles) 1,930 2,180 -11.5%"
+            ],
+            "reference_answer": "2,180 tonnes CO2e.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "By how much did the Tidewatch T5's on-board analytics reduce satellite data costs for pilot customers?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "reduced satellite data costs for pilot customers by about 60%"
+            ],
+            "reference_answer": "By about 60%.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How much of the 2025 R&D spending was capitalised as development costs?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Of this, \u00a33.9m was capitalised as development costs"
+            ],
+            "reference_answer": "\u00a33.9m.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "In what year was Kerrowan Marine Systems founded?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Kerrowan Marine Systems was founded in 1994"
+            ],
+            "reference_answer": "1994.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What was the ratio of the Chief Executive's total pay to median UK employee pay in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "was 34 to 1 in 2025"
+            ],
+            "reference_answer": "34 to 1.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many returned buoy hulls were refurbished in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "In 2025 the Group refurbished 214 returned buoy hulls"
+            ],
+            "reference_answer": "214 hulls, resold under the Tidewatch Renewed label.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Up to what wave height is the Tidewatch T3-S certified to survive?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "is certified to survive waves of up to 22 metres"
+            ],
+            "reference_answer": "Waves of up to 22 metres.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What fee does the Kerrowan Chair receive?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "The Chair receives an annual fee of \u00a3185,000."
+            ],
+            "reference_answer": "An annual fee of \u00a3185,000.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What would revenue growth have been at constant exchange rates?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "At constant exchange rates, growth would have been 14.9%"
+            ],
+            "reference_answer": "14.9%.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What was Harbourline's revenue-based customer retention in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Customer retention measured by revenue was 108%"
+            ],
+            "reference_answer": "108%.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What was voluntary staff turnover in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Voluntary staff turnover was 8.7% in 2025, down from 10.1% in 2024."
+            ],
+            "reference_answer": "8.7%, down from 10.1% in 2024.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many supplier audits did Kerrowan carry out in 2025, and how many were unannounced?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "In 2025 the Group carried out 48 supplier audits, 9 of them unannounced."
+            ],
+            "reference_answer": "48 audits, 9 of them unannounced.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many Kestrel 400X units had to be recalled because of the firmware fault, and what did it cost?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "forced us to recall 37 units for an on-site update, and the episode cost us roughly \u00a30.6m"
+            ],
+            "reference_answer": "37 units were recalled for an on-site update, costing roughly \u00a30.6m.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many times did the Board meet in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "The Board met eleven times during the year, including two full-day sessions on strategy."
+            ],
+            "reference_answer": "Eleven times, including two full-day strategy sessions.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "When did Kerrowan list its shares on the main market of the London Stock Exchange?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "In 2006 Kerrowan listed its shares on the main market of the London Stock Exchange"
+            ],
+            "reference_answer": "In 2006.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How large is Kerrowan's undrawn revolving credit facility and when does it run until?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "an undrawn revolving credit facility of \u00a350m with two banks, which runs until 2029"
+            ],
+            "reference_answer": "\u00a350m, running until 2029.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many suppliers does Kerrowan buy from, and in how many countries?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "The Group buys components from around 640 suppliers in 23 countries."
+            ],
+            "reference_answer": "Around 640 suppliers in 23 countries.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Who supplies the lithium battery packs for Tidewatch buoys?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "are supplied by Varentis Cells, a manufacturer based in Wroclaw, Poland"
+            ],
+            "reference_answer": "Varentis Cells, a manufacturer based in Wroclaw, Poland.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What changes to health and safety practice did Kerrowan make in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "the launch of a simple reporting app for field engineers in February 2025",
+                "all field engineers completed renewed sea survival training",
+                "the composites workshop was fitted with a new extraction system"
+            ],
+            "reference_answer": "A near-miss reporting app for field engineers, renewed sea survival training, a 2.5-metre wave limit for deploying or recovering buoys, new resin-fume extraction at Port Lenham and separate routes for people and lifting equipment at Port Lennox.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Why did Kerrowan's Group operating margin improve in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Better pricing on the storm-rated Tidewatch T3-S, a richer mix of software and lower freight costs together lifted the Group operating margin"
+            ],
+            "reference_answer": "Better pricing on the Tidewatch T3-S, a richer mix of software and lower freight costs.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What are the four pillars of the Course 2028 strategy?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Pillar one, Connected hardware",
+                "Pillar two, Software growth",
+                "Pillar three, Service close to the customer",
+                "Pillar four, Responsible operations"
+            ],
+            "reference_answer": "Connected hardware (every new instrument connects natively to Harbourline from 2026), Software growth (doubling Harbourline ARR by 2028), Service close to the customer (extending the Rotterdam model to North America and Asia), and Responsible operations (net zero own-operations emissions by 2032).",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What three things did the Chief Executive single out as standing out in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "The first was the launch of the Tidewatch T5 in September 2025",
+                "The second was the opening of our Rotterdam service centre in June 2025",
+                "the steady improvement in our operating margin"
+            ],
+            "reference_answer": "The launch of the Tidewatch T5, the opening of the Rotterdam service centre, and the improvement in the operating margin.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "By how many people did Kerrowan's workforce grow during 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Employees at year end 905 968 1,043 1,121 1,262",
+                "The final employee count at 31 December 2025 was 1,262"
+            ],
+            "reference_answer": "By 141, from 1,121 at the end of 2024 to the final count of 1,262.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many patents was Kerrowan granted in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "The number of patents granted in 2025 was therefore 15 rather than 14"
+            ],
+            "reference_answer": "15 (one more was granted on 30 December 2025, correcting the earlier figure of 14).",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What was Kerrowan's revenue in 2022?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Revenue 118.4 131.9 147.0 162.3 184.6"
+            ],
+            "reference_answer": "\u00a3131.9m.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Which principal risk is described as dependence on key suppliers and components, and how did it change in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Supply chain Dependence on key suppliers and components Decreased"
+            ],
+            "reference_answer": "Supply chain risk, which decreased in 2025.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What was the list price of the Tidewatch T5 in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Tidewatch T5 Connected systems \u00a329,800 310"
+            ],
+            "reference_answer": "\u00a329,800.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What was the Kestrel sonar segment's operating profit in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Kestrel sonar \u00a361.3m 13.0% \u00a38.0m"
+            ],
+            "reference_answer": "\u00a38.0m, at a 13.0% margin.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "What were Kerrowan's Scope 2 emissions in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [
+                "Scope 2 (purchased electricity, market-based) 2,940 3,430 -14.3%"
+            ],
+            "reference_answer": "2,940 tonnes CO2e (market-based), down 14.3%.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "Who will lead the new North American service centre?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [],
+            "reference_answer": "The report does not say.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How much does a Harbourline Essentials subscription cost?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [],
+            "reference_answer": "The report does not say; subscriptions are priced by the number of connected assets but no price is given.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        },
+        {
+            "query": "How many patent applications did Kerrowan file in 2025?",
+            "query_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            },
+            "reference_contexts": [],
+            "reference_answer": "The report does not say; it reports only patents granted.",
+            "reference_answer_by": {
+                "model_name": "claude-opus-5-5 (verified against PDF)",
+                "type": "ai"
+            }
+        }
+    ]
+}
