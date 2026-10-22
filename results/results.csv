@@ -1,0 +1,970 @@
+system,id,type,answer,found,context_tokens,seconds,correct,grounded,answer_relevance,context_relevance
+basic RAG,Q001,single,Kerrowan Marine Systems was founded in 1994.,1.0,1473.25,111.46097087860107,1.0,1.0,,
+basic RAG,Q002,single,Kerrowan Marine Systems was founded by oceanographer Isla Kerrowan and electronics engineer Tomas Ferreira.,1.0,1596.75,13.992275476455688,1.0,1.0,,
+basic RAG,Q003,single,"Kerrowan's first commercial product was the Tidewatch T1 buoy, which went on sale in 1997.",1.0,1638.25,2.7435789108276367,1.0,1.0,,
+basic RAG,Q004,single,Kerrowan listed its shares on the main market of the London Stock Exchange in 2006.,1.0,1616.25,2.662687301635742,1.0,1.0,,
+basic RAG,Q005,single,"In 2012, Kerrowan bought Sondera Acoustics, which was based in Bergen, Norway.",1.0,1667.25,2.711338996887207,1.0,1.0,,
+basic RAG,Q006,single,Harbourline was launched in 2018.,1.0,1579.0,2.3844985961914062,1.0,1.0,,
+basic RAG,Q007,single,The report does not say when Harbourline moved to a paid subscription model.,0.0,1536.0,2.512049674987793,0.0,1.0,,
+basic RAG,Q008,single,Kerrowan sells to customers in 41 countries.,1.0,1578.5,2.358382225036621,1.0,1.0,,
+basic RAG,Q009,single,Margaret Oduya chairs the Kerrowan Board.,1.0,1584.0,2.3253097534179688,1.0,1.0,,
+basic RAG,Q010,single,The Board met eleven times during the year.,1.0,1376.75,2.2095746994018555,1.0,1.0,,
+basic RAG,Q011,single,The report does not say when Daniel Achterberg became Chief Executive; it only states his total remuneration for 2025 and 2024.,0.0,1472.25,3.299520492553711,0.0,1.0,,
+basic RAG,Q012,single,"37 units were recalled, costing roughly £0.6m.",1.0,1543.5,2.6503894329071045,1.0,1.0,,
+basic RAG,Q013,single,The Rotterdam service centre cut average repair turnaround for European customers from 19 days to 8 days.,1.0,1534.75,2.9751906394958496,1.0,1.0,,
+basic RAG,Q014,single,The report does not say what revenue target the earlier Horizon 2025 plan had; it only mentions the Course 2028 targets of £260m revenue.,0.0,1355.5,3.660231113433838,1.0,1.0,,
+basic RAG,Q015,single,Kerrowan has set a limit of net debt of no more than one times operating profit for any acquisition.,1.0,1439.25,2.8460001945495605,1.0,1.0,,
+basic RAG,Q016,single,The design life of the Tidewatch T3 is 15 years.,1.0,1458.0,2.640861749649048,1.0,1.0,,
+basic RAG,Q017,single,The Tidewatch T3-S is certified to survive waves of up to 22 metres.,1.0,1423.25,2.276109457015991,1.0,1.0,,
+basic RAG,Q018,single,Until 2030.,1.0,1423.0,2.2717955112457275,1.0,1.0,,
+basic RAG,Q019,single,Buoy pricing rose by an average of 4% in 2025.,1.0,1365.5,2.7096331119537354,1.0,1.0,,
+basic RAG,Q020,single,108%,1.0,1536.0,2.175230026245117,1.0,1.0,,
+basic RAG,Q021,single,83 ports had subscribed to Channel Depth Assurance by the end of 2025.,1.0,1596.75,2.796379327774048,1.0,1.0,,
+basic RAG,Q022,single,99.96%,1.0,1586.25,2.3642289638519287,1.0,1.0,,
+basic RAG,Q023,single,"The report does not name a specific single customer; instead, it states that **ports** (port and harbour authorities) were the largest customer group, accounting for **47%** of Group revenue in 2025.",0.0,1623.75,3.9265027046203613,0.0,1.0,,
+basic RAG,Q024,single,31%,1.0,1204.25,2.17801570892334,1.0,1.0,,
+basic RAG,Q025,single,North America grew fastest with revenue up 24%.,1.0,1298.25,2.4086036682128906,1.0,1.0,,
+basic RAG,Q026,single,34 engineers.,1.0,1534.75,5.571447134017944,1.0,1.0,,
+basic RAG,Q027,single,1.8%,1.0,1627.75,2.1397807598114014,1.0,1.0,,
+basic RAG,Q028,single,Kerrowan buys components from around 640 suppliers in 23 countries.,1.0,1578.5,2.7064764499664307,1.0,1.0,,
+basic RAG,Q029,single,Varentis Cells supplies the lithium battery packs for Tidewatch buoys.,1.0,1363.0,2.660572052001953,1.0,1.0,,
+basic RAG,Q030,single,The report does not say how much freight costs changed in 2025.,0.0,1324.5,2.7147433757781982,1.0,1.0,,
+basic RAG,Q031,single,"In 2025, Kerrowan carried out 48 supplier audits, of which 9 were unannounced.",1.0,1457.0,3.0406298637390137,1.0,1.0,,
+basic RAG,Q032,single,£3.9m,1.0,1108.25,1.972792387008667,1.0,1.0,,
+basic RAG,Q033,single,27 developers,1.0,1568.75,2.099181890487671,1.0,1.0,,
+basic RAG,Q034,single,"The report does not say by how much the on-board analytics reduced satellite data costs for pilot customers; it only states that the feature ""cuts the volume of data that has to be transmitted.""",0.0,1330.0,3.5364251136779785,1.0,1.0,,
+basic RAG,Q035,single,"In internal tests, automatic object recognition correctly identified 91% of obstacles larger than one metre.",1.0,1644.5,2.8503637313842773,1.0,1.0,,
+basic RAG,Q036,single,Voluntary staff turnover was 8.7% in 2025.,1.0,1355.25,5.862765789031982,1.0,1.0,,
+basic RAG,Q037,single,38%,1.0,1365.5,1.9110116958618164,1.0,1.0,,
+basic RAG,Q038,single,The median gender pay gap in the United Kingdom was 11.2%.,1.0,1452.75,2.5223591327667236,1.0,1.0,,
+basic RAG,Q039,single,71%,0.0,1323.5,2.0070364475250244,1.0,1.0,,
+basic RAG,Q040,single,By 2032.,0.0,1497.25,2.2254645824432373,1.0,0.0,,
+basic RAG,Q041,single,214,1.0,1434.5,2.182904005050659,1.0,1.0,,
+basic RAG,Q042,single,0.42,1.0,1555.0,2.2941856384277344,1.0,1.0,,
+basic RAG,Q043,single,2.5 metres,1.0,1433.25,2.1451640129089355,1.0,1.0,,
+basic RAG,Q044,single,14.9%,1.0,1345.75,1.6806726455688477,1.0,1.0,,
+basic RAG,Q045,single,The report does not say.,0.0,1176.5,2.1585042476654053,1.0,1.0,,
+basic RAG,Q046,single,The report does not say what the adjusted earnings per share was for 2025; it only provides the basic EPS of 32.6 pence.,0.0,1196.75,3.2715044021606445,0.0,1.0,,
+basic RAG,Q047,single,The report does not say.,0.0,1501.75,2.2197704315185547,0.0,0.0,,
+basic RAG,Q048,single,"70% (Rest of Europe at 39%, North America at 21%, Asia-Pacific at 14%, and Rest of world at 4%).",0.0,1518.25,3.2179007530212402,1.0,1.0,,
+basic RAG,Q049,single,"The Chair receives an annual fee of £185,000.",1.0,1425.25,2.5827925205230713,1.0,1.0,,
+basic RAG,Q050,single,34 to 1,1.0,1234.0,2.325493335723877,1.0,1.0,,
+basic RAG,Q051,single,"Kerrowan's auditor is Harcourt & Vale LLP, which has audited the accounts since 2017.",1.0,1671.75,3.1347081661224365,1.0,1.0,,
+basic RAG,Q052,single,KRWN,1.0,1515.25,2.0835750102996826,1.0,1.0,,
+basic RAG,Q053,table,The report does not say. It provides the total Group revenue for the full year 2025 (£184.6m) but does not break down the revenue by quarter.,0.0,1159.5,3.2301788330078125,0.0,1.0,,
+basic RAG,Q054,table,12.8%,1.0,1057.5,1.7575621604919434,1.0,1.0,,
+basic RAG,Q055,table,£8.0m,1.0,1389.0,2.1362123489379883,1.0,1.0,,
+basic RAG,Q056,table,"£29,800",1.0,1433.5,2.2404394149780273,1.0,1.0,,
+basic RAG,Q057,table,"The report does not say how many people worked in service and field engineering at the end of 2025 according to the preliminary count. It only provides the final employee count (1,262) and notes that 22 contractors became permanent employees after the preliminary count was taken.",0.0,1368.5,4.402049779891968,0.0,1.0,,
+basic RAG,Q058,table,The report does not say what Kerrowan's Scope 2 emissions were in 2025; it only states that the figures were reviewed by an independent assurance provider and that renewable electricity usage was 71% of own operations.,0.0,1562.5,4.004338026046753,1.0,1.0,,
+basic RAG,Q059,table,The report does not say what the specific estimated value of Scope 3 emissions was; it only states that these figures are estimates based on spending and product data and have not been assured.,0.0,1429.0,3.476047992706299,0.0,1.0,,
+basic RAG,Q060,table,412,1.0,1560.75,2.183781862258911,1.0,1.0,,
+basic RAG,Q061,table,"The report does not say how much tax Kerrowan paid in 2025, as there is no cash flow table or specific mention of tax payments in the provided text.",0.0,1369.75,3.438695192337036,0.0,0.0,,
+basic RAG,Q062,table,4,1.0,1297.25,1.9609074592590332,1.0,0.0,,
+basic RAG,Q063,table,£468k,1.0,1272.0,2.1348915100097656,1.0,1.0,,
+basic RAG,Q064,table,The report does not say what Kerrowan's revenue was in 2022.,0.0,1334.0,2.4309160709381104,1.0,1.0,,
+basic RAG,Q065,table,The report does not say what Kerrowan's operating margin was in 2023; it only provides guidance for a 17% operating margin for the Course 2028 targets and notes that figures for 2021 to 2023 have not been restated.,0.0,1282.5,4.320654392242432,1.0,0.0,,
+basic RAG,Q066,table,16 April 2026,1.0,1380.75,2.2634572982788086,1.0,1.0,,
+basic RAG,Q067,table,£45m,1.0,1599.0,2.277282953262329,1.0,1.0,,
+basic RAG,Q068,table,"The principal risk described as ""dependence on key suppliers and components"" is **Supply chain**, and it was rated as **decreased** in 2025.",1.0,1559.75,3.3664255142211914,1.0,1.0,,
+basic RAG,Q069,near_duplicate,"2,140",1.0,1458.0,2.280364751815796,1.0,1.0,,
+basic RAG,Q070,near_duplicate,860,1.0,1458.0,1.6327521800994873,1.0,1.0,,
+basic RAG,Q071,near_duplicate,"£18,500",1.0,1432.0,2.393845796585083,1.0,1.0,,
+basic RAG,Q072,near_duplicate,"£24,900",1.0,1390.0,2.2810301780700684,1.0,1.0,,
+basic RAG,Q073,near_duplicate,The maximum working range of the Kestrel 400 is 400 metres on each side of the towfish.,1.0,1536.75,3.043043613433838,1.0,1.0,,
+basic RAG,Q074,near_duplicate,650 metres per side.,1.0,1543.5,2.338686943054199,1.0,1.0,,
+basic RAG,Q075,near_duplicate,"1,020 units",1.0,1528.0,1.8367910385131836,1.0,1.0,,
+basic RAG,Q076,near_duplicate,445 units,1.0,1528.0,1.6808748245239258,1.0,1.0,,
+basic RAG,Q077,near_duplicate,"The Port Lennox factory covers 21,000 square metres and opened in 1998.",1.0,1541.75,2.912919044494629,1.0,1.0,,
+basic RAG,Q078,near_duplicate,"The Port Lenham factory covers 9,500 square metres and was acquired in 2019.",1.0,1503.5,3.0121662616729736,1.0,1.0,,
+basic RAG,Q079,near_duplicate,Port Lenham,0.0,1550.5,2.1463043689727783,1.0,1.0,,
+basic RAG,Q080,near_duplicate,£41.6m,1.0,1267.25,2.4060747623443604,1.0,1.0,,
+basic RAG,Q081,near_duplicate,£41.2m,1.0,1115.75,1.7318813800811768,1.0,1.0,,
+basic RAG,Q082,near_duplicate,The report does not say what Kerrowan's Scope 1 emissions were in 2024; it only states that Scope 1 and 2 figures for 2025 were reviewed by an independent assurance provider.,0.0,1496.25,3.8805713653564453,0.0,1.0,,
+basic RAG,Q083,near_duplicate,12.8%,1.0,1435.0,2.2230632305145264,1.0,1.0,,
+basic RAG,Q084,near_duplicate,12.6%,1.0,1423.75,2.1927735805511475,1.0,1.0,,
+basic RAG,Q085,near_duplicate,3.8 pence per share.,1.0,1234.0,2.2597646713256836,1.0,1.0,,
+basic RAG,Q086,near_duplicate,9.8 pence,0.0,1057.5,1.7828161716461182,1.0,1.0,,
+basic RAG,Q087,multihop_section,"2,140 Tidewatch T3 units and 860 Tidewatch T3-S units were shipped in 2025, making a total of 3,000 units.",1.0,1481.5,3.876207113265991,1.0,1.0,,
+basic RAG,Q088,multihop_section,"3,310",1.0,1439.5,1.6920335292816162,1.0,1.0,,
+basic RAG,Q089,multihop_section,"£6,400",1.0,1330.0,2.2747132778167725,1.0,0.0,,
+basic RAG,Q090,multihop_section,"1,465 units (1,020 Kestrel 400 units + 445 Kestrel 400X units).",1.0,1576.25,3.445927143096924,1.0,1.0,,
+basic RAG,Q091,multihop_section,The Kestrel 400X can see 250 metres further per side than the Kestrel 400 (650 metres for the 400X minus 400 metres for the 400).,1.0,1473.25,3.6669492721557617,1.0,1.0,,
+basic RAG,Q092,multihop_section,£4.1m,1.0,1536.0,2.257575035095215,1.0,0.0,,
+basic RAG,Q093,multihop_section,The number of Harbourline port customers grew by 44 in 2025 (rising from 168 to 212).,1.0,1573.75,3.3175907135009766,1.0,1.0,,
+basic RAG,Q094,multihop_section,"The report does not say; the new assembly line for the Tidewatch T5 was added at the Port Lenham factory, which raised its capacity from 3,000 to 4,200 units.",1.0,1350.25,3.8263471126556396,0.0,1.0,,
+basic RAG,Q095,multihop_section,"The report does not say what share of Group revenue came specifically from the United Kingdom and the rest of Europe combined; it only states that about 78% of revenue is earned outside the United Kingdom, mostly in euros and US dollars.",0.0,1290.5,4.111224889755249,0.0,1.0,,
+basic RAG,Q096,multihop_section,The order backlog grew by £16.3m during 2025 (from £81.0m to £97.3m).,1.0,1298.25,3.2963454723358154,1.0,1.0,,
+basic RAG,Q097,multihop_section,698,1.0,1355.25,2.084507942199707,1.0,0.0,,
+basic RAG,Q098,multihop_section,740 tonnes,1.0,1408.5,2.245067596435547,1.0,0.0,,
+basic RAG,Q099,multihop_section,£11.0m (from £41.2m in Q1 to £52.2m in Q4).,1.0,1107.75,3.2152295112609863,1.0,1.0,,
+basic RAG,Q100,multihop_section,The report does not say how the £22.3m increase in 2025 revenue was split between price and volume.,0.0,1057.5,3.1678531169891357,0.0,1.0,,
+basic RAG,Q101,multihop_section,"Harbourline software had the highest operating margin in 2025 at 17.4%, improving by 4.6 percentage points from 12.8% in 2024.",1.0,1147.0,3.685014247894287,1.0,1.0,,
+basic RAG,Q102,multihop_section,"The final dividend was 7.6 pence per share, the interim dividend (paid in October 2025) was 3.8 pence per share, and the total dividend for the year was 11.4 pence per share.",1.0,1250.0,4.129724025726318,1.0,1.0,,
+basic RAG,Q103,multihop_section,"Net cash increased by £9.4m in 2025, reaching £38.5m at the year end.",1.0,1110.25,3.105262279510498,1.0,1.0,,
+basic RAG,Q104,multihop_section,"Priya Raman's 2025 pay consisted of a salary of £355k, an annual bonus of £290k, and no long-term incentive (nil).",1.0,1431.75,3.662895441055298,1.0,1.0,,
+basic RAG,Q105,multihop_section,"A non-executive director who chairs a committee receives a base fee of £58,000 plus an additional £12,000, totaling £70,000.",1.0,1409.5,3.5920965671539307,1.0,1.0,,
+basic RAG,Q106,multihop_section,"Between 2024 and 2025, the number of lost time injuries decreased from 7 to 5, while the number of near misses reported increased by 39% (rising from 297 to 412).",1.0,1673.75,4.199151039123535,1.0,1.0,,
+basic RAG,Q107,cross_section,"The Tidewatch T5 is built at the Port Lennox factory (which houses the main calibration tank and assembly lines), and 310 units were shipped in 2025.",1.0,1344.5,3.6587538719177246,1.0,1.0,,
+basic RAG,Q108,cross_section,"Kerrowan's research and development is led by Chief Technology Officer Sofia Lindqvist, and spending rose to £16.2m in 2025.",1.0,1577.25,3.4838099479675293,1.0,1.0,,
+basic RAG,Q109,cross_section,"Kerrowan acquired Sondera Acoustics to create the Kestrel line, and Kestrel generated £61.3m of revenue in 2025.",1.0,1500.0,3.4991891384124756,1.0,1.0,,
+basic RAG,Q110,cross_section,"The Rotterdam service centre opened in June 2025 and carried out more than 1,100 service visits in its first six months.",1.0,1534.75,3.294883966445923,1.0,1.0,,
+basic RAG,Q111,cross_section,"The Course 2028 operating margin target is 17%. The 2025 margin was 14.7%, which is 2.3 percentage points below the target.",0.0,1186.75,3.8559634685516357,1.0,1.0,,
+basic RAG,Q112,cross_section,"The report does not state a specific numerical revenue guidance figure for 2026; it only notes that the guidance is based on the order backlog, pipeline of expected orders, and current market conditions. The Course 2028 revenue target is £260m.",0.5,1634.5,4.364356517791748,1.0,1.0,,
+basic RAG,Q113,cross_section,"Henrik Solberg chairs the Audit and Risk Committee. Following the external review of Board effectiveness, the Board changed the frequency of cyber security reporting from twice a year to every meeting.",1.0,1576.25,3.351991653442383,1.0,1.0,,
+basic RAG,Q114,cross_section,"Priya Raman succeeded Graham Leckie as Chief Financial Officer. Before joining Kerrowan, she was the group finance director of a listed engineering company.",1.0,1526.25,3.3424839973449707,1.0,1.0,,
+basic RAG,Q115,cross_section,"Varentis Cells creates a battery concentration risk because it supplies the majority of battery packs. Kerrowan responded by qualifying a second battery supplier in South Korea during 2025, which is expected to provide about a quarter of packs from 2026.",1.0,1477.25,4.128354072570801,1.0,1.0,,
+basic RAG,Q116,cross_section,"The Kestrel 400X firmware recall caused Q1 revenue to be the weakest quarter because shipments were paused in March. Following the incident, the product quality risk rating was increased due to the ability of a single fault to affect many customers remotely.",1.0,1473.25,4.063955783843994,1.0,1.0,,
+basic RAG,Q117,cross_section,"Brightwater Acoustics is based in Halifax, Nova Scotia, Canada. Its acquisition provides Kerrowan with a base for the North American service centre planned under Course 2028.",1.0,1602.0,3.6227762699127197,1.0,1.0,,
+basic RAG,Q118,cross_section,"Kerrowan's largest customer group (ports) accounted for 47% of Group revenue in 2025. The report does not explicitly rate ""customer concentration"" as a specific risk; however, it notes that relying on a single supplier (Varentis) creates a ""concentration risk,"" which was mitigated by qualifying a second supplier.",0.0,1537.25,4.940399885177612,0.0,1.0,,
+basic RAG,Q119,cross_section,"The operating profit target for full annual bonus payout was £26.5m, and the Group achieved an operating profit of £27.1m.",1.0,1282.75,3.2315361499786377,1.0,1.0,,
+basic RAG,Q120,cross_section,"The Group aims to achieve 100% renewable electricity by 2028, and in 2025, renewable sources supplied 71% of the electricity used in its own operations.",1.0,1259.5,3.6747498512268066,1.0,1.0,,
+basic RAG,Q121,cross_section,"The 2026 annual general meeting will be held on 7 May 2026 at the Port Lennox Maritime Hall, and the final dividend will be paid on 22 May 2026.",1.0,1380.75,3.850876808166504,1.0,1.0,,
+basic RAG,Q122,cross_section,"In 2025, capital expenditure was £14.9m. For 2026, it is expected to be between £12m and £14m.",1.0,1103.75,3.5449283123016357,1.0,1.0,,
+basic RAG,Q123,cross_section,"At the end of 2025, there were 212 port customers using Harbourline. The report does not state the specific growth in annual recurring revenue expected for 2026; it only provides targets for 2028 and notes that Harbourline aims to double its annual recurring revenue between 2025 and 2028.",0.5,1536.0,5.1677610874176025,1.0,1.0,,
+basic RAG,Q124,cross_section,"Kestrel Deep is a future version of the sonar designed for depths beyond 2,000 metres, and it is due to reach field trials in 2026.",1.0,1495.5,3.502479314804077,1.0,1.0,,
+basic RAG,Q125,cross_section,"Revenue grew at a compound annual rate of 11.7% over the five-year period, and the operating margin rose to 14.7% in 2025.",0.5,1232.25,3.6364223957061768,1.0,1.0,,
+basic RAG,Q126,cross_section,"Kwame Mensah advises the Board on Harbourline, and the platform achieved an availability of 99.96% in 2025.",1.0,1568.5,3.3927505016326904,1.0,1.0,,
+basic RAG,Q127,summary,"The four pillars of the Course 2028 strategy are:
+1. Connected hardware (every new instrument connects natively to Harbourline from 2026).
+2. Software growth (aiming to double Harbourline annual recurring revenue between 2025 and 2028).
+3. Service close to the customer (extending the Rotterdam service centre model to North America and Asia).
+4. Responsible operations (committing to net zero emissions from own operations by 2032).",1.0,1565.75,6.43529486656189,1.0,1.0,,
+basic RAG,Q128,summary,The report does not say what three things the Chief Executive singled out as standing out in 2025.,0.0,1446.5,2.8695077896118164,0.0,1.0,,
+basic RAG,Q129,summary,"The Tidewatch T5 is the first buoy built around Harbourline software; it sends data over satellite and mobile networks, updates its own software remotely, and can run small analytics programs on board to cut the volume of transmitted data.",1.0,1481.5,3.9424216747283936,1.0,1.0,,
+basic RAG,Q130,summary,"Kerrowan manages supply chain risks by qualifying a second battery supplier in South Korea to reduce dependence on a single supplier (Varentis), holding a strategic stock of six months of critical microcontrollers, and noting that semiconductor lead times have shortened.",0.6666666666666666,1529.75,3.942155122756958,1.0,1.0,,
+basic RAG,Q131,summary,The report does not say why Kerrowan's Scope 1 and 2 emissions fell in 2025; it only states that the Group committed to net zero emissions from its own operations by 2032 (Pillar four) and that renewable electricity usage reached 71% of operations.,0.0,1585.0,4.633309602737427,1.0,1.0,,
+basic RAG,Q132,summary,The provided text does not state why the Group's operating margin improved in 2025; it only reports that the total dividend increased and mentions targets for future margins.,0.0,1439.0,3.31782865524292,0.0,0.0,,
+basic RAG,Q133,summary,"After the Kestrel 400X firmware fault, Kerrowan recalled 37 units for an on-site update and added an extra stage of field testing before any new firmware is released.",0.5,1594.0,3.68452525138855,1.0,1.0,,
+basic RAG,Q134,summary,"In 2025, Kerrowan redesigned the calibration tank area at Port Lennox so that people and lifting equipment use separate routes. Additionally, both factories maintained ISO 45001 certification, while the Rotterdam service centre prepared for certification expected in 2026. The Group also continued to apply safety rules equally to contractors as employees, required site inductions for all contractors, and integrated mental health support into its safety approach through confidential services, trained managers, and flexible rosters for field engineers.",0.0,1629.0,5.83932900428772,1.0,1.0,,
+basic RAG,Q135,summary,"The report does not provide specific outlook expectations for each of Kerrowan's three customer segments (port and harbour authorities, offshore energy operators, and research and government institutes) for the year 2026. It only states that the Group's overall guidance for 2026 is based on order backlog, pipeline, and market conditions, and that progress will be reported in September 2026.",0.0,1592.0,5.469743967056274,0.0,1.0,,
+basic RAG,Q136,summary,"From 2026, half of each long-term incentive award will depend on Course 2028 revenue and margin targets, a quarter on total shareholder return compared with a group of engineering companies, and a quarter on emissions reduction and Harbourline growth.",1.0,1236.25,3.9272427558898926,1.0,1.0,,
+basic RAG,Q137,summary,The report does not say how Kerrowan manages foreign exchange risk; it only states that most cash is held in sterling with smaller balances in euros and US dollars to meet operating needs in those currencies.,0.0,1576.25,3.58170747756958,0.0,1.0,,
+basic RAG,Q138,summary,"In 2025, the Rotterdam service centre served as a hub where employees worked mainly in research and development, provided spare parts for every product sold in Europe, carried out more than 1,100 service visits in its first six months, and helped reduce freight costs by handling more European deliveries. It also supported growth in Europe outside the UK through offshore wind projects in the Netherlands, Germany, and Denmark.",0.6666666666666666,1550.0,5.5207836627960205,1.0,1.0,,
+basic RAG,Q139,superseded,"At 31 December 2025, the Group employed 1,240 people.",0.0,1606.5,2.9184458255767822,0.0,1.0,,
+basic RAG,Q140,superseded,The report does not say by how many people the workforce grew during 2025; it only provides the number of employees at year end for each area but does not provide the corresponding figures for the previous year to calculate the growth.,0.0,1557.75,3.935387134552002,0.0,1.0,,
+basic RAG,Q141,superseded,Kerrowan was granted 14 new patents in 2025.,0.0,1472.75,2.667745351791382,0.0,1.0,,
+basic RAG,Q142,superseded,97 granted patents.,0.0,1577.25,1.7950961589813232,0.0,1.0,,
+basic RAG,Q143,superseded,The report does not say what Kerrowan's third quarter 2025 revenue was; it only provides a summary of key financial measures for the full year 2025.,0.0,1142.25,3.1939480304718018,0.0,1.0,,
+basic RAG,Q144,superseded,The employee count changed because 22 contractors at the Rotterdam service centre became permanent employees with effect from 31 December 2025 and were registered after the preliminary count was taken.,1.0,1403.75,3.516697883605957,1.0,1.0,,
+basic RAG,Q145,unanswerable,The report does not say.,,1376.5,2.1128742694854736,1.0,0.0,,
+basic RAG,Q146,unanswerable,The report does not say what Kerrowan's share price was at the end of 2025.,,1356.25,2.750814914703369,1.0,1.0,,
+basic RAG,Q147,unanswerable,The report does not say what Kerrowan's revenue from the Middle East was in 2025.,,1365.25,2.733538866043091,1.0,1.0,,
+basic RAG,Q148,unanswerable,The report does not say how much Kerrowan spent on advertising in 2025.,,1393.5,2.7403202056884766,1.0,1.0,,
+basic RAG,Q149,unanswerable,The report does not say what the design life of the Tidewatch T5 is; it only states that the Tidewatch T3 has a design life of 15 years.,,1438.0,3.61621356010437,1.0,1.0,,
+basic RAG,Q150,unanswerable,The report does not say how many patent applications Kerrowan filed in 2025; it only states that the company was granted 14 new patents that year.,,1472.75,2.947808265686035,1.0,1.0,,
+basic RAG,Q151,unanswerable,The report does not say what credit rating Kerrowan Marine Systems has.,,1211.5,2.2469398975372314,1.0,1.0,,
+basic RAG,Q152,unanswerable,The report does not say who will lead the new North American service centre. It only states that a service centre is planned for North America in 2026 as part of Course 2028.,,1540.0,3.779456853866577,1.0,1.0,,
+basic RAG,Q153,unanswerable,The report does not say how much a Harbourline Essentials subscription costs.,,1536.0,2.620880126953125,1.0,1.0,,
+basic RAG,Q154,unanswerable,The report does not say what Kerrowan's revenue was in 2020.,,1463.25,2.733285427093506,1.0,1.0,,
+sentence window 1,Q001,single,Kerrowan Marine Systems was founded in 1994.,1.0,724.5,1.7600021362304688,1.0,1.0,,
+sentence window 1,Q002,single,Kerrowan Marine Systems was founded by oceanographer Isla Kerrowan and electronics engineer Tomas Ferreira.,1.0,696.25,1.8544902801513672,1.0,1.0,,
+sentence window 1,Q003,single,The report does not say what Kerrowan's first commercial product was or when it went on sale.,0.0,550.0,1.8082337379455566,0.0,1.0,,
+sentence window 1,Q004,single,In 2006.,1.0,524.5,1.154064416885376,1.0,1.0,,
+sentence window 1,Q005,single,"In 2012, Kerrowan bought Sondera Acoustics, which was based in Bergen, Norway.",1.0,533.25,1.9025540351867676,1.0,1.0,,
+sentence window 1,Q006,single,Harbourline was launched in 2018.,1.0,495.0,1.378523588180542,1.0,1.0,,
+sentence window 1,Q007,single,Harbourline moved to a paid subscription model in 2020.,1.0,498.25,1.5560534000396729,1.0,1.0,,
+sentence window 1,Q008,single,Kerrowan sells to customers in 41 countries.,1.0,630.75,1.586092472076416,1.0,1.0,,
+sentence window 1,Q009,single,"The provided text does not state who chairs the Kerrowan Board; it only mentions that Aiyana Brooks chairs the Remuneration Committee and refers to ""the Chair"" without naming them.",0.0,552.25,2.49731183052063,0.0,1.0,,
+sentence window 1,Q010,single,The Board met eleven times during the year (2025).,1.0,508.25,1.4554152488708496,1.0,1.0,,
+sentence window 1,Q011,single,Daniel Achterberg was appointed Chief Executive in April 2021.,0.0,491.0,1.5269157886505127,1.0,1.0,,
+sentence window 1,Q012,single,"37 units were recalled, costing roughly £0.6m.",1.0,525.75,1.4518070220947266,1.0,1.0,,
+sentence window 1,Q013,single,The Rotterdam service centre cut average repair turnaround for European customers from 19 days to 8 days.,1.0,685.5,1.956294298171997,1.0,1.0,,
+sentence window 1,Q014,single,£175m,1.0,673.75,1.5126047134399414,1.0,1.0,,
+sentence window 1,Q015,single,The report does not say what net debt limit Kerrowan has set for acquisitions under Course 2028.,0.0,602.5,2.009826421737671,0.0,1.0,,
+sentence window 1,Q016,single,The design life of the Tidewatch T3 is 15 years.,1.0,546.0,1.6443514823913574,1.0,1.0,,
+sentence window 1,Q017,single,Up to 22 metres.,1.0,567.75,1.3270750045776367,1.0,1.0,,
+sentence window 1,Q018,single,Until 2030.,1.0,638.75,1.4309935569763184,1.0,1.0,,
+sentence window 1,Q019,single,Buoy pricing rose by an average of 4% in 2025.,1.0,760.0,2.1626570224761963,1.0,1.0,,
+sentence window 1,Q020,single,108%,1.0,605.25,1.2866129875183105,1.0,1.0,,
+sentence window 1,Q021,single,Eighty-three ports had subscribed to Channel Depth Assurance by the end of 2025.,1.0,658.5,1.8495862483978271,1.0,1.0,,
+sentence window 1,Q022,single,The Harbourline platform achieved an availability of 99.96% in 2025.,1.0,477.75,1.7709555625915527,1.0,1.0,,
+sentence window 1,Q023,single,"Based on the text provided, there is no specific named individual or company identified as ""Kerrowan's largest customer."" The report states that **ports** (port and harbour authorities) remain the largest *customer group*, accounting for **47%** of Group revenue in 2025.",0.0,647.0,3.5006675720214844,0.0,1.0,,
+sentence window 1,Q024,single,31%,1.0,756.75,1.4241182804107666,1.0,1.0,,
+sentence window 1,Q025,single,North America grew fastest with revenue up 24%.,1.0,739.5,1.6752777099609375,1.0,1.0,,
+sentence window 1,Q026,single,34 engineers,1.0,744.0,1.468855381011963,1.0,1.0,,
+sentence window 1,Q027,single,1.8%,1.0,566.0,1.1052885055541992,1.0,1.0,,
+sentence window 1,Q028,single,Kerrowan buys components from around 640 suppliers in 23 countries.,1.0,560.75,1.6738016605377197,1.0,1.0,,
+sentence window 1,Q029,single,Varentis Cells supplies the lithium battery packs for Tidewatch buoys.,1.0,599.25,1.6174588203430176,1.0,1.0,,
+sentence window 1,Q030,single,Freight costs fell by 11% in 2025.,1.0,627.0,1.6987357139587402,1.0,1.0,,
+sentence window 1,Q031,single,"In 2025, Kerrowan carried out 48 supplier audits, of which 9 were unannounced.",1.0,585.75,2.1045544147491455,1.0,1.0,,
+sentence window 1,Q032,single,£3.9m,1.0,635.25,1.3663666248321533,1.0,1.0,,
+sentence window 1,Q033,single,27 developers.,1.0,631.25,1.2269301414489746,1.0,1.0,,
+sentence window 1,Q034,single,By about 60%.,1.0,738.0,1.677708387374878,1.0,1.0,,
+sentence window 1,Q035,single,It correctly identified 91% of obstacles larger than one metre.,1.0,660.25,1.659914493560791,1.0,1.0,,
+sentence window 1,Q036,single,Voluntary staff turnover was 8.7% in 2025.,1.0,620.75,1.6937792301177979,1.0,1.0,,
+sentence window 1,Q037,single,38%,1.0,528.75,1.0017402172088623,1.0,1.0,,
+sentence window 1,Q038,single,The median gender pay gap in the United Kingdom was 11.2%.,1.0,552.0,1.576766014099121,1.0,1.0,,
+sentence window 1,Q039,single,71%,1.0,717.25,1.2506444454193115,1.0,1.0,,
+sentence window 1,Q040,single,By 2032.,1.0,697.0,1.4032514095306396,1.0,1.0,,
+sentence window 1,Q041,single,214,1.0,741.25,1.561544418334961,1.0,1.0,,
+sentence window 1,Q042,single,0.42,1.0,595.5,1.294773817062378,1.0,1.0,,
+sentence window 1,Q043,single,2.5 metres,1.0,566.0,1.1329045295715332,1.0,1.0,,
+sentence window 1,Q044,single,14.9%,1.0,693.0,1.4925775527954102,1.0,1.0,,
+sentence window 1,Q045,single,The Group's effective tax rate in 2025 was 29.1%.,1.0,675.25,2.1347148418426514,1.0,1.0,,
+sentence window 1,Q046,single,34.1 pence,1.0,547.25,1.3257246017456055,1.0,1.0,,
+sentence window 1,Q047,single,Kerrowan has an undrawn revolving credit facility of £50m which runs until 2029.,1.0,632.25,2.0093564987182617,1.0,1.0,,
+sentence window 1,Q048,single,About 78% of revenue is earned outside the United Kingdom.,1.0,552.5,1.3921680450439453,1.0,1.0,,
+sentence window 1,Q049,single,"The Chair receives an annual fee of £185,000.",1.0,671.5,1.7869532108306885,1.0,1.0,,
+sentence window 1,Q050,single,34 to 1,1.0,671.5,1.5855474472045898,1.0,1.0,,
+sentence window 1,Q051,single,The report does not say who Kerrowan's auditor is or since when they have been appointed.,0.0,612.5,1.8917288780212402,1.0,0.0,,
+sentence window 1,Q052,single,KRWN,1.0,607.0,1.0373334884643555,1.0,1.0,,
+sentence window 1,Q053,table,The report does not say.,0.0,655.5,1.3133723735809326,0.0,0.0,,
+sentence window 1,Q054,table,12.8%,1.0,696.5,1.65476655960083,1.0,1.0,,
+sentence window 1,Q055,table,£8.0m,1.0,632.25,1.422750473022461,1.0,1.0,,
+sentence window 1,Q056,table,"£29,800",1.0,620.25,1.4694383144378662,1.0,1.0,,
+sentence window 1,Q057,table,214,1.0,663.0,1.249885082244873,1.0,1.0,,
+sentence window 1,Q058,table,The report does not say what Kerrowan's Scope 2 emissions were in 2025.,0.0,682.0,1.923959493637085,0.0,1.0,,
+sentence window 1,Q059,table,The report does not say what Kerrowan's estimated Scope 3 emissions were in 2025; it only states the target to reduce their intensity by 30% by 2030 compared to 2023.,0.0,694.5,3.095653533935547,0.0,1.0,,
+sentence window 1,Q060,table,412,1.0,714.75,1.3935599327087402,1.0,1.0,,
+sentence window 1,Q061,table,The report does not say how much tax Kerrowan paid in 2025.,0.0,630.25,1.8534173965454102,1.0,1.0,,
+sentence window 1,Q062,table,4,1.0,651.5,1.2129852771759033,1.0,0.0,,
+sentence window 1,Q063,table,£468k,1.0,644.5,1.371220588684082,1.0,1.0,,
+sentence window 1,Q064,table,The report does not say what Kerrowan's revenue was in 2022; it only provides revenue figures for 2024 (£162.3m) and 2025 (£184.6m).,0.0,648.75,3.234140157699585,0.0,1.0,,
+sentence window 1,Q065,table,The report does not say. The provided text contains financial data for 2024 and 2025 but does not mention the operating margin for 2023.,0.0,659.5,2.6132304668426514,0.0,0.0,,
+sentence window 1,Q066,table,The report does not say.,0.0,618.0,1.391963243484497,0.0,0.0,,
+sentence window 1,Q067,table,The report does not specify a numerical 2028 target value for Harbourline annual recurring revenue; it only states that Pillar two aims to double the revenue between 2025 and 2028.,1.0,603.25,2.9104039669036865,0.0,1.0,,
+sentence window 1,Q068,table,"The principal risk described as ""dependence on key suppliers and components"" is **Supply chain**, and it changed to **Decreased** in 2025.",1.0,904.5,2.6342592239379883,1.0,1.0,,
+sentence window 1,Q069,near_duplicate,"2,140",1.0,710.5,1.6912708282470703,1.0,1.0,,
+sentence window 1,Q070,near_duplicate,860,1.0,609.0,1.4483988285064697,1.0,1.0,,
+sentence window 1,Q071,near_duplicate,"£18,500",1.0,599.5,1.5316286087036133,1.0,1.0,,
+sentence window 1,Q072,near_duplicate,"£24,900",1.0,598.25,1.516859531402588,1.0,1.0,,
+sentence window 1,Q073,near_duplicate,The maximum working range of the Kestrel 400 is 400 metres on each side of the towfish.,1.0,510.75,1.9798383712768555,1.0,1.0,,
+sentence window 1,Q074,near_duplicate,650 metres per side.,1.0,535.75,1.2121386528015137,1.0,1.0,,
+sentence window 1,Q075,near_duplicate,"1,020 units",1.0,492.5,1.1219103336334229,1.0,1.0,,
+sentence window 1,Q076,near_duplicate,445 units.,1.0,523.0,1.1291708946228027,1.0,1.0,,
+sentence window 1,Q077,near_duplicate,"The Port Lennox factory covers 21,000 square metres and opened in 1998.",1.0,625.0,2.1225297451019287,1.0,1.0,,
+sentence window 1,Q078,near_duplicate,"The Port Lenham factory covers 9,500 square metres and was acquired in 2019.",1.0,550.75,1.9602735042572021,1.0,1.0,,
+sentence window 1,Q079,near_duplicate,The Port Lenham factory assembles the Kestrel sonar range.,1.0,532.5,1.491419792175293,1.0,1.0,,
+sentence window 1,Q080,near_duplicate,£41.6m,1.0,695.5,1.5268080234527588,1.0,1.0,,
+sentence window 1,Q081,near_duplicate,£41.2m,1.0,763.0,1.8151605129241943,1.0,1.0,,
+sentence window 1,Q082,near_duplicate,The report does not say.,0.0,705.5,1.3468899726867676,0.0,0.0,,
+sentence window 1,Q083,near_duplicate,"The report does not say what the Harbourline software segment's operating margin was in 2024; it only states that the margin was 17.4% (up from 12.8% a year earlier, which would be 2025 based on the context of the 2026 guidance and 2025 actuals).",1.0,641.25,4.184070825576782,0.0,1.0,,
+sentence window 1,Q084,near_duplicate,12.6%,1.0,651.0,1.4543943405151367,1.0,1.0,,
+sentence window 1,Q085,near_duplicate,3.8 pence per share,1.0,620.25,1.4537272453308105,1.0,1.0,,
+sentence window 1,Q086,near_duplicate,9.8 pence per share.,0.0,608.25,1.592857837677002,1.0,1.0,,
+sentence window 1,Q087,multihop_section,"3,000",1.0,620.25,1.529520034790039,1.0,1.0,,
+sentence window 1,Q088,multihop_section,"3,310",1.0,620.25,1.4336020946502686,1.0,1.0,,
+sentence window 1,Q089,multihop_section,"£6,400",1.0,598.25,1.5017147064208984,1.0,0.0,,
+sentence window 1,Q090,multihop_section,"1,465 units (1,020 Kestrel 400 + 445 Kestrel 400X).",1.0,566.25,2.326841354370117,1.0,1.0,,
+sentence window 1,Q091,multihop_section,"The Kestrel 400X has a maximum working range of 650 metres per side, while the Kestrel 400 has a maximum working range of 400 metres per side. Therefore, the Kestrel 400X can see **250 metres** further per side than the Kestrel 400.",1.0,524.0,4.0782201290130615,1.0,1.0,,
+sentence window 1,Q092,multihop_section,£4.1m,1.0,552.0,1.1385166645050049,1.0,0.0,,
+sentence window 1,Q093,multihop_section,The number of Harbourline port customers grew by 44 in 2025 (rising from 168 to 212).,1.0,654.5,2.4307141304016113,1.0,1.0,,
+sentence window 1,Q094,multihop_section,"The new T5 assembly line raised the annual buoy capacity from 3,000 to 4,200 units, adding a total of 1,200 units.",1.0,605.5,2.69252347946167,1.0,1.0,,
+sentence window 1,Q095,multihop_section,61% (22% from the United Kingdom and 39% from Rest of Europe).,1.0,692.75,1.99904203414917,1.0,1.0,,
+sentence window 1,Q096,multihop_section,The order backlog grew by £16.3m during 2025 (from £81.0m to £97.3m).,1.0,599.0,2.3692615032196045,1.0,1.0,,
+sentence window 1,Q097,multihop_section,"1,098",1.0,783.75,1.494898796081543,0.0,0.0,,
+sentence window 1,Q098,multihop_section,740 tonnes,1.0,586.5,1.2624692916870117,1.0,0.0,,
+sentence window 1,Q099,multihop_section,"Revenue grew from £41.2m in Q1 to £52.2m in Q4, an increase of £11.0m.",1.0,779.0,2.9725255966186523,1.0,1.0,,
+sentence window 1,Q100,multihop_section,The £22.3m increase in revenue was split into approximately £7.1m from higher prices and about £15.2m from higher volumes and a better product mix.,1.0,685.75,3.0706560611724854,1.0,1.0,,
+sentence window 1,Q101,multihop_section,Harbourline software had the highest operating margin in 2025 at 17.4%. The report does not state its improvement on 2024 figures.,0.0,592.5,2.747236728668213,0.0,1.0,,
+sentence window 1,Q102,multihop_section,"The final dividend for 2025 was 7.6 pence per share, the interim dividend (paid in October 2025) was 3.8 pence per share, and the total dividend for the year was 11.4 pence per share.",1.0,641.0,3.6894688606262207,1.0,1.0,,
+sentence window 1,Q103,multihop_section,"Net cash increased by £9.4m in 2025, reaching £38.5m at the year end.",1.0,684.25,2.650381088256836,1.0,1.0,,
+sentence window 1,Q104,multihop_section,"Priya Raman's 2025 pay consisted of a salary of £355k and an annual bonus of £290k, totaling £0.65m; she received no long-term incentive vesting in 2025.",1.0,641.0,3.3733158111572266,1.0,1.0,,
+sentence window 1,Q105,multihop_section,"A non-executive director who chairs a committee receives £70,000 (£58,000 base fee + £12,000 additional fee).",1.0,614.25,2.646737813949585,1.0,1.0,,
+sentence window 1,Q106,multihop_section,"Between 2024 and 2025, the number of lost time injuries decreased from 7 to 5, while the number of near misses reported increased from 297 to 412.",1.0,704.0,3.0282785892486572,1.0,1.0,,
+sentence window 1,Q107,cross_section,"The Tidewatch T5 is built at the Port Lenham factory in Cornwall, and 310 units were shipped in 2025.",1.0,602.5,2.5220961570739746,1.0,1.0,,
+sentence window 1,Q108,cross_section,"The report does not state who leads the research and development team; however, it states that £16.2m was spent on research and development in 2025.",0.5,655.25,2.5994296073913574,1.0,1.0,,
+sentence window 1,Q109,cross_section,The report does not state which company Kerrowan acquired to create the Kestrel line; it only mentions that the Kestrel range is assembled at the Port Lenham factory. The Kestrel line generated £61.3m of revenue in 2025.,0.5,592.25,3.3811838626861572,1.0,1.0,,
+sentence window 1,Q110,cross_section,"The Rotterdam service centre opened in June 2025 and carried out more than 1,100 service visits in its first six months.",1.0,689.25,2.4247710704803467,1.0,1.0,,
+sentence window 1,Q111,cross_section,"The Course 2028 operating margin target is 17%. The 2025 actual margin was 14.7%, which is 2.3 percentage points below the target.",0.5,549.5,2.7714622020721436,1.0,1.0,,
+sentence window 1,Q112,cross_section,"Kerrowan's guidance for 2026 revenue is between £200m and £210m, while the Course 2028 revenue target is £260m.",0.5,588.25,2.8120744228363037,1.0,1.0,,
+sentence window 1,Q113,cross_section,"Henrik Solberg chairs the Audit and Risk Committee. Following the external review of Board effectiveness which highlighted a need to focus more on technology risk, the Board changed the frequency of cyber security reports received by the committee from twice a year to every meeting.",1.0,590.5,2.9105162620544434,1.0,1.0,,
+sentence window 1,Q114,cross_section,"Priya Raman succeeded Graham (the head of the Kestrel business) as Chief Financial Officer. Before joining Kerrowan, she worked at a listed engineering group.",0.5,580.25,2.3179237842559814,1.0,1.0,,
+sentence window 1,Q115,cross_section,Varentis Cells creates the battery concentration risk because it supplies most of the packs; Kerrowan responded by qualifying a second battery supplier in South Korea during 2025 to provide about a quarter of the packs from 2026.,1.0,592.0,2.9870123863220215,1.0,1.0,,
+sentence window 1,Q116,cross_section,"The Kestrel 400X firmware recall caused Q1 to be the weakest quarter because shipments were paused in March, and it led to an increased risk rating for product quality due to the ability of a single fault to affect many customers via remote updates.",1.0,556.0,3.0739312171936035,1.0,1.0,,
+sentence window 1,Q117,cross_section,"Brightwater Acoustics is based in Halifax, Nova Scotia, Canada. Its acquisition relates to Course 2028 by providing a base for the North American service centre planned under that strategy.",1.0,600.5,2.6323769092559814,1.0,1.0,,
+sentence window 1,Q118,cross_section,The report does not say.,0.0,653.75,1.287123441696167,0.0,0.0,,
+sentence window 1,Q119,cross_section,"The operating profit target for full annual bonus payout was £26.5m, and the Group achieved an operating profit of £27.1m.",1.0,615.75,2.455195188522339,1.0,1.0,,
+sentence window 1,Q120,cross_section,"The 2028 target for renewable electricity is 100%, and the share achieved in 2025 was 71%.",1.0,609.75,2.2863481044769287,1.0,1.0,,
+sentence window 1,Q121,cross_section,"The 2026 annual general meeting will be held on 7 May 2026 at the Port Lennox Maritime Hall, and the final dividend will be paid on 22 May 2026.",1.0,809.0,3.2884066104888916,1.0,1.0,,
+sentence window 1,Q122,cross_section,"In 2025, capital expenditure was £14.9m. For 2026, it is expected to be between £12m and £14m.",1.0,621.75,2.8438289165496826,1.0,1.0,,
+sentence window 1,Q123,cross_section,"At the end of 2025, there were 212 Harbourline port customers. The report does not state a specific expected growth figure for annual recurring revenue in 2026; it only notes that capital expenditure is expected to be lower than in 2025.",1.0,546.25,3.5494508743286133,1.0,1.0,,
+sentence window 1,Q124,cross_section,"Kestrel Deep is a future version of the sonar designed for depths beyond 2,000 metres, and it is due to reach field trials in 2026.",1.0,529.25,2.445946216583252,1.0,1.0,,
+sentence window 1,Q125,cross_section,"Over the five years to 2025, revenue grew at a compound annual rate of 11.7%. In 2025, the operating margin was 14.7%, which represents an increase from 13.2% in 2024.",0.5,803.0,4.244892835617065,1.0,1.0,,
+sentence window 1,Q126,cross_section,"Elena Vasquez is an independent non-executive director who advises the Board on Harbourline; however, the report does not state when the platform became available in 2025 (it was first offered free to existing buoy customers upon its 2018 launch and moved to a paid subscription model in 2020).",0.5,518.0,3.8250715732574463,1.0,1.0,,
+sentence window 1,Q127,summary,The report does not say what the four pillars of the Course 2028 strategy are.,0.0,491.0,1.6970293521881104,0.0,1.0,,
+sentence window 1,Q128,summary,"The report does not say what three things the Chief Executive singled out as standing out in 2025. While the text mentions that ""that idea became visible in our numbers"" and lists specific financial figures, it does not explicitly list three distinct items or events that he singled out as standing out.",0.0,548.0,3.4227309226989746,0.0,1.0,,
+sentence window 1,Q129,summary,"The Tidewatch T5 is the first buoy built around Harbourline; it sends data over satellite and mobile networks, updates its own software remotely, and can run small analytics programs on board to cut the volume of data transmitted.",1.0,562.0,2.8754308223724365,1.0,1.0,,
+sentence window 1,Q130,summary,"The provided text does not contain information on how Kerrowan manages risks in its supply chain; it only mentions that the company faced ""difficult supply years"" in 2021 and 2022.",0.0,602.25,2.7044517993927,0.0,0.0,,
+sentence window 1,Q131,summary,The report does not say why Kerrowan's Scope 1 and 2 emissions fell in 2025; it only states that they fell by 13.2%.,0.0,637.0,2.561067581176758,1.0,1.0,,
+sentence window 1,Q132,summary,"The provided text does not state why Kerrowan's Group operating margin improved in 2025; it only mentions that the business achieved a ""meaningfully higher margin.""",0.0,662.25,2.525557279586792,0.0,1.0,,
+sentence window 1,Q133,summary,They added an extra stage of field testing before any new firmware is released.,0.5,493.75,1.480708360671997,1.0,1.0,,
+sentence window 1,Q134,summary,The report does not say what specific changes to health and safety practices Kerrowan made in 2025; it only states that there were no fatalities and that safety remains the first item on every Board and executive meeting agenda.,0.0,656.0,2.9387834072113037,1.0,1.0,,
+sentence window 1,Q135,summary,"The report does not provide specific expectations for each of the three segments individually; it only states that there is ""good momentum in all three segments.""",0.0,650.25,2.186025619506836,0.0,1.0,,
+sentence window 1,Q136,summary,"From 2026, half of each long-term incentive award will depend on Course 2028 revenue and margin targets, a quarter on total shareholder return compared with a group of engineering companies, and a quarter on emissions reduction and Harbourline growth.",1.0,656.5,3.2973520755767822,1.0,1.0,,
+sentence window 1,Q137,summary,"The report does not say how Kerrowan manages foreign exchange risk; it only states that most cash is held in sterling with smaller balances in euros and US dollars to meet operating needs, while the risk itself was rated as stable.",0.0,705.25,3.006237506866455,0.0,1.0,,
+sentence window 1,Q138,summary,"In 2025, the Rotterdam service centre served as a base for North American services (planned under Course 2028), handled more than 1,100 service visits in its first six months, and stocked spare parts for every product sold in Europe.",0.3333333333333333,668.25,3.5221164226531982,1.0,1.0,,
+sentence window 1,Q139,superseded,"Kerrowan employed 1,240 people at 31 December 2025.",0.0,641.5,2.0192432403564453,0.0,1.0,,
+sentence window 1,Q140,superseded,"The report does not say by how many people the workforce grew during 2025; it only states that the Group employed 1,240 people at year-end and that the workforce grew mainly in specific areas.",0.0,684.75,2.929567575454712,0.0,1.0,,
+sentence window 1,Q141,superseded,Kerrowan was granted 15 patents in 2025.,1.0,635.0,1.720625638961792,1.0,1.0,,
+sentence window 1,Q142,superseded,98 granted patents.,1.0,659.75,1.2696890830993652,1.0,1.0,,
+sentence window 1,Q143,superseded,The report does not say.,0.0,655.5,1.316476821899414,0.0,0.0,,
+sentence window 1,Q144,superseded,The employee count changed because 22 contractors at the Rotterdam service centre became permanent employees with effect from 31 December 2025 and were registered after the preliminary count was taken.,1.0,715.0,2.6419315338134766,1.0,1.0,,
+sentence window 1,Q145,unanswerable,The report does not say what Kerrowan's market capitalisation was at the end of 2025.,,642.25,1.9929962158203125,1.0,1.0,,
+sentence window 1,Q146,unanswerable,The report does not say what Kerrowan's share price was at the end of 2025.,,661.75,1.9757001399993896,1.0,1.0,,
+sentence window 1,Q147,unanswerable,The report does not say.,,655.5,1.3506834506988525,1.0,0.0,,
+sentence window 1,Q148,unanswerable,The report does not say how much Kerrowan spent on advertising in 2025.,,637.25,1.8331544399261475,1.0,1.0,,
+sentence window 1,Q149,unanswerable,"The report does not say the design life of the Tidewatch T5. (Note: The text states the Tidewatch T3 has a design life of 15 years, but no such information is provided for the T5.)",,564.0,3.017003297805786,1.0,1.0,,
+sentence window 1,Q150,unanswerable,The report does not say how many patent applications Kerrowan filed in 2025; it only states that 14 new patents were granted (with a total of 15 including one confirmed later) and mentions the total portfolio size.,,635.0,3.077738046646118,1.0,1.0,,
+sentence window 1,Q151,unanswerable,The report does not say.,,650.75,1.265723705291748,1.0,0.0,,
+sentence window 1,Q152,unanswerable,The report does not say who will lead the new North American service centre.,,506.25,1.414285659790039,1.0,1.0,,
+sentence window 1,Q153,unanswerable,The report does not say how much a Harbourline Essentials subscription costs.,,504.25,1.4574403762817383,1.0,1.0,,
+sentence window 1,Q154,unanswerable,The report does not say.,,620.0,1.2794902324676514,1.0,0.0,,
+sentence window 3,Q001,single,Kerrowan Marine Systems was founded in 1994.,1.0,1523.5,2.6385347843170166,1.0,1.0,1.0,1.0
+sentence window 3,Q002,single,Kerrowan Marine Systems was founded by Isla Kerrowan and Tomas Ferreira.,1.0,1538.25,2.322157144546509,1.0,1.0,1.0,0.5
+sentence window 3,Q003,single,"The report does not say what Kerrowan's first commercial product was or when it went on sale. It only mentions that port authorities in Scotland and Norway were the first customers and that the company built a reputation for buoys that survive the North Atlantic, but it does not specify the initial product launch date.",0.0,1340.0,4.376704216003418,0.0,1.0,1.0,0.0
+sentence window 3,Q004,single,Kerrowan listed its shares on the main market of the London Stock Exchange in 2006.,1.0,1357.0,2.852473258972168,1.0,1.0,1.0,1.0
+sentence window 3,Q005,single,"In 2012, Kerrowan bought Sondera Acoustics, which was based in Bergen, Norway.",1.0,1206.5,2.7145307064056396,1.0,1.0,1.0,0.5
+sentence window 3,Q006,single,Harbourline was launched in 2018.,1.0,1283.5,2.387477397918701,1.0,1.0,1.0,1.0
+sentence window 3,Q007,single,Harbourline moved to a paid subscription model in 2020.,1.0,1370.0,2.8680591583251953,1.0,1.0,1.0,1.0
+sentence window 3,Q008,single,Kerrowan sells to customers in 41 countries.,1.0,1460.75,2.447155237197876,1.0,1.0,1.0,1.0
+sentence window 3,Q009,single,Margaret Oduya chairs the Kerrowan Board.,1.0,1379.25,2.464182138442993,1.0,1.0,1.0,1.0
+sentence window 3,Q010,single,The Board met eleven times during the year (2025).,1.0,1212.5,2.245211362838745,1.0,1.0,1.0,1.0
+sentence window 3,Q011,single,Daniel Achterberg became Chief Executive in April 2021.,0.0,1026.25,2.205609083175659,1.0,1.0,1.0,1.0
+sentence window 3,Q012,single,"37 units were recalled, costing roughly £0.6m.",1.0,1205.5,2.4850759506225586,1.0,1.0,1.0,1.0
+sentence window 3,Q013,single,The Rotterdam service centre cut average repair turnaround for European customers from 19 days to 8 days.,1.0,1456.25,3.0274181365966797,1.0,1.0,1.0,1.0
+sentence window 3,Q014,single,The earlier Horizon 2025 plan had a revenue target of £175m.,1.0,1466.5,3.155212640762329,1.0,1.0,1.0,1.0
+sentence window 3,Q015,single,Kerrowan has set a limit of net debt of no more than one times operating profit for any acquisition.,1.0,1352.0,2.846592903137207,1.0,1.0,1.0,1.0
+sentence window 3,Q016,single,The design life of the Tidewatch T3 is 15 years.,1.0,1323.0,2.6682610511779785,1.0,1.0,1.0,1.0
+sentence window 3,Q017,single,Up to 22 metres.,1.0,1348.5,2.3809778690338135,1.0,1.0,1.0,1.0
+sentence window 3,Q018,single,Until 2030.,1.0,1508.0,2.4908030033111572,1.0,1.0,1.0,1.0
+sentence window 3,Q019,single,Buoy pricing rose by an average of 4% in 2025.,1.0,1598.0,3.235588788986206,1.0,1.0,1.0,1.0
+sentence window 3,Q020,single,108%,1.0,1498.25,2.4031996726989746,1.0,1.0,1.0,1.0
+sentence window 3,Q021,single,83 ports had subscribed to Channel Depth Assurance by the end of 2025.,1.0,1379.0,2.648681879043579,1.0,1.0,1.0,1.0
+sentence window 3,Q022,single,99.96%,1.0,1243.75,1.9684767723083496,1.0,1.0,1.0,1.0
+sentence window 3,Q023,single,"The report does not identify a specific single customer as the largest; instead, it states that **port and harbour authorities** were the largest customer group, accounting for **47%** of Group revenue in 2025.",0.0,1500.5,3.844555377960205,0.0,1.0,1.0,1.0
+sentence window 3,Q024,single,31%,1.0,1711.75,2.684415578842163,1.0,1.0,1.0,1.0
+sentence window 3,Q025,single,North America grew fastest with revenue up 24%.,1.0,1774.75,3.1353044509887695,1.0,1.0,1.0,1.0
+sentence window 3,Q026,single,The Rotterdam service centre employs 34 engineers.,1.0,1460.0,2.568429470062256,1.0,1.0,1.0,0.875
+sentence window 3,Q027,single,1.8%,1.0,1343.5,2.047745704650879,1.0,1.0,1.0,1.0
+sentence window 3,Q028,single,Kerrowan buys components from around 640 suppliers in 23 countries.,1.0,1348.5,2.644059181213379,1.0,1.0,1.0,1.0
+sentence window 3,Q029,single,Varentis Cells supplies the lithium battery packs for Tidewatch buoys.,1.0,1419.5,2.6931943893432617,1.0,1.0,1.0,1.0
+sentence window 3,Q030,single,Freight costs fell by 11% in 2025.,1.0,1495.25,2.8638038635253906,1.0,1.0,1.0,0.5
+sentence window 3,Q031,single,"In 2025, Kerrowan carried out 48 supplier audits, of which 9 were unannounced.",1.0,1358.5,3.03261661529541,1.0,1.0,1.0,1.0
+sentence window 3,Q032,single,£3.9m,1.0,1466.5,2.4356682300567627,1.0,1.0,0.5,1.0
+sentence window 3,Q033,single,27 developers,1.0,1441.5,2.2136762142181396,1.0,1.0,1.0,1.0
+sentence window 3,Q034,single,By about 60%.,1.0,1578.5,2.7757909297943115,1.0,1.0,1.0,1.0
+sentence window 3,Q035,single,"In internal tests, automatic object recognition correctly identified 91% of obstacles larger than one metre.",1.0,1450.75,2.826528787612915,1.0,1.0,1.0,1.0
+sentence window 3,Q036,single,Voluntary staff turnover was 8.7% in 2025.,1.0,1485.5,2.7666008472442627,1.0,1.0,1.0,1.0
+sentence window 3,Q037,single,38%,1.0,1336.75,1.978987693786621,1.0,1.0,1.0,1.0
+sentence window 3,Q038,single,The median gender pay gap in the United Kingdom was 11.2%.,1.0,1261.25,2.5385971069335938,1.0,1.0,0.0,1.0
+sentence window 3,Q039,single,71%,1.0,1728.5,2.6190125942230225,1.0,1.0,1.0,1.0
+sentence window 3,Q040,single,By 2032.,1.0,1417.0,2.3255746364593506,1.0,1.0,1.0,1.0
+sentence window 3,Q041,single,214,1.0,1691.5,2.9340405464172363,1.0,1.0,1.0,1.0
+sentence window 3,Q042,single,0.42,1.0,1508.0,2.530588150024414,1.0,1.0,0.0,1.0
+sentence window 3,Q043,single,2.5 metres,1.0,1405.75,2.1381072998046875,1.0,1.0,1.0,0.5
+sentence window 3,Q044,single,14.9%,1.0,1587.25,2.833554744720459,1.0,1.0,1.0,1.0
+sentence window 3,Q045,single,The Group's effective tax rate in 2025 was 29.1%.,1.0,1693.25,3.3547778129577637,1.0,1.0,1.0,1.0
+sentence window 3,Q046,single,34.1 pence,1.0,1299.25,2.2803075313568115,1.0,1.0,1.0,0.5
+sentence window 3,Q047,single,Kerrowan has an undrawn revolving credit facility of £50m which runs until 2029.,1.0,1482.5,3.129854440689087,1.0,1.0,1.0,1.0
+sentence window 3,Q048,single,About 78% of revenue is earned outside the United Kingdom.,1.0,1219.75,2.221259593963623,1.0,1.0,1.0,1.0
+sentence window 3,Q049,single,"The Chair receives an annual fee of £185,000.",1.0,1406.25,2.6295251846313477,1.0,1.0,1.0,0.5
+sentence window 3,Q050,single,34 to 1,1.0,1549.75,2.745230197906494,1.0,1.0,1.0,1.0
+sentence window 3,Q051,single,The report does not say who Kerrowan's auditor is or since when they have been appointed; it only mentions that Scope 1 and 2 emissions figures were reviewed by an independent assurance provider.,0.0,1465.5,3.781543254852295,1.0,0.0,1.0,0.0
+sentence window 3,Q052,single,KRWN,1.0,1543.75,2.139948606491089,1.0,1.0,1.0,1.0
+sentence window 3,Q053,table,£52.2m,1.0,1638.0,2.7387847900390625,1.0,1.0,1.0,1.0
+sentence window 3,Q054,table,12.8%,1.0,1687.75,3.208155393600464,1.0,1.0,1.0,1.0
+sentence window 3,Q055,table,£8.0m,1.0,1440.0,2.364438056945801,1.0,1.0,1.0,1.0
+sentence window 3,Q056,table,"£29,800",1.0,1422.25,2.4978742599487305,1.0,1.0,1.0,1.0
+sentence window 3,Q057,table,214,1.0,1474.0,2.198228120803833,1.0,1.0,1.0,1.0
+sentence window 3,Q058,table,"2,940 tonnes CO2e",1.0,1600.25,2.720705509185791,1.0,1.0,1.0,1.0
+sentence window 3,Q059,table,"61,200 tonnes CO2e",1.0,1457.75,2.5037364959716797,1.0,1.0,1.0,1.0
+sentence window 3,Q060,table,412,1.0,1529.25,2.3607428073883057,1.0,1.0,1.0,1.0
+sentence window 3,Q061,table,£7.1m,1.0,1614.5,2.7289540767669678,1.0,1.0,1.0,1.0
+sentence window 3,Q062,table,4,1.0,1522.0,2.2872612476348877,1.0,0.0,1.0,1.0
+sentence window 3,Q063,table,£468k,1.0,1443.0,2.4236254692077637,1.0,1.0,1.0,1.0
+sentence window 3,Q064,table,"The report does not say what Kerrowan's revenue was in 2022; it only mentions that the company navigated ""difficult supply years of 2021 and 2022"" and provides revenue figures for 2024 (£162.3m) and 2025 (£184.6m).",0.0,1567.5,5.466243505477905,0.0,1.0,1.0,0.0
+sentence window 3,Q065,table,The report does not say what Kerrowan's operating margin was in 2023.,0.0,1581.25,3.0884273052215576,0.0,1.0,1.0,0.0
+sentence window 3,Q066,table,The report does not say.,0.0,1311.0,2.2549662590026855,0.0,0.0,1.0,0.25
+sentence window 3,Q067,table,£45m,1.0,1547.25,2.5617282390594482,1.0,1.0,1.0,1.0
+sentence window 3,Q068,table,"The principal risk described as ""dependence on key suppliers and components"" is **Supply chain**, and it changed to **Decreased** in 2025.",1.0,1735.5,3.5156707763671875,1.0,1.0,1.0,1.0
+sentence window 3,Q069,near_duplicate,"2,140",1.0,1490.0,2.5987539291381836,1.0,1.0,1.0,1.0
+sentence window 3,Q070,near_duplicate,860,1.0,1348.0,1.5107009410858154,1.0,1.0,1.0,1.0
+sentence window 3,Q071,near_duplicate,"£18,500",1.0,1356.0,2.498896598815918,1.0,1.0,1.0,1.0
+sentence window 3,Q072,near_duplicate,"£24,900",1.0,1352.25,2.4012858867645264,1.0,1.0,1.0,1.0
+sentence window 3,Q073,near_duplicate,The maximum working range of the Kestrel 400 is 400 metres on each side of the towfish.,1.0,1174.25,2.868281126022339,1.0,1.0,1.0,1.0
+sentence window 3,Q074,near_duplicate,650 metres per side.,1.0,1236.5,2.242581844329834,1.0,1.0,1.0,1.0
+sentence window 3,Q075,near_duplicate,"1,020 units",1.0,1171.25,2.1157493591308594,1.0,1.0,1.0,1.0
+sentence window 3,Q076,near_duplicate,445 units,1.0,1176.75,1.9822468757629395,1.0,1.0,1.0,1.0
+sentence window 3,Q077,near_duplicate,"The Port Lennox factory covers 21,000 square metres and opened in 1998.",1.0,1561.5,3.233464002609253,1.0,1.0,1.0,1.0
+sentence window 3,Q078,near_duplicate,"The Port Lenham factory covers 9,500 square metres and was acquired in 2019.",1.0,1252.25,2.8473076820373535,1.0,1.0,1.0,1.0
+sentence window 3,Q079,near_duplicate,The Port Lenham factory assembles the Kestrel sonar range.,1.0,1194.0,2.3696768283843994,1.0,1.0,1.0,1.0
+sentence window 3,Q080,near_duplicate,£41.6m,1.0,1674.25,3.1505188941955566,1.0,1.0,1.0,1.0
+sentence window 3,Q081,near_duplicate,£41.2m,1.0,1698.0,2.989130973815918,1.0,1.0,1.0,1.0
+sentence window 3,Q082,near_duplicate,"2,180 tonnes CO2e",1.0,1457.5,2.4425930976867676,1.0,1.0,1.0,1.0
+sentence window 3,Q083,near_duplicate,12.8%,1.0,1508.0,2.415208339691162,1.0,1.0,1.0,1.0
+sentence window 3,Q084,near_duplicate,12.6%,1.0,1474.0,2.4379494190216064,1.0,1.0,1.0,1.0
+sentence window 3,Q085,near_duplicate,3.8 pence,1.0,1354.0,2.2979788780212402,1.0,1.0,0.5,1.0
+sentence window 3,Q086,near_duplicate,9.8 pence per share.,0.0,1283.75,2.325578451156616,1.0,1.0,1.0,1.0
+sentence window 3,Q087,multihop_section,"2,140 Tidewatch T3 units and 860 Tidewatch T3-S units were shipped in 2025, making a total of 3,000 units.",1.0,1422.25,4.080883741378784,1.0,1.0,1.0,1.0
+sentence window 3,Q088,multihop_section,"3,310",1.0,1422.25,2.444200277328491,1.0,1.0,1.0,1.0
+sentence window 3,Q089,multihop_section,"£6,400",1.0,1352.25,2.323373556137085,1.0,0.0,1.0,1.0
+sentence window 3,Q090,multihop_section,"1,465 units (1,020 Kestrel 400 + 445 Kestrel 400X).",1.0,1260.5,3.2528350353240967,1.0,1.0,0.5,1.0
+sentence window 3,Q091,multihop_section,The Kestrel 400X can see 250 metres further per side than the Kestrel 400 (650 metres for the 400X minus 400 metres for the 400).,1.0,1251.75,4.007220506668091,1.0,1.0,1.0,1.0
+sentence window 3,Q092,multihop_section,"£4.1m (£38.4m total recurring revenue minus £22.8m Harbourline recurring revenue, or alternatively calculated as £26.9m total Harbourline revenue minus £22.8m recurring revenue).",1.0,1536.5,4.337214946746826,1.0,1.0,1.0,1.0
+sentence window 3,Q093,multihop_section,The number of Harbourline port customers grew by 44 (from 168 to 212).,1.0,1512.0,3.2312004566192627,1.0,1.0,1.0,1.0
+sentence window 3,Q094,multihop_section,"The new T5 assembly line raised Port Lennox's annual buoy capacity from 3,000 to 4,200 units, adding a total of 1,200 units.",1.0,1400.75,3.785020589828491,1.0,1.0,1.0,1.0
+sentence window 3,Q095,multihop_section,61% (22% from the United Kingdom and 39% from Rest of Europe).,1.0,1578.25,3.056650400161743,1.0,1.0,1.0,1.0
+sentence window 3,Q096,multihop_section,The order backlog grew by £16.3m during 2025 (from £81.0m to £97.3m).,1.0,1331.5,3.3377010822296143,1.0,1.0,1.0,1.0
+sentence window 3,Q097,multihop_section,698,1.0,1612.75,2.364680290222168,1.0,0.0,1.0,1.0
+sentence window 3,Q098,multihop_section,"Total Scope 1 and 2 emissions fell by 740 tonnes (from 5,610 tonnes in 2024 to 4,870 tonnes in 2025).",1.0,1590.0,4.373891115188599,1.0,1.0,1.0,1.0
+sentence window 3,Q099,multihop_section,"Revenue grew from £41.2m in the first quarter to £52.2m in the fourth quarter of 2025, an increase of £11.0m.",1.0,1764.75,4.873714447021484,1.0,1.0,1.0,1.0
+sentence window 3,Q100,multihop_section,"Of the £22.3m increase in revenue, about £7.1m came from higher prices and about £15.2m came from higher volumes and a better product mix.",1.0,1537.25,4.241375684738159,1.0,1.0,1.0,1.0
+sentence window 3,Q101,multihop_section,"Harbourline software had the highest operating margin in 2025 at 17.4%, which improved by 4.6 percentage points from 12.8% in 2024.",1.0,1474.75,4.268138408660889,1.0,1.0,1.0,1.0
+sentence window 3,Q102,multihop_section,"Based on the text provided:
+*   **Interim dividend:** 3.8 pence per share (paid in October 2025).
+*   **Final dividend:** 7.6 pence per share.
+*   **Total dividend for the year:** 11.4 pence per share.",1.0,1436.75,4.897942781448364,1.0,1.0,1.0,1.0
+sentence window 3,Q103,multihop_section,"Net cash increased by £9.4m in 2025, reaching £38.5m at the year end.",1.0,1498.5,3.8173980712890625,1.0,1.0,1.0,0.5
+sentence window 3,Q104,multihop_section,"Priya Raman's 2025 pay consisted of a salary of £355k and an annual bonus of £290k, totaling £0.65m. She received no long-term incentive vesting in 2025. These figures cover the eleven months from her appointment in February 2025.",1.0,1416.0,5.16830587387085,1.0,1.0,1.0,1.0
+sentence window 3,Q105,multihop_section,"A non-executive director who chairs a committee receives a base fee of £58,000 plus an additional £12,000, totaling £70,000.",1.0,1327.5,3.5583388805389404,1.0,1.0,1.0,1.0
+sentence window 3,Q106,multihop_section,"Between 2024 and 2025, the number of lost time injuries decreased from 7 to 5, while the number of near misses reported increased from 297 to 412.",1.0,1592.5,4.367920875549316,1.0,1.0,1.0,1.0
+sentence window 3,Q107,cross_section,"The Tidewatch T5 is built at the Port Lennox factory, and 310 units were shipped in 2025.",1.0,1389.25,3.3464651107788086,1.0,1.0,1.0,1.0
+sentence window 3,Q108,cross_section,"Kerrowan's research and development is led by Chief Technology Officer Sofia Lindqvist, and spending rose to £16.2m in 2025.",1.0,1532.75,3.702624559402466,1.0,1.0,1.0,1.0
+sentence window 3,Q109,cross_section,"The report does not state which company Kerrowan acquired to create the Kestrel line; it mentions an acquisition of ""Brightwater Acoustics"" but does not link it to the creation of the Kestrel line. The report states that Kestrel generated £61.3m of revenue in 2025.",0.5,1275.0,4.693570137023926,1.0,0.0,1.0,0.25
+sentence window 3,Q110,cross_section,"The Rotterdam service centre opened in June 2025 and carried out more than 1,100 service visits in its first six months.",1.0,1369.5,3.335651159286499,1.0,1.0,1.0,1.0
+sentence window 3,Q111,cross_section,"The Course 2028 operating margin target is 17%. The 2025 actual margin was 14.7%, which is 2.3 percentage points below the target.",0.5,1264.5,3.601680278778076,1.0,1.0,1.0,1.0
+sentence window 3,Q112,cross_section,Kerrowan's guidance for 2026 revenue is between £200m and £210m. The Course 2028 revenue target is £260m.,0.5,1290.75,3.581831455230713,1.0,1.0,1.0,1.0
+sentence window 3,Q113,cross_section,"Henrik Solberg chairs the Audit and Risk Committee. Following the external review of Board effectiveness, the committee changed its practice to receive a cyber security report at every meeting instead of twice a year.",1.0,1207.0,3.2226436138153076,1.0,1.0,1.0,1.0
+sentence window 3,Q114,cross_section,"Priya Raman succeeded Graham Leckie as Chief Financial Officer. Before joining Kerrowan, she was the group finance director of a listed engineering company.",1.0,1358.5,3.2784206867218018,1.0,1.0,1.0,1.0
+sentence window 3,Q115,cross_section,"The supplier creating a battery concentration risk is **Varentis Cells** (based in Poland), as relying on a single supplier poses this risk. In response, Kerrowan qualified a second battery supplier in **South Korea** during 2025, which is expected to provide about a quarter of the packs starting from 2026.",1.0,1471.5,4.89630126953125,1.0,1.0,1.0,1.0
+sentence window 3,Q116,cross_section,"The Kestrel 400X firmware recall caused Q1 revenue to be the weakest quarter partly because shipments were paused in March, and it led to an increased product quality risk rating due to the ability of a single fault to affect many customers via remote updates.",1.0,1312.75,4.186181545257568,1.0,1.0,1.0,1.0
+sentence window 3,Q117,cross_section,"Brightwater Acoustics is based in Halifax, Nova Scotia, Canada. Its acquisition provides Kerrowan with a base for the North American service centre planned under Course 2028.",1.0,1414.0,3.6151442527770996,1.0,1.0,1.0,1.0
+sentence window 3,Q118,cross_section,"The report does not say what share of revenue Kerrowan's largest customer accounted for or how customer concentration is rated as a risk. The text only mentions that the Group qualified a second battery supplier to mitigate ""concentration risk"" related to suppliers, not customers.",0.0,1458.0,4.166082143783569,0.0,1.0,1.0,0.0
+sentence window 3,Q119,cross_section,"The operating profit target for full annual bonus payout was £26.5m, and the Group achieved an operating profit of £27.1m.",1.0,1388.0,3.3969850540161133,1.0,1.0,1.0,1.0
+sentence window 3,Q120,cross_section,"The 2028 target for renewable electricity is 100%, and the share achieved in 2025 was 71%.",1.0,1374.5,3.336798906326294,1.0,1.0,1.0,1.0
+sentence window 3,Q121,cross_section,"The 2026 annual general meeting will be held on 7 May 2026 at the Port Lennox Maritime Hall, and the final dividend will be paid on 22 May 2026.",1.0,1483.25,4.1435534954071045,1.0,1.0,1.0,1.0
+sentence window 3,Q122,cross_section,"In 2025, capital expenditure was £14.9m. For 2026, it is expected to be between £12m and £14m.",1.0,1479.5,3.9941458702087402,1.0,1.0,1.0,1.0
+sentence window 3,Q123,cross_section,"At the end of 2025, there were 212 Harbourline port customers. The report does not state the specific growth in annual recurring revenue expected for 2026; it only notes that the Group expects this revenue to rise by more than 25% (presumably from the 2025 level).",1.0,1518.5,5.162003755569458,1.0,1.0,1.0,0.95
+sentence window 3,Q124,cross_section,"Kestrel Deep is a future version of the sonar designed for depths beyond 2,000 metres, and it is due to reach field trials in 2026.",1.0,1172.25,3.341841220855713,1.0,1.0,1.0,1.0
+sentence window 3,Q125,cross_section,"Over the five years to 2025, revenue grew at a compound annual rate of 11.7%, increasing from £118.4m in 2021 to £184.6m in 2025. The operating margin rose every year during this period, reaching 14.7% in 2025 (up from 13.2% in 2024).",0.5,1650.75,6.834970235824585,1.0,1.0,1.0,1.0
+sentence window 3,Q126,cross_section,Kwame Mensah advises the Board on Harbourline; the platform was first offered free to existing buoy customers in 2018 before moving to a paid subscription model in 2020.,0.5,1293.75,3.6592679023742676,1.0,1.0,0.5,0.5
+sentence window 3,Q127,summary,The report does not say what the four pillars of the Course 2028 strategy are; it only mentions the strategy's headline targets (revenue of £260m and an operating margin of 17%) and its simple premise that customers want answers rather than instruments.,0.0,1207.5,4.149374961853027,0.0,1.0,1.0,0.5
+sentence window 3,Q128,summary,"The provided text states that ""Three things stood out for me"" but only lists one of them: that Group revenue rose to £184.6m and more than one in seven pounds of revenue came from customers buying hardware and Harbourline software together. The text does not list the other two things.",0.0,1261.0,4.369158029556274,0.0,1.0,1.0,0.5
+sentence window 3,Q129,summary,"The Tidewatch T5 is the first buoy built around Harbourline software; it sends data over satellite and mobile networks, updates its own software remotely, and can run small analytics programs on board to cut the volume of transmitted data.",1.0,1416.75,4.025097608566284,1.0,1.0,1.0,1.0
+sentence window 3,Q130,summary,"The report states that the Group's cash is spread across several banks with strong credit ratings, but it does not provide specific details on how Kerrowan manages risks within its **supply chain** other than noting a ""Decreased"" change in risk direction for dependence on key suppliers and components.",0.0,1492.25,4.373175621032715,0.0,1.0,1.0,0.75
+sentence window 3,Q131,summary,"The report states that Scope 1 and 2 greenhouse gas emissions fell by 13.2% compared with 2024, but it does not explicitly explain the specific reasons why they fell.",0.0,1556.0,3.9790775775909424,1.0,1.0,1.0,1.0
+sentence window 3,Q132,summary,The report does not explicitly state the specific reasons why the Group operating margin improved in 2025; it only notes that the margin increased to 14.7% and mentions that the Board expects further improvement in 2026 as Harbourline grows and the Tidewatch T5 line reaches full efficiency.,0.0,1653.75,5.182089567184448,0.0,1.0,1.0,0.35
+sentence window 3,Q133,summary,"After the Kestrel 400X firmware fault, Kerrowan added an extra stage of field testing before any new firmware is released and implemented an option to roll back updates remotely.",1.0,1170.25,3.4556071758270264,1.0,1.0,1.0,1.0
+sentence window 3,Q134,summary,"The report does not state that Kerrowan made any specific changes to its health and safety practices in 2025; it only reports performance metrics such as zero fatalities, an improved lost time injury frequency rate (0.42), five lost time injuries (none serious), and the fact that safety remains a top agenda item for every Board and executive meeting.",0.0,1543.5,5.0803749561309814,0.0,1.0,1.0,
+sentence window 3,Q135,summary,"The report does not provide specific expectations for each of the three segments individually; it only states that there is ""good momentum in all three segments.""",0.0,1633.75,3.4275758266448975,0.0,1.0,1.0,0.5
+sentence window 3,Q136,summary,"From 2026, half of each long-term incentive award will depend on Course 2028 revenue and margin targets, a quarter on total shareholder return compared with a group of engineering companies, and a quarter on emissions reduction and Harbourline growth.",1.0,1634.75,4.654113531112671,1.0,1.0,1.0,1.0
+sentence window 3,Q137,summary,"The report does not say how Kerrowan manages foreign exchange risk; it only lists ""Foreign exchange"" as a principal risk with a stable direction in 2025 and notes that most cash is held in sterling with smaller balances in euros and US dollars.",0.0,1587.5,4.16456937789917,0.0,1.0,1.0,0.375
+sentence window 3,Q138,summary,"In 2025, the Rotterdam service centre served as a base for North American customers (planned under Course 2028), handled more than 1,100 service visits in its first six months, and stocked spare parts for every product sold in Europe. It employed 34 engineers and was located in a leased building in the city's port area.",0.3333333333333333,1467.75,5.393202781677246,1.0,1.0,1.0,1.0
+sentence window 3,Q139,superseded,"Kerrowan employed 1,240 people at 31 December 2025.",0.0,1398.0,2.9332053661346436,0.0,1.0,1.0,1.0
+sentence window 3,Q140,superseded,"The report does not state the number of employees at the end of 2024, so it is impossible to calculate the exact growth in headcount for 2025 based on the provided text.",0.0,1519.0,3.8824665546417236,0.0,1.0,1.0,0.5
+sentence window 3,Q141,superseded,Kerrowan was granted 15 patents in 2025.,1.0,1453.25,2.6492552757263184,1.0,1.0,1.0,1.0
+sentence window 3,Q142,superseded,98 granted patents.,1.0,1479.25,1.796234369277954,1.0,1.0,1.0,1.0
+sentence window 3,Q143,superseded,£46.3m,0.5,1638.0,2.7479050159454346,1.0,1.0,1.0,1.0
+sentence window 3,Q144,superseded,The employee count changed because 22 contractors at the Rotterdam service centre became permanent employees with effect from 31 December 2025 and were registered after the preliminary count was taken.,1.0,1575.75,3.678619861602783,1.0,1.0,1.0,1.0
+sentence window 3,Q145,unanswerable,The report does not say what Kerrowan's market capitalisation was at the end of 2025.,,1474.25,3.0296781063079834,1.0,0.0,1.0,0.25
+sentence window 3,Q146,unanswerable,The report does not say what Kerrowan's share price was at the end of 2025.,,1531.5,3.068333148956299,1.0,0.0,1.0,0.0
+sentence window 3,Q147,unanswerable,The report does not say what Kerrowan's revenue from the Middle East was in 2025.,,1638.0,3.4749553203582764,1.0,1.0,1.0,0.0
+sentence window 3,Q148,unanswerable,The report does not say how much Kerrowan spent on advertising in 2025.,,1476.0,2.9295108318328857,1.0,1.0,1.0,0.0
+sentence window 3,Q149,unanswerable,The report does not say.,,1335.5,2.3589138984680176,1.0,0.0,1.0,0.5
+sentence window 3,Q150,unanswerable,The report does not say how many patent applications Kerrowan filed in 2025; it only states that the company was granted 14 new patents (later corrected to 15) during that year.,,1453.25,3.787235975265503,1.0,1.0,1.0,0.0
+sentence window 3,Q151,unanswerable,The report does not say what credit rating Kerrowan Marine Systems has.,,1661.0,3.4093105792999268,1.0,1.0,1.0,0.0
+sentence window 3,Q152,unanswerable,"The report does not say who will lead the new North American service centre. It mentions that the acquisition of Brightwater Acoustics in Canada will provide a base for this centre, but it does not name a specific leader.",,1243.5,3.5990169048309326,1.0,1.0,1.0,0.5
+sentence window 3,Q153,unanswerable,The report does not say how much a Harbourline Essentials subscription costs; it only states that customers pay an annual subscription based on the number of connected assets.,,1466.5,3.496079683303833,1.0,1.0,1.0,0.375
+sentence window 3,Q154,unanswerable,The report does not say.,,1497.0,1.6734421253204346,1.0,0.0,1.0,0.0
+sentence window 5,Q001,single,Kerrowan Marine Systems was founded in 1994.,1.0,2311.0,3.5594482421875,1.0,1.0,,
+sentence window 5,Q002,single,Kerrowan Marine Systems was founded by oceanographer Isla Kerrowan and electronics engineer Tomas Ferreira.,1.0,2365.75,3.9559154510498047,1.0,1.0,,
+sentence window 5,Q003,single,"Kerrowan's first commercial product was the Tidewatch T1 buoy, which went on sale in 1997.",1.0,2096.0,3.829867362976074,1.0,1.0,,
+sentence window 5,Q004,single,Kerrowan listed its shares on the main market of the London Stock Exchange in 2006.,1.0,2014.75,3.5332138538360596,1.0,1.0,,
+sentence window 5,Q005,single,"In 2012, Kerrowan bought Sondera Acoustics, which was based in Bergen, Norway.",1.0,1848.75,3.3828017711639404,1.0,1.0,,
+sentence window 5,Q006,single,Harbourline was launched in 2018.,1.0,2008.25,3.1846706867218018,1.0,1.0,,
+sentence window 5,Q007,single,Harbourline moved to a paid subscription model in 2020.,1.0,2121.5,3.6904091835021973,1.0,1.0,,
+sentence window 5,Q008,single,Kerrowan sells to customers in 41 countries.,1.0,2265.0,3.265010118484497,1.0,1.0,,
+sentence window 5,Q009,single,Margaret Oduya chairs the Kerrowan Board.,1.0,2117.25,3.1759607791900635,1.0,1.0,,
+sentence window 5,Q010,single,The Board met eleven times during the year.,1.0,2168.0,3.324772596359253,1.0,1.0,,
+sentence window 5,Q011,single,Daniel Achterberg became Chief Executive in April 2021.,0.0,1663.25,2.8182168006896973,1.0,1.0,,
+sentence window 5,Q012,single,"37 units were recalled, costing roughly £0.6m.",1.0,2082.5,3.317492961883545,1.0,1.0,,
+sentence window 5,Q013,single,The Rotterdam service centre cut average repair turnaround for European customers from 19 days to 8 days.,1.0,2204.75,3.7938413619995117,1.0,1.0,,
+sentence window 5,Q014,single,The earlier Horizon 2025 plan had a revenue target of £175m.,1.0,2306.0,4.137145519256592,1.0,1.0,,
+sentence window 5,Q015,single,Kerrowan has set a limit of net debt of no more than one times operating profit for any acquisition.,1.0,2182.5,3.742157220840454,1.0,1.0,,
+sentence window 5,Q016,single,The design life of the Tidewatch T3 is 15 years.,1.0,2122.75,3.6578540802001953,1.0,1.0,,
+sentence window 5,Q017,single,Up to 22 metres.,1.0,2198.25,3.4691433906555176,1.0,1.0,,
+sentence window 5,Q018,single,Until 2030.,1.0,2349.25,3.4487063884735107,1.0,1.0,,
+sentence window 5,Q019,single,Buoy pricing rose by an average of 4% in 2025.,1.0,2440.5,4.185452938079834,1.0,1.0,,
+sentence window 5,Q020,single,108%,1.0,2253.25,3.299154043197632,1.0,1.0,,
+sentence window 5,Q021,single,Eighty-three ports had subscribed to Channel Depth Assurance by the end of 2025.,1.0,2035.0,3.3318827152252197,1.0,1.0,,
+sentence window 5,Q022,single,"In 2025, the Harbourline platform achieved an availability of 99.96%.",1.0,1916.25,3.3735485076904297,1.0,1.0,,
+sentence window 5,Q023,single,"Kerrowan's largest customer in 2025 was the Nordhavn Port Authority in Denmark, which accounted for 9% of Group revenue.",1.0,2271.75,4.0629425048828125,1.0,1.0,,
+sentence window 5,Q024,single,31%,1.0,2387.5,3.3069636821746826,1.0,1.0,,
+sentence window 5,Q025,single,North America grew fastest with revenue up 24%.,1.0,2523.75,3.9208078384399414,1.0,1.0,,
+sentence window 5,Q026,single,34 engineers,1.0,2206.5,3.0663888454437256,1.0,1.0,,
+sentence window 5,Q027,single,1.8%,1.0,2082.5,2.8011314868927,1.0,1.0,,
+sentence window 5,Q028,single,Kerrowan buys components from around 640 suppliers in 23 countries.,1.0,2162.5,3.430668830871582,1.0,1.0,,
+sentence window 5,Q029,single,Varentis Cells supplies the lithium battery packs for Tidewatch buoys.,1.0,2222.0,3.5284171104431152,1.0,1.0,,
+sentence window 5,Q030,single,Freight costs fell by 11% in 2025.,1.0,2264.25,3.6880581378936768,1.0,1.0,,
+sentence window 5,Q031,single,"In 2025, Kerrowan carried out 48 supplier audits, of which 9 were unannounced.",1.0,2130.0,3.762901544570923,1.0,1.0,,
+sentence window 5,Q032,single,£3.9m,1.0,2224.0,3.1882164478302,1.0,1.0,,
+sentence window 5,Q033,single,27 developers.,1.0,2272.75,3.0444209575653076,1.0,1.0,,
+sentence window 5,Q034,single,By about 60%.,1.0,2339.5,3.6080007553100586,1.0,1.0,,
+sentence window 5,Q035,single,"In internal tests, automatic object recognition correctly identified 91% of obstacles larger than one metre.",1.0,2188.0,3.6799356937408447,1.0,1.0,,
+sentence window 5,Q036,single,Voluntary staff turnover was 8.7% in 2025.,1.0,2290.0,3.7773849964141846,1.0,1.0,,
+sentence window 5,Q037,single,38%,1.0,2078.75,2.7459585666656494,1.0,1.0,,
+sentence window 5,Q038,single,The median gender pay gap in the United Kingdom was 11.2%.,1.0,1981.5,3.312706708908081,1.0,1.0,,
+sentence window 5,Q039,single,71%,1.0,2458.5,3.4707319736480713,1.0,1.0,,
+sentence window 5,Q040,single,By 2032.,1.0,2123.75,3.208559513092041,1.0,1.0,,
+sentence window 5,Q041,single,214,1.0,2509.0,3.7771573066711426,1.0,1.0,,
+sentence window 5,Q042,single,0.42,1.0,2322.75,3.2878754138946533,1.0,1.0,,
+sentence window 5,Q043,single,2.5 metres,1.0,2201.25,3.106072187423706,1.0,1.0,,
+sentence window 5,Q044,single,14.9%,1.0,2423.25,3.6666767597198486,1.0,1.0,,
+sentence window 5,Q045,single,The Group's effective tax rate in 2025 was 29.1%.,1.0,2414.25,4.240401029586792,1.0,1.0,,
+sentence window 5,Q046,single,34.1 pence,1.0,2052.5,3.273869514465332,1.0,1.0,,
+sentence window 5,Q047,single,Kerrowan has an undrawn revolving credit facility of £50m which runs until 2029.,1.0,2195.75,3.9164135456085205,1.0,1.0,,
+sentence window 5,Q048,single,About 78% of revenue is earned outside the United Kingdom.,1.0,1853.5,2.840486526489258,1.0,1.0,,
+sentence window 5,Q049,single,"The Chair receives an annual fee of £185,000.",1.0,2182.25,3.472075939178467,1.0,1.0,,
+sentence window 5,Q050,single,The ratio was 34 to 1.,1.0,2334.0,3.828545331954956,1.0,1.0,,
+sentence window 5,Q051,single,The report does not say who Kerrowan's auditor is or since when they have been appointed; it only mentions that an independent assurance provider reviewed the Scope 1 and 2 emissions figures.,0.0,2191.0,4.505810260772705,0.0,0.0,,
+sentence window 5,Q052,single,KRWN,1.0,2302.75,2.89390230178833,1.0,0.0,,
+sentence window 5,Q053,table,£52.2m,1.0,2338.25,3.4733011722564697,1.0,1.0,,
+sentence window 5,Q054,table,12.8%,1.0,2418.0,4.001228332519531,1.0,1.0,,
+sentence window 5,Q055,table,£8.0m,1.0,2204.5,3.251065492630005,1.0,1.0,,
+sentence window 5,Q056,table,"£29,800",1.0,2329.0,3.595428228378296,1.0,1.0,,
+sentence window 5,Q057,table,214,1.0,2358.5,3.251384735107422,1.0,1.0,,
+sentence window 5,Q058,table,"2,940 tonnes CO2e",1.0,2379.75,3.5503532886505127,1.0,1.0,,
+sentence window 5,Q059,table,"61,200 tonnes CO2e",1.0,2331.5,3.4227962493896484,1.0,1.0,,
+sentence window 5,Q060,table,412,1.0,2385.25,3.2498843669891357,1.0,1.0,,
+sentence window 5,Q061,table,£7.1m,1.0,2323.25,3.5339415073394775,1.0,1.0,,
+sentence window 5,Q062,table,4,1.0,2294.25,3.1382763385772705,1.0,0.0,,
+sentence window 5,Q063,table,£468k,1.0,2301.5,3.3820481300354004,1.0,1.0,,
+sentence window 5,Q064,table,The report does not say what Kerrowan's revenue was in 2022; it only provides revenue figures for 2024 (£162.3m) and 2025 (£184.6m).,0.0,2327.0,5.226306200027466,0.0,1.0,,
+sentence window 5,Q065,table,The report does not say what Kerrowan's operating margin was in 2023.,0.0,2297.25,3.819976806640625,0.0,1.0,,
+sentence window 5,Q066,table,The ex-dividend date for the final dividend is 16 April 2026.,1.0,2272.75,4.118342399597168,1.0,1.0,,
+sentence window 5,Q067,table,£45m,1.0,2315.25,3.359912157058716,1.0,1.0,,
+sentence window 5,Q068,table,"The principal risk described as ""dependence on key suppliers and components"" is **Supply chain**. In 2025, this risk was rated as **decreased**, due to shortened chip lead times and the qualification of a second battery supplier.",1.0,2377.0,4.817015886306763,1.0,1.0,,
+sentence window 5,Q069,near_duplicate,"2,140",1.0,2377.25,3.6439449787139893,1.0,1.0,,
+sentence window 5,Q070,near_duplicate,860,1.0,2275.5,1.5594978332519531,1.0,1.0,,
+sentence window 5,Q071,near_duplicate,"£18,500",1.0,2226.5,3.509481906890869,1.0,1.0,,
+sentence window 5,Q072,near_duplicate,"£24,900",1.0,2207.25,3.458585500717163,1.0,1.0,,
+sentence window 5,Q073,near_duplicate,The maximum working range of the Kestrel 400 is 400 metres on each side of the towfish.,1.0,1944.0,3.6980338096618652,1.0,1.0,,
+sentence window 5,Q074,near_duplicate,650 metres per side.,1.0,2010.5,3.0633955001831055,1.0,1.0,,
+sentence window 5,Q075,near_duplicate,"1,020 units",1.0,1994.75,2.8903446197509766,1.0,1.0,,
+sentence window 5,Q076,near_duplicate,445 units,1.0,1980.25,2.810822010040283,1.0,1.0,,
+sentence window 5,Q077,near_duplicate,"The Port Lennox factory covers 21,000 square metres and opened in 1998.",1.0,2254.0,4.062767028808594,1.0,1.0,,
+sentence window 5,Q078,near_duplicate,"The Port Lenham factory covers 9,500 square metres and was acquired in 2019.",1.0,2014.5,3.6205995082855225,1.0,1.0,,
+sentence window 5,Q079,near_duplicate,The Port Lenham factory assembles the Kestrel sonar range.,1.0,1863.0,3.088989734649658,1.0,1.0,,
+sentence window 5,Q080,near_duplicate,£41.6m,1.0,2471.75,3.930830478668213,1.0,1.0,,
+sentence window 5,Q081,near_duplicate,£41.2m,1.0,2370.25,3.7207415103912354,1.0,1.0,,
+sentence window 5,Q082,near_duplicate,"2,180 tonnes CO2e",1.0,2355.5,3.4289867877960205,1.0,1.0,,
+sentence window 5,Q083,near_duplicate,12.8%,1.0,2211.75,3.2075438499450684,1.0,1.0,,
+sentence window 5,Q084,near_duplicate,12.6%,1.0,2214.0,3.2323527336120605,1.0,1.0,,
+sentence window 5,Q085,near_duplicate,3.8 pence,1.0,2300.25,3.6337928771972656,1.0,1.0,,
+sentence window 5,Q086,near_duplicate,9.8 pence,0.0,2221.5,3.5432941913604736,1.0,1.0,,
+sentence window 5,Q087,multihop_section,"2,140 Tidewatch T3 units and 860 Tidewatch T3-S units were shipped in 2025, making a total of 3,000 buoys.",1.0,2329.0,3.4546468257904053,1.0,1.0,,
+sentence window 5,Q088,multihop_section,"3,310",1.0,2329.0,3.521138906478882,1.0,1.0,,
+sentence window 5,Q089,multihop_section,"£6,400",1.0,2207.25,3.4303712844848633,1.0,0.0,,
+sentence window 5,Q090,multihop_section,"1,465 units (1,020 Kestrel 400 units and 445 Kestrel 400X units).",1.0,1985.75,4.172846555709839,1.0,1.0,,
+sentence window 5,Q091,multihop_section,The Kestrel 400X can see 250 metres further per side than the Kestrel 400 (650 metres for the 400X minus 400 metres for the 400).,1.0,1943.0,3.5330517292022705,1.0,1.0,,
+sentence window 5,Q092,multihop_section,"£4.1m
+
+(Calculated from total Harbourline revenue of £26.9m minus recurring subscription revenue of £22.8m).",1.0,2331.0,4.4839959144592285,1.0,1.0,,
+sentence window 5,Q093,multihop_section,The number of Harbourline port customers grew by 44 (from 168 to 212) in 2025.,1.0,2234.5,4.34177303314209,1.0,1.0,,
+sentence window 5,Q094,multihop_section,"The new T5 assembly line raised Port Lennox's annual buoy capacity from 3,000 to 4,200 units, adding a capacity of 1,200 units.",1.0,2188.5,4.764838695526123,1.0,1.0,,
+sentence window 5,Q095,multihop_section,61% (22% from the United Kingdom and 39% from Rest of Europe).,1.0,2301.5,3.737271785736084,1.0,1.0,,
+sentence window 5,Q096,multihop_section,The order backlog grew by £16.3m during 2025 (from £81.0m to £97.3m).,1.0,2049.75,4.065864324569702,1.0,1.0,,
+sentence window 5,Q097,multihop_section,698,1.0,2435.5,3.2457056045532227,1.0,0.0,,
+sentence window 5,Q098,multihop_section,"740 tonnes (from 5,610 tonnes in 2024 to 4,870 tonnes in 2025).",1.0,2483.75,4.963914632797241,1.0,1.0,,
+sentence window 5,Q099,multihop_section,£11.0m (from £41.2m in Q1 to £52.2m in Q4).,1.0,2513.5,5.120680809020996,1.0,1.0,,
+sentence window 5,Q100,multihop_section,The £22.3m increase in revenue was split into approximately £7.1m from higher prices and about £15.2m from higher volumes and a better product mix.,1.0,2382.75,5.185898780822754,1.0,1.0,,
+sentence window 5,Q101,multihop_section,"Harbourline software had the highest operating margin in 2025 at 17.4%, which improved by 4.6 percentage points from 12.8% in 2024.",1.0,2369.5,5.422256946563721,1.0,1.0,,
+sentence window 5,Q102,multihop_section,"The final dividend was 7.6 pence per share, the interim dividend was 3.8 pence per share, and the total dividend for the year was 11.4 pence per share.",1.0,2239.5,4.8901941776275635,1.0,1.0,,
+sentence window 5,Q103,multihop_section,"Net cash increased by £9.4m in 2025, reaching £38.5m at the year end.",1.0,2388.75,5.0183422565460205,1.0,1.0,,
+sentence window 5,Q104,multihop_section,"Priya Raman's 2025 pay consisted of a salary of £355k and an annual bonus of £290k, totaling £0.65m. She received no long-term incentive vesting in 2025. These figures cover the eleven months from her appointment in February 2025.",1.0,2233.75,5.981781482696533,1.0,1.0,,
+sentence window 5,Q105,multihop_section,"A non-executive director who chairs a committee receives a base fee of £58,000 plus an additional £12,000, totaling £70,000.",1.0,2039.25,4.435222148895264,1.0,1.0,,
+sentence window 5,Q106,multihop_section,"Between 2024 and 2025, the number of lost time injuries decreased from 7 to 5, while the number of near misses reported increased from 297 to 412.",1.0,2421.5,5.0866992473602295,1.0,1.0,,
+sentence window 5,Q107,cross_section,"The Tidewatch T5 is built at the Port Lennox factory in Scotland, and 310 units were shipped in 2025.",1.0,2253.75,4.42445707321167,1.0,1.0,,
+sentence window 5,Q108,cross_section,"Kerrowan's research and development is led by Chief Technology Officer Sofia Lindqvist, and spending on it rose to £16.2m in 2025.",1.0,2277.75,4.627835273742676,1.0,1.0,,
+sentence window 5,Q109,cross_section,"The report does not state which company Kerrowan acquired to create the Kestrel line; it mentions an acquisition of ""Brightwater Acoustics"" but does not link it to the creation of the Kestrel line. The report states that Kestrel generated £61.3m of revenue in 2025.",0.5,1965.5,5.3286519050598145,1.0,1.0,,
+sentence window 5,Q110,cross_section,"The Rotterdam service centre opened in June 2025 and carried out more than 1,100 service visits in its first six months.",1.0,2124.75,4.128373146057129,1.0,1.0,,
+sentence window 5,Q111,cross_section,"The Course 2028 operating margin target is 17%. The 2025 margin was 14.7%, which is 2.3 percentage points below the target.",0.5,2292.75,4.8077943325042725,1.0,1.0,,
+sentence window 5,Q112,cross_section,Kerrowan's guidance for 2026 revenue is between £200m and £210m. The Course 2028 revenue target is £260m.,1.0,2170.5,4.5327043533325195,1.0,1.0,,
+sentence window 5,Q113,cross_section,"Henrik Solberg chairs the Audit and Risk Committee. Following the external review of Board effectiveness, the committee changed its practice to receive a cyber security report at every meeting instead of twice a year.",1.0,1856.25,3.859670877456665,1.0,1.0,,
+sentence window 5,Q114,cross_section,"Priya Raman succeeded Graham Leckie as Chief Financial Officer. Before joining Kerrowan, she was the group finance director of a listed engineering company.",1.0,2167.75,4.178662538528442,1.0,1.0,,
+sentence window 5,Q115,cross_section,"Varentis Cells creates a battery concentration risk; Kerrowan responded by qualifying a second battery supplier in South Korea during 2025, which is expected to provide about a quarter of packs from 2026.",1.0,2289.5,4.81700873374939,1.0,1.0,,
+sentence window 5,Q116,cross_section,"The Kestrel 400X firmware recall caused Q1 revenue to be the weakest quarter partly because shipments were paused in March. Consequently, the product quality risk rating was increased due to the potential for single faults to affect many customers via remote updates.",1.0,2141.25,5.056590557098389,1.0,1.0,,
+sentence window 5,Q117,cross_section,"Brightwater Acoustics is based in Halifax, Nova Scotia, Canada. Its acquisition provides Kerrowan with a base for the North American service centre planned under Course 2028.",1.0,2068.25,4.1838555335998535,1.0,1.0,,
+sentence window 5,Q118,cross_section,"The report does not say what share of revenue Kerrowan's largest customer accounted for or how customer concentration is rated as a risk. The text only mentions that a single supplier (Varentis) creates a concentration risk regarding battery packs, but provides no information about customers.",0.0,2251.75,5.06491231918335,0.0,0.0,,
+sentence window 5,Q119,cross_section,"The operating profit target for full annual bonus payout was £26.5m, and the Group achieved an operating profit of £27.1m.",1.0,2396.75,4.867585182189941,1.0,1.0,,
+sentence window 5,Q120,cross_section,"The 2028 target for renewable electricity is 100%, and the share achieved in 2025 was 71%.",1.0,2324.0,4.601369857788086,1.0,1.0,,
+sentence window 5,Q121,cross_section,"The 2026 annual general meeting will be held on 7 May 2026 at the Port Lennox Maritime Hall, and the final dividend will be paid on 22 May 2026.",1.0,2299.5,5.09273624420166,1.0,1.0,,
+sentence window 5,Q122,cross_section,"In 2025, capital expenditure was £14.9m. For 2026, it is expected to be between £12m and £14m.",1.0,2220.75,4.805710554122925,1.0,1.0,,
+sentence window 5,Q123,cross_section,"At the end of 2025, there were 212 Harbourline port customers. The report does not specify a numerical growth target for annual recurring revenue in 2026; it only states that the Group expects this revenue to rise by more than 25% (referring to the expectation for 2026 relative to 2025).",1.0,2235.25,6.329049825668335,1.0,1.0,,
+sentence window 5,Q124,cross_section,"Kestrel Deep is a future version of the sonar designed for depths beyond 2,000 metres, which is due to reach field trials in 2026.",1.0,1836.75,4.040680646896362,1.0,1.0,,
+sentence window 5,Q125,cross_section,"Over the five years to 2025, revenue grew at a compound annual rate of 11.7%. In 2025, the operating margin rose to 14.7% (up from 13.2% in 2024).",1.0,2493.5,6.35305643081665,1.0,1.0,,
+sentence window 5,Q126,cross_section,"Kwame Mensah advises the Board on Harbourline; however, the provided text does not state when the Harbourline platform became available in 2025 (it notes it was first offered free to existing buoy customers in 2018 and moved to a paid subscription model in 2020).",0.5,1883.25,5.178308963775635,1.0,1.0,,
+sentence window 5,Q127,summary,"The report does not state what the four pillars of the Course 2028 strategy are. It describes the strategy's premise (customers want answers rather than instruments), its targets (£260m revenue and 17% operating margin by 2028), and its focus on integrating hardware with Harbourline software, but it does not list or name specific ""pillars.""",0.0,2126.0,5.920432806015015,0.0,1.0,,
+sentence window 5,Q128,summary,"The report states that ""Three things stood out for me,"" but it only explicitly lists the first one: **the launch of the Tidewatch T5** buoy in September 2025. The text does not identify or describe the other two things that stood out.",0.3333333333333333,2011.75,4.857875823974609,0.0,1.0,,
+sentence window 5,Q129,summary,"The Tidewatch T5 is the first buoy built around Harbourline software; it sends data over satellite and mobile networks, updates its own software remotely, and can run small analytics programs on board to cut the volume of transmitted data.",1.0,2220.75,4.891861200332642,1.0,1.0,,
+sentence window 5,Q130,summary,"The report states that the risk of dependence on key suppliers and components has decreased in 2025, but it does not provide specific details on how Kerrowan manages these supply chain risks.",0.0,2404.5,4.605161905288696,0.0,1.0,,
+sentence window 5,Q131,summary,Kerrowan's Scope 1 and 2 emissions fell in 2025 due to a larger share of renewable electricity and the replacement of 18 diesel service vans with electric vehicles.,1.0,2380.75,4.799381256103516,1.0,1.0,,
+sentence window 5,Q132,summary,"The report does not explicitly state the specific reasons why the Group operating margin improved in 2025; it only notes that the margin increased to 14.7% from 13.2%. It mentions that amortisation of acquired intangible assets (£1.2m) is included in operating profit but excluded from adjusted earnings per share, and that central costs were allocated to segments, but it does not provide a detailed breakdown of the drivers for the margin improvement itself.",0.0,2353.0,7.1093080043792725,1.0,1.0,,
+sentence window 5,Q133,summary,"After the Kestrel 400X firmware fault, Kerrowan took the following steps:
+*   Added an extra stage of field testing before any new firmware is released.
+*   Implemented an option to roll back updates remotely.",1.0,1917.25,4.644490003585815,1.0,1.0,,
+sentence window 5,Q134,summary,"In February 2025, Kerrowan launched a simple reporting app for field engineers, which led to an increase in the number of near misses reported.",0.3333333333333333,2418.25,4.366447448730469,1.0,1.0,,
+sentence window 5,Q135,summary,"The report does not provide specific expectations for each of the three segments individually; it only states that there is ""good momentum in all three segments"" and gives combined revenue guidance (£200m–£210m) and operating margin targets (towards 15.5%). It does specify that Tidewatch buoy growth is expected to be mid-single-digit while demand for the T3 is flat, but it does not list separate outlooks for the other two segments.",0.3333333333333333,2498.5,7.168884038925171,0.0,1.0,,
+sentence window 5,Q136,summary,"From 2026, half of each long-term incentive award will depend on Course 2028 revenue and margin targets, a quarter on total shareholder return compared with a group of engineering companies, and a quarter on emissions reduction and Harbourline growth.",1.0,2485.5,5.61693811416626,1.0,1.0,,
+sentence window 5,Q137,summary,"The report does not say how Kerrowan manages foreign exchange risk; it only lists ""Foreign exchange"" as a principal risk with a stable direction in 2025 and notes that most cash is held in sterling.",0.0,2399.0,4.78354287147522,0.0,1.0,,
+sentence window 5,Q138,summary,"In 2025, the Rotterdam service centre served as a base for European operations by handling customers in the UK, Ireland, and Nordic countries (alongside the original Port Lennox centre), carrying out over 1,100 service visits in its first six months, stocking spare parts for every product sold in Europe, and employing 34 engineers. It also functioned as a planned base for the North American service centre under the Course 2028 strategy.",0.3333333333333333,2273.0,7.0579118728637695,1.0,1.0,,
+sentence window 5,Q139,superseded,"Kerrowan employed 1,240 people at 31 December 2025.",0.0,2191.75,3.7404046058654785,0.0,1.0,,
+sentence window 5,Q140,superseded,"The report does not say by how many people the workforce grew during 2025; it only states that the Group employed 1,240 people at year-end and that the workforce ""grew mainly"" in specific areas.",0.0,2255.75,4.784795522689819,0.0,1.0,,
+sentence window 5,Q141,superseded,Kerrowan was granted 15 patents in 2025.,1.0,2243.0,3.497563362121582,1.0,1.0,,
+sentence window 5,Q142,superseded,98 granted patents.,1.0,2265.5,3.1025071144104004,1.0,1.0,,
+sentence window 5,Q143,superseded,£46.3m,0.5,2338.25,3.4943578243255615,1.0,1.0,,
+sentence window 5,Q144,superseded,The employee count changed because 22 contractors at the Rotterdam service centre became permanent employees with effect from 31 December 2025 and were registered after the preliminary count was taken.,1.0,2460.5,4.7461841106414795,1.0,1.0,,
+sentence window 5,Q145,unanswerable,The report does not say what Kerrowan's market capitalisation was at the end of 2025.,,2176.5,3.7711501121520996,1.0,1.0,,
+sentence window 5,Q146,unanswerable,The report does not say what Kerrowan's share price was at the end of 2025.,,2256.25,3.722599744796753,1.0,0.0,,
+sentence window 5,Q147,unanswerable,The report does not say.,,2338.25,3.5463011264801025,1.0,0.0,,
+sentence window 5,Q148,unanswerable,The report does not say how much Kerrowan spent on advertising in 2025.,,2218.0,3.7744789123535156,1.0,1.0,,
+sentence window 5,Q149,unanswerable,The report does not say what the design life of the Tidewatch T5 is; it only states that the Tidewatch T3 has a design life of 15 years.,,2253.0,4.666863441467285,1.0,1.0,,
+sentence window 5,Q150,unanswerable,The report does not say how many patent applications Kerrowan filed in 2025; it only states that the company was granted 14 new patents (later corrected to 15) during that year.,,2243.0,4.649547100067139,1.0,1.0,,
+sentence window 5,Q151,unanswerable,The report does not say.,,2440.0,3.8429415225982666,1.0,0.0,,
+sentence window 5,Q152,unanswerable,The report does not say who will lead the new North American service centre; it only states that a service centre is planned for North America in 2026 and that the acquisition of Brightwater Acoustics will provide a base for it.,,2002.25,4.576472043991089,1.0,1.0,,
+sentence window 5,Q153,unanswerable,The report does not say how much a Harbourline Essentials subscription costs; it only states that customers pay an annual subscription based on the number of connected assets.,,2349.0,4.4863128662109375,1.0,1.0,,
+sentence window 5,Q154,unanswerable,The report does not say.,,2297.0,1.7963757514953613,1.0,0.0,,
+auto-merging 2048/512/128,Q001,single,Kerrowan Marine Systems was founded in 1994.,1.0,634.0,1.7876360416412354,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q002,single,Kerrowan Marine Systems was founded by oceanographer Isla Kerrowan and electronics engineer Tomas Ferreira.,1.0,654.5,1.9197430610656738,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q003,single,"Kerrowan's first commercial product was the Tidewatch T1 buoy, which went on sale in 1997.",1.0,692.25,2.162923812866211,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q004,single,Kerrowan listed its shares on the main market of the London Stock Exchange in 2006.,1.0,737.5,2.1041224002838135,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q005,single,"In 2012, Kerrowan bought Sondera Acoustics, which was based in Bergen, Norway.",1.0,910.75,2.3244097232818604,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q006,single,Harbourline was launched in 2018.,1.0,625.75,1.5981781482696533,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q007,single,The report does not say when Harbourline moved to a paid subscription model.,0.0,491.25,1.4543263912200928,0.0,1.0,1.0,0.125
+auto-merging 2048/512/128,Q008,single,Kerrowan sells to customers in 41 countries.,1.0,701.5,1.5974962711334229,1.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q009,single,Margaret Oduya chairs the Kerrowan Board.,1.0,738.5,1.5133230686187744,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q010,single,The Board met eleven times during the year (2025).,1.0,855.5,1.876755952835083,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q011,single,Daniel Achterberg was appointed Chief Executive in April 2021.,0.0,722.75,1.878528356552124,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q012,single,"37 units were recalled, costing roughly £0.6m.",1.0,585.5,1.5973005294799805,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q013,single,The Rotterdam service centre cut average repair turnaround for European customers from 19 days to 8 days.,1.0,644.5,1.880988359451294,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q014,single,The report does not say what revenue target the earlier Horizon 2025 plan had; it only provides targets for the Course 2028 strategy.,0.0,630.0,2.532407760620117,1.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q015,single,Kerrowan has set a limit of net debt of no more than one times operating profit for any acquisition.,1.0,642.0,2.0750532150268555,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q016,single,The design life of the Tidewatch T3 is 15 years.,1.0,652.75,1.8129513263702393,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q017,single,Up to 22 metres.,1.0,708.25,1.4738342761993408,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q018,single,Until 2030.,1.0,712.25,1.453563928604126,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q019,single,Buoy pricing rose by an average of 4% in 2025.,1.0,652.5,1.959672451019287,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q020,single,108%,1.0,530.75,1.1867616176605225,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q021,single,83 ports had subscribed to Channel Depth Assurance by the end of 2025.,1.0,598.75,1.7176446914672852,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q022,single,The Harbourline platform achieved an availability of 99.96% in 2025.,1.0,590.5,1.840177297592163,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q023,single,"Ports were Kerrowan's largest customer group in 2025, accounting for 47% of Group revenue.",0.0,663.0,2.224459648132324,0.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q024,single,The report does not say.,0.0,619.25,1.4113001823425293,0.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q025,single,North America grew fastest with revenue up 24%.,1.0,593.0,1.4724969863891602,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q026,single,34 engineers.,1.0,630.25,1.168398141860962,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q027,single,1.8%,1.0,709.0,1.3326025009155273,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q028,single,Kerrowan buys components from around 640 suppliers in 23 countries.,1.0,657.5,1.814695119857788,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q029,single,Varentis Cells supplies the lithium battery packs for Tidewatch buoys.,1.0,798.75,2.001858949661255,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q030,single,The report does not say how much freight costs changed in 2025.,0.0,509.5,1.698930263519287,1.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q031,single,The report does not say how many supplier audits Kerrowan carried out in 2025 or how many were unannounced.,0.0,586.25,2.163067102432251,0.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q032,single,£3.9m,1.0,557.0,1.150498628616333,1.0,1.0,0.5,1.0
+auto-merging 2048/512/128,Q033,single,"The report does not say how many developers work in Kerrowan's Edinburgh software studio; it only lists ""Software operations and support"" with 71 employees but does not specify their location.",0.0,944.5,2.853041648864746,1.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q034,single,"The report does not say by how much the Tidewatch T5's on-board analytics reduced satellite data costs for pilot customers; it only states that the feature ""cuts the volume of data that has to be transmitted.""",0.0,634.25,3.075432062149048,1.0,1.0,1.0,0.375
+auto-merging 2048/512/128,Q035,single,It correctly identified 91% of obstacles larger than one metre.,1.0,638.25,1.6149787902832031,1.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q036,single,Voluntary staff turnover was 8.7% in 2025.,1.0,703.75,1.8433854579925537,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q037,single,38%,1.0,686.75,1.1486074924468994,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q038,single,Kerrowan's median gender pay gap in the United Kingdom was 11.2%.,1.0,850.5,2.126279830932617,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q039,single,The report does not say.,0.0,637.25,1.3952908515930176,0.0,0.0,1.0,0.125
+auto-merging 2048/512/128,Q040,single,The report does not say.,0.0,693.25,1.290348768234253,1.0,0.0,0.5,0.0
+auto-merging 2048/512/128,Q041,single,214 returned buoy hulls were refurbished in 2025.,1.0,605.5,1.6781752109527588,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q042,single,0.42,1.0,608.0,1.3275699615478516,1.0,1.0,0.0,1.0
+auto-merging 2048/512/128,Q043,single,Buoys may not be deployed or recovered when waves exceed 2.5 metres unless the vessel has a dedicated launch and recovery system.,1.0,702.75,2.1855106353759766,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q044,single,14.9%,1.0,601.0,1.374171257019043,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q045,single,The report does not say.,0.0,694.5,1.416886568069458,1.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q046,single,34.1 pence,1.0,674.75,1.3536376953125,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q047,single,The report does not say.,0.0,587.75,1.2871520519256592,0.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q048,single,"The report does not say what share of Kerrowan's revenue is earned outside the United Kingdom. It only states that the company sells to customers in 41 countries and provides a breakdown of revenue by customer group (ports, offshore energy, research and government).",0.0,678.75,3.1822288036346436,0.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q049,single,The report does not say.,0.0,687.0,1.3128180503845215,1.0,0.0,0.5,0.0
+auto-merging 2048/512/128,Q050,single,The ratio was 34 to 1.,1.0,580.0,1.5919897556304932,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q051,single,The report does not say who Kerrowan's auditor is or since when they have been appointed.,0.0,855.25,2.144106864929199,1.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q052,single,The report does not say under what ticker Kerrowan's shares are listed; it only states that they were listed on the main market of the London Stock Exchange in 2006.,0.0,687.75,2.672881603240967,1.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q053,table,The report does not say. It only provides the total Group revenue for the full year 2025 (£184.6m) and does not break down the figures by quarter.,0.0,614.0,2.6905224323272705,0.0,1.0,1.0,0.25
+auto-merging 2048/512/128,Q054,table,12.8%,1.0,585.75,1.3869636058807373,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q055,table,£8.0m,1.0,720.25,1.3906660079956055,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q056,table,"£29,800",1.0,656.75,1.4909584522247314,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q057,table,214,1.0,741.75,1.3060173988342285,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q058,table,The report does not say.,0.0,732.5,1.6308891773223877,0.0,0.0,0.5,0.0
+auto-merging 2048/512/128,Q059,table,The report does not say what Kerrowan's estimated Scope 3 emissions were in 2025.,0.0,620.0,2.1230955123901367,0.0,0.0,1.0,0.0
+auto-merging 2048/512/128,Q060,table,412,1.0,674.0,1.3103694915771484,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q061,table,"The report does not say how much tax Kerrowan paid in 2025, as there is no cash flow table or specific mention of tax payments in the provided context.",0.0,557.0,2.525777578353882,0.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q062,table,4,1.0,716.0,1.2151875495910645,1.0,0.0,1.0,1.0
+auto-merging 2048/512/128,Q063,table,£468k,1.0,633.5,1.3504559993743896,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q064,table,The report does not say.,0.0,614.0,1.3289837837219238,1.0,1.0,1.0,0.375
+auto-merging 2048/512/128,Q065,table,The report does not say.,0.0,614.0,1.3929450511932373,0.0,1.0,1.0,0.375
+auto-merging 2048/512/128,Q066,table,The report does not say.,0.0,659.25,1.4193177223205566,0.0,1.0,1.0,0.25
+auto-merging 2048/512/128,Q067,table,£45m,1.0,507.0,1.190483808517456,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q068,table,"The principal risk described as ""dependence on key suppliers and components"" is **Supply chain**, and it was rated as **decreased** in 2025.",1.0,794.5,2.586282253265381,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q069,near_duplicate,"2,140",1.0,652.5,1.4285171031951904,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q070,near_duplicate,860,1.0,652.5,1.348902940750122,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q071,near_duplicate,"£18,500",1.0,652.5,1.4804327487945557,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q072,near_duplicate,"£24,900",1.0,628.0,1.4989886283874512,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q073,near_duplicate,The maximum working range of the Kestrel 400 is 400 metres on each side of the towfish.,1.0,544.25,2.0192182064056396,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q074,near_duplicate,650 metres per side.,1.0,571.0,1.2717864513397217,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q075,near_duplicate,"1,020 units",1.0,585.5,1.247758388519287,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q076,near_duplicate,445 units,1.0,585.5,1.233588457107544,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q077,near_duplicate,"The Port Lennox factory covers 21,000 square metres and opened in 1998.",1.0,700.0,2.0161664485931396,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q078,near_duplicate,"The Port Lenham factory covers 9,500 square metres and was acquired in 2019.",1.0,842.5,2.2632205486297607,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q079,near_duplicate,The Port Lenham factory assembles most of the Kestrel sonar range.,0.0,853.75,1.8585221767425537,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q080,near_duplicate,£41.6m,1.0,553.5,1.4083144664764404,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q081,near_duplicate,£41.2m,1.0,545.5,1.4729909896850586,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q082,near_duplicate,The report does not say.,0.0,744.0,1.4333019256591797,0.0,0.0,1.0,0.0
+auto-merging 2048/512/128,Q083,near_duplicate,The report does not say what the Harbourline software segment's operating margin was in 2024; it only states that the margin improved from 13.9% to 15.0% (presumably between 2024 and 2025) and that it was 17.4% in 2025.,1.0,627.75,4.252103805541992,0.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q084,near_duplicate,12.6%,1.0,559.25,1.2684152126312256,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q085,near_duplicate,3.8 pence,1.0,658.5,1.3734838962554932,1.0,1.0,0.5,1.0
+auto-merging 2048/512/128,Q086,near_duplicate,9.8 pence,1.0,605.75,1.3691983222961426,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q087,multihop_section,"3,000",1.0,652.5,1.4086930751800537,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q088,multihop_section,"3,310",1.0,652.5,1.4354405403137207,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q089,multihop_section,"£6,400",1.0,652.75,1.4504759311676025,1.0,0.0,1.0,1.0
+auto-merging 2048/512/128,Q090,multihop_section,"The report does not say how many Kestrel Deep units were shipped in 2025 (as it is a future project due for field trials), but it states that 1,020 Kestrel 400 units were shipped. Therefore, the total number of units shipped across both models cannot be determined from the provided text.",0.5,607.5,3.972477912902832,0.0,1.0,0.0,0.5
+auto-merging 2048/512/128,Q091,multihop_section,The Kestrel 400X can see 250 metres further per side than the Kestrel 400 (650 metres minus 400 metres).,1.0,518.75,2.534883737564087,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q092,multihop_section,"£136.2m
+
+(Calculated by subtracting the £38.4m of recurring revenue from the total full-year revenue of £184.6m).",0.0,492.5,2.491692543029785,0.0,1.0,1.0,0.75
+auto-merging 2048/512/128,Q093,multihop_section,The number of Harbourline port customers grew by 44 (from 168 to 212).,1.0,558.75,2.1567718982696533,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q094,multihop_section,"The new Tidewatch T5 assembly line raised Port Lennox's annual buoy capacity from 3,000 to 4,200 units, adding a total of 1,200 units.",1.0,902.5,3.157925605773926,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q095,multihop_section,61%,1.0,593.75,1.2470972537994385,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q096,multihop_section,The order backlog grew by £16.3m during 2025 (from £81.0m to £97.3m).,1.0,658.0,2.4298393726348877,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q097,multihop_section,698,1.0,615.25,1.1730890274047852,1.0,0.0,1.0,1.0
+auto-merging 2048/512/128,Q098,multihop_section,740 tonnes,1.0,792.5,1.4909684658050537,1.0,0.0,1.0,1.0
+auto-merging 2048/512/128,Q099,multihop_section,"Revenue grew from £41.2m in the first quarter to £52.2m in the fourth quarter of 2025, an increase of £11.0m.",1.0,750.75,3.038144111633301,1.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q100,multihop_section,The £22.3m increase in revenue was split into approximately £7.1m from higher prices and about £15.2m from higher volumes and a better product mix.,1.0,567.25,2.6910626888275146,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q101,multihop_section,"Harbourline software had the highest operating margin in 2025 at 17.4%, improving from 12.8% in 2024.",1.0,634.25,2.670013904571533,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q102,multihop_section,"The interim dividend was 3.8 pence per share (paid in October 2025), the final dividend recommended by the Board was 7.6 pence per share, and the total dividend for the year was 11.4 pence per share.",1.0,729.0,3.4951634407043457,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q103,multihop_section,"Net cash increased by £9.4m in 2025, reaching £38.5m at the year end.",1.0,732.0,2.466982126235962,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q104,multihop_section,"Priya Raman's 2025 pay consisted of a salary of £355k and an annual bonus of £290k, with no long-term incentive vesting.",1.0,630.75,2.7664072513580322,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q105,multihop_section,"A non-executive director who chairs a committee receives £70,000 (£58,000 base fee + £12,000 additional fee).",1.0,857.75,2.8095405101776123,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q106,multihop_section,"Between 2024 and 2025, the number of lost time injuries decreased from 7 to 5, while the number of near misses reported increased by 39% (rising from 297 to 412).",1.0,667.25,3.3750922679901123,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q107,cross_section,"The Tidewatch T5 is built at the Port Lenham factory in Cornwall, and 310 units were shipped in 2025.",1.0,783.75,2.6257550716400146,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q108,cross_section,"The report states that research and development spending rose to £16.2m in 2025, but it does not name the specific person who leads the research and development department.",0.5,613.25,2.8689897060394287,1.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q109,cross_section,"The report does not say which company Kerrowan acquired to create the Kestrel line, nor does it state how much revenue the Kestrel line generated in 2025. It only mentions that Daniel Achterberg joined as head of the Kestrel business in 2015 and that Group revenue was £184.6m.",0.0,686.5,4.1942620277404785,0.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q110,cross_section,"The Rotterdam service centre opened in June 2025 and carried out more than 1,100 service visits in its first six months.",1.0,644.5,2.3259193897247314,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q111,cross_section,"The Course 2028 operating margin target is 17%. The 2025 actual margin was 14.7%, which is 2.3 percentage points below the target.",0.5,676.0,2.849730968475342,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q112,cross_section,"Kerrowan's guidance for 2026 revenue is between £200m and £210m, while the Course 2028 revenue target is £260m.",0.5,693.75,2.9778268337249756,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q113,cross_section,"Henrik Solberg chairs the Audit and Risk Committee. Following the external review of Board effectiveness, the Board changed the reporting frequency so that the Audit and Risk Committee now receives a cyber security report at every meeting rather than twice a year.",1.0,726.25,2.933863878250122,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q114,cross_section,"Priya Raman succeeded Graham Leckie as Chief Financial Officer. Before joining Kerrowan, she was the group finance director of a listed engineering company.",1.0,683.25,2.3458101749420166,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q115,cross_section,"The supplier creating a battery concentration risk is Varentis Cells. Kerrowan responded by qualifying a second battery supplier in South Korea during 2025, which is expected to provide about a quarter of the packs from 2026.",1.0,921.0,3.2593157291412354,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q116,cross_section,"The Kestrel 400X firmware recall caused Q1 revenue to be the weakest of the year because shipments were paused in March, and it led to an increased risk rating for product quality.",1.0,524.0,2.563153028488159,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q117,cross_section,"Brightwater Acoustics is based in Halifax, Nova Scotia, Canada. Its acquisition relates to Course 2028 by providing a base for the North American service centre planned under that strategy.",1.0,723.75,2.729287624359131,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q118,cross_section,"Ports accounted for 47% of Group revenue, which is the largest customer group; however, the report does not explicitly state how ""customer concentration"" is rated as a risk (it only rates the risk of an attack on the platform as increased and supply chain risk as decreased).",0.0,687.5,3.3375301361083984,0.0,1.0,0.0,0.5
+auto-merging 2048/512/128,Q119,cross_section,"The operating profit target for full annual bonus payout was £26.5m, and the Group exceeded this target (the actual achieved figure is not specified in the text).",0.5,679.25,2.685964584350586,0.0,1.0,1.0,0.75
+auto-merging 2048/512/128,Q120,cross_section,"The 2028 target for renewable electricity in own operations is 100%, and the share achieved in 2025 was 71%.",1.0,649.5,2.566718339920044,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q121,cross_section,"The 2026 annual general meeting will be held on 7 May 2026 at the Port Lennox Maritime Hall, and the final dividend will be paid on 22 May 2026.",1.0,621.25,2.9756410121917725,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q122,cross_section,"In 2025, capital expenditure was £14.9m. For 2026, it is expected to be between £12m and £14m.",0.5,559.75,2.7300658226013184,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q123,cross_section,"At the end of 2025, there were 212 Harbourline port customers. The report does not state the specific growth in annual recurring revenue expected for 2026; it only notes that Harbourline software is expected to see a rise of more than 25% (driven by the Channel Depth Assurance module and T5 customers) and that total Group annual recurring revenue targets are set for 2028.",1.0,434.25,4.632169246673584,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q124,cross_section,"Kestrel Deep is a future version of the sonar designed for depths beyond 2,000 metres, and it is due to reach field trials in 2026.",1.0,671.5,2.618746280670166,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q125,cross_section,"Over the five years to 2025, revenue grew at a compound annual rate of 11.7%. In 2025, the operating margin was 14.7%, an increase from 13% in 2024.",0.5,569.75,3.459285020828247,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q126,cross_section,"Kwame Mensah advises the Board on Harbourline; however, the context does not state the platform's 2025 availability.",0.5,678.0,2.3859236240386963,0.0,1.0,1.0,0.75
+auto-merging 2048/512/128,Q127,summary,"The report mentions ""Pillar three"" (Service close to the customer) and ""Pillar four"" (Responsible operations), but it does not name or describe Pillar one or Pillar two. Therefore, based strictly on the provided text, only two of the four pillars are identified:
+1. Service close to the customer
+2. Responsible operations",0.5,772.5,4.148061990737915,0.0,1.0,1.0,0.75
+auto-merging 2048/512/128,Q128,summary,"Based on the text provided, the report does not explicitly state which three specific things the Chief Executive singled out as ""standing out"" in 2025. The only items mentioned regarding 2025 performance are:
+1. Group revenue rose to £184.6m.
+2. More than one in seven pounds of revenue came from customers buying hardware and Harbourline software together.
+3. The arrival of Priya Raman (as an external talent).
+
+(Note: While the text mentions the integration of Brightwater Acoustics and growing software activities, these are described as future goals for ""the year ahead,"" not things that stood out in 2025.)",0.0,710.0,6.989307165145874,0.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q129,summary,"The Tidewatch T5 is the first buoy built around Harbourline; it sends data over satellite and mobile networks, updates its own software remotely, and can run small analytics programs on board to cut the volume of data that has to be transmitted.",1.0,835.0,3.3609628677368164,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q130,summary,"Kerrowan manages supply chain risks by shortening chip lead times, qualifying a second battery supplier (while still depending on Varentis Cells for most packs), and requiring all new suppliers to sign the Kerrowan Supplier Code covering labour standards, anti-bribery, and environmental management.",0.3333333333333333,635.5,3.357351303100586,1.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q131,summary,Total Scope 1 and 2 emissions fell because of a larger share of renewable electricity and the replacement of 18 diesel service vans with electric vehicles.,1.0,672.25,2.428250551223755,1.0,1.0,0.5,1.0
+auto-merging 2048/512/128,Q132,summary,"The provided text states that the Group achieved a ""meaningfully higher margin"" in 2025 and notes an improvement in the outlook for 2026 due to Harbourline growing and Tidewatch T5 reaching full efficiency. However, the report **does not explicitly state** the specific reasons why the operating margin improved in 2025.",0.0,654.0,4.131418943405151,0.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q133,summary,"After the Kestrel 400X firmware fault, Kerrowan took the following steps:
+1. Recalled 37 units for an on-site update.
+2. Added an extra stage of field testing before releasing any new firmware.
+3. Moved outbound logistics from air freight to road and sea wherever possible to reduce emissions.
+4. Ensured all new suppliers sign the Kerrowan Supplier Code covering labour standards, anti-bribery, and environmental management.",0.5,535.75,4.919314861297607,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q134,summary,"The report does not state that Kerrowan made any specific changes to its health and safety practices in 2025; it only reports performance metrics (no fatalities, improved lost time injury frequency rate) and reiterates that safety remains the first agenda item for every meeting.",0.0,884.75,3.605901002883911,0.0,1.0,1.0,0.375
+auto-merging 2048/512/128,Q135,summary,"The report does not specify the individual expectations for each of the three segments; it only states generally that there is ""good momentum in all three segments.""",0.0,597.25,2.3278636932373047,0.0,1.0,1.0,0.375
+auto-merging 2048/512/128,Q136,summary,"From 2026, half of each long-term incentive award will depend on Course 2028 revenue and margin targets, a quarter on total shareholder return compared with a group of engineering companies, and a quarter on emissions reduction and Harbourline growth.",1.0,721.25,3.299057960510254,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q137,summary,The report does not say how Kerrowan manages foreign exchange risk.,0.0,632.5,1.5174341201782227,0.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q138,summary,"In 2025, the Rotterdam service centre opened in June as a leased facility employing 34 engineers. It extended the Group's ""Service close to the customer"" pillar by serving customers in North America and Asia, while also contributing to the overall workforce growth alongside research and development and the Port Lenham factory.",0.3333333333333333,617.75,3.567826986312866,0.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q139,superseded,"Kerrowan employed 1,262 people at 31 December 2025.",1.0,916.5,2.281172275543213,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q140,superseded,"The report does not state the number of employees at the beginning of 2025; it only provides the preliminary year-end count (1,240) and the final corrected year-end count (1,262). Therefore, the exact growth figure for the year cannot be calculated from the provided text.",0.5,853.25,4.007461786270142,0.0,1.0,1.0,0.75
+auto-merging 2048/512/128,Q141,superseded,Kerrowan was granted 14 new patents in 2025.,0.0,668.5,1.9630179405212402,0.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q142,superseded,97 granted patents.,0.0,691.0,1.2890269756317139,0.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q143,superseded,The report does not say.,0.0,614.0,1.3515450954437256,0.0,0.0,1.0,0.5
+auto-merging 2048/512/128,Q144,superseded,"The report does not explicitly state the specific reason why the employee count changed between the preliminary figure of 1,240 and the final figure of 1,262; it only notes that the final count was updated after other parts of the report were prepared.",0.0,598.5,3.1775741577148438,1.0,1.0,1.0,1.0
+auto-merging 2048/512/128,Q145,unanswerable,The report does not say.,,621.75,1.3505046367645264,1.0,0.0,1.0,0.125
+auto-merging 2048/512/128,Q146,unanswerable,The report does not say what Kerrowan's share price was at the end of 2025.,,623.0,1.9801256656646729,1.0,1.0,1.0,0.5
+auto-merging 2048/512/128,Q147,unanswerable,The report does not say.,,604.5,1.330594778060913,1.0,0.0,1.0,0.0
+auto-merging 2048/512/128,Q148,unanswerable,The report does not say how much Kerrowan spent on advertising in 2025.,,601.5,1.8996708393096924,1.0,1.0,1.0,0.0
+auto-merging 2048/512/128,Q149,unanswerable,The report does not say what the design life of the Tidewatch T5 is. (It only states that the Tidewatch T3 has a design life of 15 years.),,681.5,2.812059164047241,1.0,1.0,1.0,0.25
+auto-merging 2048/512/128,Q150,unanswerable,The report does not say how many patent applications Kerrowan filed in 2025; it only states that the company was granted 14 new patents that year.,,690.0,2.471015214920044,1.0,1.0,1.0,0.75
+auto-merging 2048/512/128,Q151,unanswerable,The report does not say.,,549.25,1.2158102989196777,1.0,0.0,1.0,0.0
+auto-merging 2048/512/128,Q152,unanswerable,The report does not say who will lead the new North American service centre.,,729.25,1.6371703147888184,1.0,1.0,1.0,0.25
+auto-merging 2048/512/128,Q153,unanswerable,The report does not say how much a Harbourline Essentials subscription costs; it only states that customers pay an annual subscription based on the number of connected assets.,,621.75,2.306581974029541,1.0,1.0,1.0,0.375
+auto-merging 2048/512/128,Q154,unanswerable,The report does not say.,,623.0,1.26397705078125,1.0,0.0,1.0,0.0
+full context,Q001,single,Kerrowan Marine Systems was founded in 1994.,1.0,15386.0,18.917678594589233,1.0,,,
+full context,Q002,single,Kerrowan Marine Systems was founded by Isla Kerrowan and Tomas Ferreira.,1.0,15386.0,2.5116870403289795,1.0,,,
+full context,Q003,single,"Kerrowan's first commercial product was the Tidewatch T1 buoy, which went on sale in 1997.",1.0,15386.0,2.954495429992676,1.0,,,
+full context,Q004,single,Kerrowan listed its shares on the main market of the London Stock Exchange in 2006.,1.0,15386.0,2.7556979656219482,1.0,,,
+full context,Q005,single,"Kerrowan bought Sondera Acoustics in 2012, which was based in Bergen, Norway.",1.0,15386.0,2.836700677871704,1.0,,,
+full context,Q006,single,Harbourline was launched in 2018.,1.0,15386.0,2.290302038192749,1.0,,,
+full context,Q007,single,Harbourline moved to a paid subscription model in 2020.,1.0,15386.0,2.448746681213379,1.0,,,
+full context,Q008,single,Kerrowan sells to customers in 41 countries.,1.0,15386.0,2.343935966491699,1.0,,,
+full context,Q009,single,Margaret Oduya chairs the Kerrowan Board.,1.0,15386.0,2.3132622241973877,1.0,,,
+full context,Q010,single,The Board met eleven times during the year.,1.0,15386.0,2.1810293197631836,1.0,,,
+full context,Q011,single,Daniel Achterberg became Chief Executive in April 2021.,1.0,15386.0,2.4526164531707764,1.0,,,
+full context,Q012,single,"37 units were recalled, and the episode cost roughly £0.6m.",1.0,15386.0,2.527310371398926,1.0,,,
+full context,Q013,single,The Rotterdam service centre cut average repair turnaround for European customers from 19 days to 8 days.,1.0,15386.0,2.7124881744384766,1.0,,,
+full context,Q014,single,The earlier Horizon 2025 plan had a revenue target of £175m.,1.0,15386.0,2.6541929244995117,1.0,,,
+full context,Q015,single,Kerrowan has set a limit of net debt of no more than one times operating profit for any acquisition.,1.0,15386.0,2.7755563259124756,1.0,,,
+full context,Q016,single,The design life of the Tidewatch T3 is 15 years.,1.0,15386.0,2.4740536212921143,1.0,,,
+full context,Q017,single,Up to 22 metres.,1.0,15386.0,2.1052939891815186,1.0,,,
+full context,Q018,single,Until 2030.,1.0,15386.0,2.1043570041656494,1.0,,,
+full context,Q019,single,Buoy pricing rose by an average of 4% in 2025.,1.0,15386.0,2.572767972946167,1.0,,,
+full context,Q020,single,108%,1.0,15386.0,1.9614686965942383,1.0,,,
+full context,Q021,single,83 ports had subscribed to Channel Depth Assurance by the end of 2025.,1.0,15386.0,2.6007657051086426,1.0,,,
+full context,Q022,single,The Harbourline platform achieved an availability of 99.96% in 2025.,1.0,15386.0,2.732727527618408,1.0,,,
+full context,Q023,single,"Kerrowan's largest customer in 2025 was the Nordhavn Port Authority in Denmark, which accounted for 9% of Group revenue.",1.0,15386.0,3.1177682876586914,1.0,,,
+full context,Q024,single,31%,1.0,15386.0,1.9657351970672607,1.0,,,
+full context,Q025,single,"North America grew fastest, with revenue up 24%.",1.0,15386.0,2.3087949752807617,1.0,,,
+full context,Q026,single,34 engineers.,1.0,15386.0,2.0018343925476074,1.0,,,
+full context,Q027,single,1.8%,1.0,15386.0,1.9819636344909668,1.0,,,
+full context,Q028,single,Kerrowan buys components from around 640 suppliers in 23 countries.,1.0,15386.0,2.614689350128174,1.0,,,
+full context,Q029,single,Varentis Cells supplies the lithium battery packs for Tidewatch buoys.,1.0,15386.0,2.5122647285461426,1.0,,,
+full context,Q030,single,Freight costs fell by 11% in 2025.,1.0,15386.0,2.48948335647583,1.0,,,
+full context,Q031,single,"In 2025, Kerrowan carried out 48 supplier audits, of which 9 were unannounced.",1.0,15386.0,2.8972251415252686,1.0,,,
+full context,Q032,single,£3.9m,1.0,15386.0,2.0008597373962402,1.0,,,
+full context,Q033,single,27 developers,1.0,15386.0,1.9679419994354248,1.0,,,
+full context,Q034,single,About 60%.,1.0,15386.0,2.0452616214752197,1.0,,,
+full context,Q035,single,"In internal tests, automatic object recognition correctly identified 91% of obstacles larger than one metre.",1.0,15386.0,2.6537318229675293,1.0,,,
+full context,Q036,single,Voluntary staff turnover was 8.7% in 2025.,1.0,15386.0,2.489241123199463,1.0,,,
+full context,Q037,single,38%,1.0,15386.0,1.946141242980957,1.0,,,
+full context,Q038,single,The median gender pay gap in the United Kingdom was 11.2%.,1.0,15386.0,2.470174551010132,1.0,,,
+full context,Q039,single,71%,1.0,15386.0,1.9475312232971191,1.0,,,
+full context,Q040,single,By 2032.,1.0,15386.0,2.0970301628112793,1.0,,,
+full context,Q041,single,214,1.0,15386.0,1.9499304294586182,1.0,,,
+full context,Q042,single,The lost time injury frequency rate in 2025 was 0.42.,1.0,15386.0,2.5939512252807617,1.0,,,
+full context,Q043,single,"Buoys may not be deployed or recovered from a vessel when waves exceed 2.5 metres, unless the vessel has a dedicated launch and recovery system.",1.0,15386.0,3.1166601181030273,1.0,,,
+full context,Q044,single,14.9%,1.0,15386.0,2.0438923835754395,1.0,,,
+full context,Q045,single,The Group's effective tax rate in 2025 was 29.1%.,1.0,15386.0,2.59097957611084,1.0,,,
+full context,Q046,single,34.1 pence,1.0,15386.0,2.0701420307159424,1.0,,,
+full context,Q047,single,Kerrowan has an undrawn revolving credit facility of £50m which runs until 2029.,1.0,15386.0,2.835686206817627,1.0,,,
+full context,Q048,single,About 78% of Kerrowan's revenue is earned outside the United Kingdom.,1.0,15386.0,2.5508246421813965,1.0,,,
+full context,Q049,single,"The Chair receives an annual fee of £185,000.",1.0,15386.0,2.4667530059814453,1.0,,,
+full context,Q050,single,The ratio was 34 to 1.,1.0,15386.0,2.2655835151672363,1.0,,,
+full context,Q051,single,"Kerrowan's auditor is Harcourt & Vale LLP, which has audited the accounts since 2017.",1.0,15386.0,2.880826711654663,1.0,,,
+full context,Q052,single,KRWN,1.0,15386.0,1.914400577545166,1.0,,,
+full context,Q053,table,£52.2m,1.0,15386.0,2.066929817199707,1.0,,,
+full context,Q054,table,12.8%,1.0,15386.0,2.0239784717559814,1.0,,,
+full context,Q055,table,£8.0m,1.0,15386.0,2.0438411235809326,1.0,,,
+full context,Q056,table,"£29,800",1.0,15386.0,2.1077640056610107,1.0,,,
+full context,Q057,table,"According to the preliminary count used for the People and culture section on page 13, there were 214 employees in service and field engineering at the end of 2025. (Note: The final employee count corrected on page 22 is 1,262, but the specific breakdown by area remains based on the preliminary figure provided in that section).",1.0,15386.0,5.003849506378174,1.0,,,
+full context,Q058,table,"Kerrowan's Scope 2 emissions in 2025 were 2,940 tonnes CO2e.",1.0,15386.0,2.9335482120513916,1.0,,,
+full context,Q059,table,"61,200 tonnes CO2e",1.0,15386.0,2.2466697692871094,1.0,,,
+full context,Q060,table,412,1.0,15386.0,1.9487330913543701,1.0,,,
+full context,Q061,table,£7.1m,1.0,15386.0,2.023218870162964,1.0,,,
+full context,Q062,table,4,1.0,15386.0,1.8663866519927979,1.0,,,
+full context,Q063,table,£468k,1.0,15386.0,2.0067856311798096,1.0,,,
+full context,Q064,table,£131.9m,1.0,15386.0,2.0876641273498535,1.0,,,
+full context,Q065,table,12.4%,1.0,15386.0,2.0008225440979004,1.0,,,
+full context,Q066,table,16 April 2026,1.0,15386.0,2.144843816757202,1.0,,,
+full context,Q067,table,£45m,1.0,15386.0,1.9799108505249023,1.0,,,
+full context,Q068,table,"The principal risk described as ""dependence on key suppliers and components"" is **Supply chain**. In 2025, this risk was rated as **decreased**, primarily because chip lead times shortened and a second battery supplier was qualified.",1.0,15386.0,3.808804750442505,1.0,,,
+full context,Q069,near_duplicate,"2,140 units",1.0,15386.0,2.0626635551452637,1.0,,,
+full context,Q070,near_duplicate,860,1.0,15386.0,1.9489152431488037,1.0,,,
+full context,Q071,near_duplicate,"£18,500",1.0,15386.0,2.125234603881836,1.0,,,
+full context,Q072,near_duplicate,"£24,900",1.0,15386.0,2.1250712871551514,1.0,,,
+full context,Q073,near_duplicate,The maximum working range of the Kestrel 400 is 400 metres on each side of the towfish.,1.0,15386.0,2.913134813308716,1.0,,,
+full context,Q074,near_duplicate,650 metres per side.,1.0,15386.0,2.1227383613586426,1.0,,,
+full context,Q075,near_duplicate,"1,020 units",1.0,15386.0,2.060807466506958,1.0,,,
+full context,Q076,near_duplicate,445 units,1.0,15386.0,1.9673068523406982,1.0,,,
+full context,Q077,near_duplicate,"The Port Lennox factory covers 21,000 square metres and opened in 1998.",1.0,15386.0,2.7793161869049072,1.0,,,
+full context,Q078,near_duplicate,"The Port Lenham factory covers 9,500 square metres and was acquired in 2019.",1.0,15386.0,2.7822511196136475,1.0,,,
+full context,Q079,near_duplicate,The Port Lenham factory assembles the Kestrel sonar range.,1.0,15386.0,2.430081605911255,1.0,,,
+full context,Q080,near_duplicate,The report does not state the revenue for the third quarter of 2024; it only provides the full-year 2024 revenue (£162.3m) and the quarterly breakdown for 2025.,1.0,15386.0,3.8006906509399414,0.0,,,
+full context,Q081,near_duplicate,£41.2m,1.0,15386.0,2.0822861194610596,1.0,,,
+full context,Q082,near_duplicate,"2,180 tonnes CO2e",1.0,15386.0,2.1874146461486816,1.0,,,
+full context,Q083,near_duplicate,12.8%,1.0,15386.0,2.0209476947784424,1.0,,,
+full context,Q084,near_duplicate,12.6%,1.0,15386.0,2.0261173248291016,1.0,,,
+full context,Q085,near_duplicate,3.8 pence per share.,1.0,15386.0,2.134279489517212,1.0,,,
+full context,Q086,near_duplicate,9.8 pence,1.0,15386.0,2.0226056575775146,1.0,,,
+full context,Q087,multihop_section,"2,140 Tidewatch T3 units and 860 Tidewatch T3-S units were shipped in 2025, making a total of 3,000 units.",1.0,15386.0,3.608820676803589,1.0,,,
+full context,Q088,multihop_section,"3,310 units (2,140 Tidewatch T3 + 860 Tidewatch T3-S + 310 Tidewatch T5).",1.0,15386.0,3.423098087310791,1.0,,,
+full context,Q089,multihop_section,"£6,400
+
+(The Tidewatch T3-S list price was £24,900 and the Tidewatch T3 list price was £18,500.)",1.0,15386.0,3.5519766807556152,1.0,,,
+full context,Q090,multihop_section,"1,465 units (1,020 Kestrel 400 and 445 Kestrel 400X).",1.0,15386.0,3.1591994762420654,1.0,,,
+full context,Q091,multihop_section,The Kestrel 400X can see 250 metres further per side than the Kestrel 400 (650 metres vs 400 metres).,1.0,15386.0,3.441593647003174,1.0,,,
+full context,Q092,multihop_section,"£4.1m
+
+(Calculated from total Harbourline revenue of £26.9m minus recurring subscription revenue of £22.8m, as stated on page 8).",1.0,15386.0,3.4382646083831787,1.0,,,
+full context,Q093,multihop_section,The number of Harbourline port customers grew by 44 (from 168 to 212) in 2025.,1.0,15386.0,3.081481695175171,1.0,,,
+full context,Q094,multihop_section,"The new T5 assembly line raised Port Lennox's annual buoy capacity from 3,000 to 4,200 units, adding a capacity of 1,200 units.",1.0,15386.0,3.524437665939331,1.0,,,
+full context,Q095,multihop_section,61% (22% from the United Kingdom and 39% from the rest of Europe).,1.0,15386.0,2.7005441188812256,1.0,,,
+full context,Q096,multihop_section,The order backlog grew by £16.3m during 2025 (from £81.0m in 2024 to £97.3m at year-end).,1.0,15386.0,3.568054437637329,1.0,,,
+full context,Q097,multihop_section,"According to the preliminary count used for the People and culture section on page 13, there were 512 employees in manufacturing and quality and 186 in research and development. Therefore, a total of **698** employees worked in these two areas at the end of 2025 based on that preliminary figure.",1.0,15386.0,4.682792901992798,1.0,,,
+full context,Q098,multihop_section,"740 tonnes (from 5,610 tonnes in 2024 to 4,870 tonnes in 2025).",1.0,15386.0,3.2199435234069824,1.0,,,
+full context,Q099,multihop_section,"Revenue grew from £41.2m in the first quarter to £52.2m in the fourth quarter, an increase of £11.0m.",1.0,15386.0,3.2636053562164307,1.0,,,
+full context,Q100,multihop_section,"Of the £22.3m increase in revenue, about £7.1m came from higher prices and about £15.2m came from higher volumes and a better product mix.",1.0,15386.0,3.442774772644043,1.0,,,
+full context,Q101,multihop_section,"Harbourline software had the highest operating margin in 2025 at 17.4%, which improved by 4.6 percentage points from 12.8% in 2024.",1.0,15386.0,3.6586809158325195,1.0,,,
+full context,Q102,multihop_section,"The interim dividend was 3.8 pence per share, the final dividend is recommended at 7.6 pence per share, making the total dividend for the year 11.4 pence per share.",1.0,15386.0,3.6420135498046875,1.0,,,
+full context,Q103,multihop_section,"Net cash increased by £9.4m in 2025, reaching £38.5m at the year end.",1.0,15386.0,2.9548184871673584,1.0,,,
+full context,Q104,multihop_section,"Priya Raman's 2025 pay consisted of a salary of £355k, an annual bonus of £290k, and no long-term incentive. Her total remuneration for the eleven months she was employed in 2025 was £0.65m.",1.0,15386.0,4.377028465270996,1.0,,,
+full context,Q105,multihop_section,"A non-executive director who chairs a committee receives an additional £12,000 on top of the base fee of £58,000.",1.0,15386.0,3.2174439430236816,1.0,,,
+full context,Q106,multihop_section,"Between 2024 and 2025, the number of lost time injuries decreased from 7 to 5, while the number of near misses reported increased from 297 to 412.",1.0,15386.0,3.726219892501831,1.0,,,
+full context,Q107,cross_section,"The Tidewatch T5 is built at the Port Lennox factory, and 310 units were shipped in 2025.",1.0,15386.0,3.0380780696868896,1.0,,,
+full context,Q108,cross_section,"Kerrowan's research and development is led by Chief Technology Officer Sofia Lindqvist, and the spend on R&D in 2025 was £16.2m.",1.0,15386.0,3.4058823585510254,1.0,,,
+full context,Q109,cross_section,"Kerrowan acquired Sondera Acoustics to create the Kestrel line, and Kestrel generated £61.3m of revenue in 2025.",1.0,15386.0,3.3881547451019287,1.0,,,
+full context,Q110,cross_section,"The Rotterdam service centre opened in June 2025 and carried out more than 1,100 service visits in its first six months.",1.0,15386.0,3.0753228664398193,1.0,,,
+full context,Q111,cross_section,The Course 2028 operating margin target is 17%. The 2025 margin of 14.7% was 2.3 percentage points below this target.,1.0,15386.0,3.4537811279296875,1.0,,,
+full context,Q112,cross_section,Kerrowan's revenue guidance for 2026 is between £200m and £210m. The Course 2028 revenue target for 2028 is £260m.,1.0,15386.0,3.8061013221740723,1.0,,,
+full context,Q113,cross_section,"Henrik Solberg chairs the Audit and Risk Committee. Following the external review of Board effectiveness, the Board changed the frequency of cyber security reporting so that the committee now receives a report at every meeting rather than twice a year.",1.0,15386.0,3.6465933322906494,1.0,,,
+full context,Q114,cross_section,"Priya Raman succeeded Graham Leckie as Chief Financial Officer. Before joining Kerrowan, she was the group finance director of a listed engineering company.",1.0,15386.0,3.1205554008483887,1.0,,,
+full context,Q115,cross_section,"The supplier creating a battery concentration risk is **Varentis Cells** (based in Poland), which supplies most of the lithium battery packs for Tidewatch buoys. Kerrowan responded by qualifying a second battery supplier in **South Korea** during 2025, expecting it to provide about a quarter of the packs from 2026.",1.0,15386.0,4.824883222579956,1.0,,,
+full context,Q116,cross_section,"The Kestrel 400X firmware recall caused shipments to be paused in March, which contributed to Q1 being the weakest quarter of the year. Consequently, the product quality risk rating was increased due to the potential for single faults to affect many connected customers simultaneously.",1.0,15386.0,4.077011585235596,1.0,,,
+full context,Q117,cross_section,"Brightwater Acoustics is based in Halifax, Nova Scotia, Canada. Its acquisition relates to Course 2028 by providing a base for the planned North American service centre and adding acoustic modems to Kerrowan's product range.",1.0,15386.0,3.8105452060699463,1.0,,,
+full context,Q118,cross_section,"Kerrowan's largest single customer accounted for 9% of Group revenue, and customer concentration is rated as a stable risk.",1.0,15386.0,2.9188034534454346,1.0,,,
+full context,Q119,cross_section,"The operating profit target for full annual bonus payout was £26.5m, and the Group achieved an actual operating profit of £27.1m.",1.0,15386.0,3.16154146194458,1.0,,,
+full context,Q120,cross_section,"The 2028 target for renewable electricity in own operations is 100%, and the share achieved in 2025 was 71%.",1.0,15386.0,3.197986364364624,1.0,,,
+full context,Q121,cross_section,"The 2026 annual general meeting will be held on 7 May 2026 at the Port Lennox Maritime Hall, and the final dividend will be paid on 22 May 2026.",1.0,15386.0,3.7271645069122314,1.0,,,
+full context,Q122,cross_section,"In 2025, capital expenditure was £14.9m. For 2026, it is expected to be between £12m and £14m.",1.0,15386.0,3.4606053829193115,1.0,,,
+full context,Q123,cross_section,"At the end of 2025, there were 212 Harbourline port customers. The Group expects annual recurring revenue from Harbourline to rise by more than 25% in 2026.",1.0,15386.0,3.7126243114471436,1.0,,,
+full context,Q124,cross_section,"Kestrel Deep is a future version of the sonar designed for depths beyond 2,000 metres, and it is expected to reach field trials in 2026.",1.0,15386.0,3.384408473968506,1.0,,,
+full context,Q125,cross_section,"Over the five-year period from 2021 to 2025, revenue grew at a compound annual rate of 11.7%. In 2025 specifically, the operating margin increased to 14.7% (up from 13.2% in 2024).",1.0,15386.0,4.561075925827026,1.0,,,
+full context,Q126,cross_section,"Kwame Mensah advises the Board on Harbourline, and the platform achieved an availability of 99.96% in 2025.",1.0,15386.0,3.180274486541748,1.0,,,
+full context,Q127,summary,"The four pillars of the Course 2028 strategy are:
+1. Connected hardware (every new instrument connects natively to Harbourline).
+2. Software growth (aiming to double Harbourline annual recurring revenue between 2025 and 2028).
+3. Service close to the customer (extending the service centre model to North America and Asia).
+4. Responsible operations (committing to net zero emissions from own operations by 2032).",1.0,15386.0,5.917869567871094,1.0,,,
+full context,Q128,summary,"The Chief Executive singled out the following three things:
+1. The launch of the Tidewatch T5 buoy in September 2025, which saw strong early demand and 310 units shipped in the last four months of the year.
+2. The opening of the Rotterdam service centre in June 2025, which reduced average repair turnaround for European customers from 19 days to 8 days.
+3. The steady improvement in operating margin, driven by better pricing on the storm-rated Tidewatch T3-S, a richer mix of software, and lower freight costs, achieved without cutting research spending.",1.0,15386.0,7.094052314758301,1.0,,,
+full context,Q129,summary,"The Tidewatch T5 is the first buoy built around Harbourline software; it sends data over satellite and mobile networks, updates its own software remotely, and can run small analytics programs on board to reduce the volume of data transmitted.",1.0,15386.0,3.75394606590271,1.0,,,
+full context,Q130,summary,"Kerrowan manages supply chain risks by qualifying a second battery supplier to reduce dependence on a single source, holding a strategic stock of six months of critical microcontrollers, moving outbound logistics from air freight to road and sea where possible, reorganising its purchasing team into category teams to spot shortages early, and requiring all new suppliers to sign the Kerrowan Supplier Code covering labour standards, anti-bribery, and environmental management.",1.0,15386.0,5.343733310699463,1.0,,,
+full context,Q131,summary,Scope 1 and 2 emissions fell because of a larger share of renewable electricity and the replacement of 18 diesel service vans with electric vehicles.,1.0,15386.0,3.0644733905792236,1.0,,,
+full context,Q132,summary,"Kerrowan's Group operating margin improved in 2025 due to better pricing on the storm-rated Tidewatch T3-S, a richer mix of software, and lower freight costs.",1.0,15386.0,3.480854034423828,1.0,,,
+full context,Q133,summary,"After the Kestrel 400X firmware fault, Kerrowan added an extra stage of field testing before any new firmware is released. The company also handled the recall as an on-site update rather than a full return, and the fault has not recurred since these changes were implemented.",1.0,15386.0,4.245043754577637,1.0,,,
+full context,Q134,summary,"In 2025, Kerrowan made the following changes to health and safety practices:
+*   **Sea Survival Training:** All field engineers completed renewed sea survival training.
+*   **Deployment Rule:** A new rule was introduced stating that no buoy may be deployed or recovered from a vessel when waves exceed 2.5 metres, unless the vessel has a dedicated launch and recovery system.
+*   **Composites Workshop Safety:** At Port Lenham, the composites workshop was fitted with a new extraction system to reduce exposure to resin fumes.
+*   **Calibration Tank Redesign:** At Port Lennox, the calibration tank area was redesigned so that people and lifting equipment use separate routes.
+*   **Reporting Culture:** A simple reporting app for field engineers was launched in February 2025, which contributed to a rise in reported near misses (indicating a stronger reporting culture).
+*   **Mental Health Support:** All employees were given access to a confidential support service, and 64 managers were trained as mental health first aiders. Field engineers on long deployments are offered regular check-ins with managers and flexible rosters where possible.",1.0,15386.0,11.504679679870605,0.0,,,
+full context,Q135,summary,"Based on the ""Outlook for 2026"" section (page 23), the expectations for each segment are:
+
+*   **Tidewatch buoys:** Mid-single-digit growth, supported by the full-year effect of the T5 and steady demand from offshore wind farms. Demand for the T3 is expected to be flat as some customers move to the T5.
+*   **Kestrel sonar:** Growth of around 10%, driven by the Baltic Sea cable survey programme in the backlog and Kestrel Deep entering field trials in the second half of the year.
+*   **Harbourline software:** Annual recurring revenue expected to rise by more than 25%, helped by the Channel Depth Assurance module and customers buying the T5.",1.0,15386.0,8.373978614807129,1.0,,,
+full context,Q136,summary,"From 2026, half of each long-term incentive award will depend on Course 2028 revenue and margin targets, a quarter on total shareholder return compared with a group of engineering companies, and a quarter on emissions reduction and Harbourline growth.",1.0,15386.0,4.015222549438477,1.0,,,
+full context,Q137,summary,"Kerrowan hedges between 50% and 75% of its expected foreign currency flows for the next twelve months. Additionally, about 78% of its revenue is earned outside the United Kingdom (mostly in euros and US dollars) while most costs are in sterling.",1.0,15386.0,4.233277082443237,1.0,,,
+full context,Q138,summary,"In 2025, the Rotterdam service centre opened in June to put engineers within a day's travel of most European customers and cut average repair turnaround time from 19 days to 8 days. It employed 34 engineers, handled more than 1,100 service visits in its first six months, and stocked spare parts for every product sold in Europe.",1.0,15386.0,4.9422523975372314,1.0,,,
+full context,Q139,superseded,"1,262",1.0,15386.0,2.0265936851501465,1.0,,,
+full context,Q140,superseded,"The workforce grew by 142 people (from 1,121 at the end of 2024 to 1,262 at the end of 2025).",1.0,15386.0,3.5453617572784424,0.0,,,
+full context,Q141,superseded,"Kerrowan was granted 15 patents in 2025 (14 initially reported, plus one further patent granted on 30 December 2025).",1.0,15386.0,3.3590798377990723,1.0,,,
+full context,Q142,superseded,98 granted patents.,1.0,15386.0,2.0301365852355957,1.0,,,
+full context,Q143,superseded,£46.3m,1.0,15386.0,2.0650651454925537,1.0,,,
+full context,Q144,superseded,"The employee count changed because 22 contractors at the Rotterdam service centre became permanent employees with effect from 31 December 2025, and they were registered after the preliminary count was taken.",1.0,15386.0,3.488499164581299,1.0,,,
+full context,Q145,unanswerable,"The report does not say what Kerrowan's market capitalisation was at the end of 2025. It provides net cash (£38.5m), share count (average 60.7 million shares in issue, final count 1,262 employees but no specific share count for year-end), and earnings per share, but does not state the share price or total market capitalisation.",,15386.0,5.275241374969482,1.0,,,
+full context,Q146,unanswerable,The report does not say what Kerrowan's share price was at the end of 2025. It only provides earnings per share (32.6 pence) and dividend information.,,15386.0,3.5026779174804688,1.0,,,
+full context,Q147,unanswerable,"The report does not say what Kerrowan's revenue from the Middle East was in 2025; it only provides regional breakdowns for the United Kingdom, Rest of Europe, North America, Asia-Pacific, and Rest of world.",,15386.0,3.827833890914917,1.0,,,
+full context,Q148,unanswerable,The report does not say how much Kerrowan spent on advertising in 2025.,,15386.0,2.653409481048584,1.0,,,
+full context,Q149,unanswerable,The report does not state the design life of the Tidewatch T5; it only provides the 15-year design life for the Tidewatch T3.,,15386.0,3.1977498531341553,1.0,,,
+full context,Q150,unanswerable,The report does not say how many patent applications Kerrowan filed in 2025; it only states that the company was granted 14 new patents (or 15 including a correction) during that year.,,15386.0,3.7065846920013428,1.0,,,
+full context,Q151,unanswerable,The report does not say what credit rating Kerrowan Marine Systems has; it only states that the banks with which the Group holds cash have strong credit ratings.,,15386.0,3.137674570083618,1.0,,,
+full context,Q152,unanswerable,The report does not say who will lead the new North American service centre; it only states that a service centre is planned for North America in 2026 under Course 2028.,,15386.0,3.487919330596924,1.0,,,
+full context,Q153,unanswerable,The report does not say how much a Harbourline Essentials subscription costs; it only states that customers pay an annual subscription based on the number of connected assets and describes the features of the different editions.,,15386.0,3.4084455966949463,1.0,,,
+full context,Q154,unanswerable,The report does not say what Kerrowan's revenue was in 2020; it only provides financial data for the years 2021 to 2025.,,15386.0,3.426454544067383,1.0,,,
