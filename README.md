@@ -8,6 +8,8 @@
 
 Which LlamaIndex retrieval methods answer questions about a document more accurately, and where does each one fail? This project compares **sentence-window** and **auto-merging** retrieval against **""basic RAG""** and a **full-context** reference, using a purpose-built benchmark where the correct answer and the exact (ground truth) sentence that supports it are known for every question.
 
+## 
+
 ![Accuracy by system](results/accuracy_by_system.png)
 
 ## Key findings
