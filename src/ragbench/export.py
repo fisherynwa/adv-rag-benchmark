@@ -17,14 +17,14 @@ def export_sentence_window(document, embed, out_dir, window_size, extra_config=N
     index.storage_context.persist(os.path.join(out_dir, "index"))
     config = {"system": f"sentence window {window_size}", "kind": "sentence_window", "window_size": window_size,
               "top_k": TOP_K, "qa_prompt": QA_PROMPT.template, **(extra_config or {})}
-    with open(os.path.join(out_dir, "config.json"), "w") as f:
+    with open(os.path.join(out_dir, "config.json"), "w", encoding="utf-8") as f:
         json.dump(config, f, indent=2)
     return len(nodes)
 
 
 def load_engine(out_dir, llm, embed):
     """Rebuild the query engine from a saved sentence-window export."""
-    with open(os.path.join(out_dir, "config.json")) as f:
+    with open(os.path.join(out_dir, "config.json"), encoding="utf-8") as f:
         cfg = json.load(f)
     if cfg["kind"] != "sentence_window":
         raise ValueError(f"unsupported kind: {cfg['kind']}")

@@ -1,4 +1,5 @@
 import json
+import os
 import pathlib
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -10,7 +11,7 @@ BENCHMARK = pathlib.Path(__file__).resolve().parents[1] / "benchmark"
 
 @pytest.fixture(scope="session")
 def answer_key():
-    return json.loads((BENCHMARK / "answer_key.json").read_text())["questions"]
+    return json.loads((BENCHMARK / "answer_key.json").read_text(encoding="utf-8"))["questions"]
 
 
 @pytest.fixture(scope="session")
@@ -26,12 +27,14 @@ class _FakeOllama(BaseHTTPRequestHandler):
     """Answers every chat request with a reply all LlamaIndex judges can parse. Keep-alive, like the real server."""
     protocol_version = "HTTP/1.1"
     reply = "4.0\nYES, supported. [RESULT] 3.0"
+    requests = 0
 
     def log_message(self, *args):
         pass
 
     def do_POST(self):
         self.rfile.read(int(self.headers.get("Content-Length", 0)))
+        type(self).requests += 1
         body = json.dumps({"model": "fake", "created_at": "2026-01-01T00:00:00Z",
                            "message": {"role": "assistant", "content": self.reply},
                            "done": True, "done_reason": "stop"}).encode()
@@ -44,6 +47,8 @@ class _FakeOllama(BaseHTTPRequestHandler):
 
 @pytest.fixture(scope="session")
 def fake_ollama_url():
+    # Keep local requests away from any proxy. Setting NO_PROXY also stops Python reading the Windows proxy settings.
+    os.environ["NO_PROXY"] = os.environ["no_proxy"] = "127.0.0.1,localhost"
     server = ThreadingHTTPServer(("127.0.0.1", 0), _FakeOllama)
     threading.Thread(target=server.serve_forever, daemon=True).start()
     yield f"http://127.0.0.1:{server.server_address[1]}"

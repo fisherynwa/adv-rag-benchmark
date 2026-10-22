@@ -12,20 +12,22 @@ supports it, is known for every question.
 ## Key findings
 
 1. **Sentence window beats auto-merging, and the difference is real.** At LlamaIndex's default settings,
-   sentence window (3) answered 90% correctly vs. 79% for auto-merging. Compared question by question, the
-   difference is −0.11 (95% interval −0.18 to −0.05), which excludes zero. Larger windows helped: 84% → 90% → 93%
-   for windows of 1, 3 and 5 sentences.
+   `sentence window 3` answered 90% correctly vs. 79% for auto-merging. 
+
 2. **Retrieval is the bottleneck, not the model.** Wrong answers were mostly *retrieval failures* (the evidence
    never reached the model, 8–22% of answers). *Generation failures*, where the evidence was there but the answer
    was still wrong, were 0–2% for every system.
-3. **Summaries are where RAG breaks.** Every RAG system scored 0.42–0.67 on section summaries vs. 0.92 for full
-   context: six retrieved snippets cannot summarise a section. Basic RAG also fell for superseded figures (0.17).
+
+3. **Summaries are where RAG breaks.** Each RAG system scored 0.42–0.67 (`8 out of 12`) on section summaries (`12 in total`) vs. 0.92 for **full context**, i.e. six retrieved snippets cannot summarise a section. Basic RAG also fell for superseded figures (0.17).
+
 4. **The model refuses rather than hallucinates.** No system answered an unanswerable question, and no answer
    contained an invented figure. The real error is over-caution. RAG systems refused 9–24% of answerable
    questions (full context: 1%).
+
 5. **Full context is the ceiling, but costs 7× more tokens.** It scored 0.98 vs. 0.93 for the best RAG system
    (`sentence window 5`), reading ~15,400 tokens per question instead of ~2,200. With prompt caching that gap
    mostly disappears for one small document; for large or many documents, retrieval is the only option.
+
 6. **The full RAG triad is expensive.** It took 117–127 min per system vs. 18–27 min with only correctness and
    groundedness.
 
@@ -92,17 +94,12 @@ questions would cost about $4,900 with sentence window 5 vs. $31,200 with full c
 | **Retrieval vs. generation failure** | Wrong answer with evidence missing vs. present | No |
 | **Hallucination checks** | Answering unanswerable questions, refusing answerable ones, numbers that appear nowhere in the report | No |
 
-All systems use the same answering model (`qwen3.5:9b`), embedding model (`nomic-embed-text`), prompt and
-`top_k = 6`, all running locally through Ollama. Intervals are 95% bootstrap intervals over questions; the
-head-to-head uses a paired bootstrap on per-question differences. Every judge score reports `n`, the number of
-answers it was based on.
-
 ## Reproducibility
 
 - **Run to run (same platform):** two Kaggle runs two days apart gave identical evidence found and context size
   for every system (retrieval is deterministic), and correctness within 0.03 per system.
 - **Machine to machine:** `test_retest_colab.ipynb` loads the exported best system on a Colab GPU, re-judges the
-  Kaggle answers (judge consistency, Cohen's κ) and answers all 154 questions again (system consistency).
+  Kaggle answers (judge consistency) and answers all 154 questions again (system consistency).
 - Each run records its GPU, Ollama version and model IDs.
 
 ## Limitations
@@ -142,6 +139,4 @@ tests/                               pytest tests (offline, ~5 s)
 pyproject.toml                       package and test dependencies
 ```
 
-**Note on data:** Kerrowan Marine Systems plc, its people and its figures are **entirely fictional**. The report
-and the questions were generated with an AI assistant (Claude) and checked automatically against the rendered
-PDF.
+**Note on data:** Kerrowan Marine Systems plc, its people, and its figures are entirely fictional. The report and the questions were generated using an AI assistant (Claude) and checked automatically against the rendered PDF.

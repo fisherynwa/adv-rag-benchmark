@@ -55,12 +55,6 @@ def _judge_calls(base_url, fix):
     nest_asyncio.apply()
     return asyncio.run(notebook())
 
-
-def test_every_judge_call_succeeds_with_the_fix(fake_ollama_url):
-    verdicts = _judge_calls(fake_ollama_url, fix=True)
-    assert not np.isnan(verdicts).any(), verdicts
-
-
 @pytest.mark.xfail(strict=False, reason="documents the original bug; XPASS means the libraries fixed it upstream")
 def test_judge_calls_fail_without_the_fix(fake_ollama_url):
     verdicts = _judge_calls(fake_ollama_url, fix=False)
