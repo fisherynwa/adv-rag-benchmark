@@ -99,8 +99,15 @@ questions would cost about $4,900 with sentence window 5 vs. $31,200 with full c
 - **Run to run (same platform):** two Kaggle runs two days apart gave identical evidence found and context size
   for every system (retrieval is deterministic), and correctness within 0.03 per system.
 - **Machine to machine:** `test_retest_colab.ipynb` loads the exported best system on a Colab GPU, re-judges the
-  Kaggle answers (judge consistency) and answers all 154 questions again (system consistency).
+  Kaggle answers (`judge consistency`) and answers all 154 questions again (system consistency). 
+
+  a) **Judge consistency:** the same 154 answers re-judged on Colab gave the same verdict on 100%.
+
+  b) **System consistency:** the exported best system (`sentence window 5`), re-run on Colab, gave identical answers to all 154 questions; share correct `0.93` on both (no difference).
+
 - Each run records its GPU, Ollama version and model IDs.
+
+- Run to run: two Kaggle runs gave identical evidence found and context size for every system.
 
 ## Limitations
 

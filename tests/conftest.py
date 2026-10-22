@@ -9,6 +9,28 @@ import pytest
 BENCHMARK = pathlib.Path(__file__).resolve().parents[1] / "benchmark"
 
 
+def _private_nltk_data():
+    """Give NLTK a private copy of LlamaIndex's bundled sentence-splitter data.
+
+    NLTK refuses to read data files that are hard-linked (uv's default on Windows) or group/world-writable
+    (common on CI runners). A fresh copy, readable and writable only by its owner, passes both checks.
+    """
+    import importlib.util
+    import shutil
+    import stat
+    import tempfile
+    source = pathlib.Path(importlib.util.find_spec("llama_index.core").origin).parent / "_static" / "nltk_cache"
+    target = pathlib.Path(tempfile.mkdtemp(prefix="nltk_data_"))          # created private (0700)
+    if source.is_dir():
+        shutil.copytree(source, target, dirs_exist_ok=True, copy_function=shutil.copyfile)
+    for path in [target, *target.rglob("*")]:
+        path.chmod(path.stat().st_mode & ~(stat.S_IWGRP | stat.S_IWOTH))
+    os.environ["NLTK_DATA"] = str(target)
+
+
+_private_nltk_data()          # before any test imports LlamaIndex
+
+
 @pytest.fixture(scope="session")
 def answer_key():
     return json.loads((BENCHMARK / "answer_key.json").read_text(encoding="utf-8"))["questions"]
