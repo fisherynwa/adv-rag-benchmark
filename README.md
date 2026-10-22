@@ -24,14 +24,14 @@ supports it, is known for every question.
    contained an invented figure. The real error is over-caution. RAG systems refused 9–24% of answerable
    questions (full context: 1%).
 5. **Full context is the ceiling, but costs 7× more tokens.** It scored 0.98 vs. 0.93 for the best RAG system
-   (sentence window 5), reading ~15,400 tokens per question instead of ~2,200. With prompt caching that gap
+   (`sentence window 5`), reading ~15,400 tokens per question instead of ~2,200. With prompt caching that gap
    mostly disappears for one small document; for large or many documents, retrieval is the only option.
 6. **The full RAG triad is expensive.** It took 117–127 min per system vs. 18–27 min with only correctness and
    groundedness.
 
 ## Results
 
-Final run: 154 questions per system, Tesla T4, Ollama 0.40.7. `n` = answers the judge scored.
+Final run: `154` questions per system, Ollama 0.40.7. `n` = answers the judge scored.
 
 | System | Correct (95% interval) | Grounded | Evidence found | Tokens / question | Seconds / question |
 |---|---|---|---|---|---|
@@ -108,7 +108,7 @@ report's own arithmetic adds up.
 |---|---|---|
 | **Evidence found** | Share of evidence sentences present, word for word, in the text the model read | No |
 | **Correct** | LlamaIndex `CorrectnessEvaluator`: grade 1–5 against the reference answer; 4 or more counts as correct | LLM |
-| **Grounded** | LlamaIndex `FaithfulnessEvaluator`: is the answer supported by the retrieved text? (Halluciation proxy) | LLM |
+| **Grounded** | LlamaIndex `FaithfulnessEvaluator`: is the answer supported by the retrieved text? (a proxy for hallucination) | LLM |
 | **Answer / context relevance** | The other two legs of the RAG triad, on the head-to-head pair only | LLM |
 | **Retrieval vs. generation failure** | Wrong answer with evidence missing vs. present | No |
 | **Hallucination checks** | Answering unanswerable questions, refusing answerable ones, numbers that appear nowhere in the report | No |
