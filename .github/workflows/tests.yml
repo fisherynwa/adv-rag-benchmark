@@ -6,12 +6,21 @@ on:
 
 jobs:
   pytest:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04            # pinned: ubuntu-latest moved to a new image on Oct 19, 2026
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: pip
       - run: pip install -e ".[test]"
-      - run: pytest
+      - name: pytest
+        run: |
+          set -o pipefail
+          pytest -rfE --tb=short 2>&1 | tee pytest.log
+      - name: Show failures on the run page
+        if: failure()
+        run: |
+          echo '### pytest failures' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          tail -n 60 pytest.log >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
