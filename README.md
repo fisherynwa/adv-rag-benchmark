@@ -1,11 +1,12 @@
 # Sentence window vs. auto-merging: benchmarking LlamaIndex RAG on a document with exact ground truth
 
-![tests](https://github.com/fisherynwa/bench-adv-rag-systems/actions/workflows/tests.yml/badge.svg)
+[![tests](https://github.com/fisherynwa/adv-rag-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/fisherynwa/adv-rag-benchmark/actions/workflows/tests.yml)
+![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0.14-6E40C9)
+![GPU](https://img.shields.io/badge/runs%20on-free%20Kaggle%20T4-20BEFF?logo=kaggle&logoColor=white)
+![reproducible](https://img.shields.io/badge/test--retest-100%25%20identical-2E7D32)
 
-Which LlamaIndex retrieval method answers questions about a document more accurately, and where does each one
-fail? This project compares **sentence-window** and **auto-merging** retrieval against basic RAG and a
-full-context reference, using a purpose-built benchmark where the correct answer, and the exact sentence that
-supports it, is known for every question.
+Which LlamaIndex retrieval methods answer questions about a document more accurately, and where does each one fail? This project compares **sentence-window** and **auto-merging** retrieval against **""basic RAG""** and a **full-context** reference, using a purpose-built benchmark where the correct answer and the exact (ground truth) sentence that supports it are known for every question.
 
 ![Accuracy by system](results/accuracy_by_system.png)
 
@@ -18,7 +19,7 @@ supports it, is known for every question.
    never reached the model, 8–22% of answers). *Generation failures*, where the evidence was there but the answer
    was still wrong, were 0–2% for every system.
 
-3. **Summaries are where RAG breaks.** Each RAG system scored 0.42–0.67 (`8 out of 12`) on section summaries (`12 in total`) vs. 0.92 for **full context**, i.e. six retrieved snippets cannot summarise a section. Basic RAG also fell for superseded figures (0.17).
+3. **Summaries are where RAG breaks.** Each RAG system scored 0.42–0.67 (`8 out of 12`) on section summaries (`12 in total`) vs. 0.92 for **full context**. 
 
 4. **The model refuses rather than hallucinates.** No system answered an unanswerable question, and no answer
    contained an invented figure. The real error is over-caution. RAG systems refused 9–24% of answerable
@@ -103,7 +104,7 @@ questions would cost about $4,900 with sentence window 5 vs. $31,200 with full c
 
   a) **Judge consistency:** the same 154 answers re-judged on Colab gave the same verdict on 100%.
 
-  b) **System consistency:** the exported best system (`sentence window 5`), re-run on Colab, gave identical answers to all 154 questions; share correct `0.93` on both (no difference).
+  b) **System consistency**: the exported best system (`sentence window 5`), re-run on Colab, gave identical answers to all 154 questions; share correct `0.93` on both (no difference).
 
 - Each run records its GPU, Ollama version and model IDs.
 
@@ -111,7 +112,7 @@ questions would cost about $4,900 with sentence window 5 vs. $31,200 with full c
 
 ## Limitations
 
-- **The report fits in the model's context** (~15k tokens), so full context is a reference point, not a fair
+- **The report fits in the model's context** (`~15k` tokens), so full context is a reference point, not a fair
   competitor. On documents too large for the context window, retrieval is the only option.
 - **One short, fictional document, with AI-written questions.** Their wording may overlap with the report more
   than real users' questions would.
@@ -119,7 +120,6 @@ questions would cost about $4,900 with sentence window 5 vs. $31,200 with full c
   grades; its consistency is checked by test-retest instead.
 - **Fixed `top_k = 6` and no reranker:** the methods are compared on equal terms, not each at its best. With
   only six hits, auto-merging rarely merges.
-- **Small groups:** some question types have only 6–20 questions, so per-type results are rough.
 
 ## Run it yourself
 
@@ -146,4 +146,4 @@ tests/                               pytest tests (offline, ~5 s)
 pyproject.toml                       package and test dependencies
 ```
 
-**Note on data:** Kerrowan Marine Systems plc, its people, and its figures are entirely fictional. The report and the questions were generated using an AI assistant (Claude) and checked automatically against the rendered PDF.
+**Note:** Kerrowan Marine Systems plc, its people, and its figures are entirely **fictional**. The report and the questions were generated using an AI assistant (Claude) and verified automatically against the rendered PDF.
