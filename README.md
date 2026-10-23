@@ -1,7 +1,7 @@
 # Sentence window vs. auto-merging: benchmarking LlamaIndex RAG on a document with exact ground truth
 
 [![tests](https://github.com/fisherynwa/adv-rag-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/fisherynwa/adv-rag-benchmark/actions/workflows/tests.yml)
-![Python](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0.14-6E40C9)
 ![GPU](https://img.shields.io/badge/runs%20on-free%20Kaggle%20T4-20BEFF?logo=kaggle&logoColor=white)
 ![reproducible](https://img.shields.io/badge/test--retest-100%25%20identical-2E7D32)
@@ -13,13 +13,13 @@ Which LlamaIndex retrieval methods answer questions about a document more accura
 ## Key findings
 
 1. **Sentence window beats auto-merging, and the difference is real.** At LlamaIndex's default settings,
-   `sentence window 3` answered 90% correctly vs. 79% for auto-merging. Compared question by question, the difference is −0.11 (95% CI −0.18 to −0.05) 
+   `sentence window 3` answered 90% correctly vs. 79% for auto-merging. Compared question by question, the difference is −0.11 (95% CI −0.18 to −0.05).
 
 2. **Retrieval is the bottleneck, not the model.** Wrong answers were mostly *retrieval failures* (the evidence
    never reached the model, 8–22% of answers). *Generation failures*, where the evidence was there but the answer
    was still wrong, were 0–2% for every system.
 
-3. **Summaries are where RAG breaks.** Each RAG system scored 0.42–0.67 (`5-8 of 12`) on section summaries (`12 in total`) vs. 0.92 for **full context**. 
+3. **Summaries are where RAG breaks.** Each RAG system scored 0.42–0.67 (`5-8 of 12`) on section summaries  vs. 0.92 for **full context**. 
 
 4. **The model refuses rather than hallucinates.** No system answered an unanswerable question, and no answer
    contained an invented figure. The real error is over-caution. RAG systems refused 9–24% of answerable
@@ -86,7 +86,7 @@ questions would cost about $4,900 with sentence window 5 vs. $31,200 with full c
 ## Live demo
 
 The best system (`sentence window 5`) runs as a web page and REST API on a free Colab GPU
-(`deploy/deploy_colab.ipynb`), with every question traced and scored in `Langfuse`.
+(`deploy/deploy_colab.ipynb`), with every question traced and scored in Langfuse.
 
 ![Demo page](deploy/demo_ui.png)
 
@@ -96,7 +96,7 @@ Two failures, both retrieval failures, show up clearly in the traces:
 a) **Superseded figure:** "How many people did Kerrowan employ at 31 December 2025?" was answered with the
   preliminary 1,240 instead of the corrected 1,262.
 
-  A superseded figure is a number or statistic that has been replaced by a later, corrected version in the same document. For instance, the report gives the headcount `on 31 December 2025` as **1,240 on page 13** ("At 31 December 2025 the Group employed 1,240 people"), but corrects its number on `page 22`: "The final employee count at 31 December 2025 was 1,262."
+  A superseded figure is a number or statistic that has been replaced by a later, corrected version in the same document. For instance, the report gives the headcount on 31 December 2025 as 1,240 on page 13 ("At 31 December 2025 the Group employed 1,240 people"), but corrects its number on page 22: "The final employee count at 31 December 2025 was 1,262."
 
 b) **Over-refusal:** "What are the four pillars of the Course 2028 strategy?" was answered "the report does not
   say", although `page 6` lists all four. The repeated name "Course 2028" crowded the relevant sentences out of
@@ -123,7 +123,7 @@ b) **Over-refusal:** "What are the four pillars of the Course 2028 strategy?" wa
 
   a) **Judge consistency:** the same 154 answers re-judged on Colab gave the same verdict on 100% (`Cohen’s κ = 1.00`).
 
-  b) **System consistency**: the exported best system (`sentence window 5`), re-run on Colab, gave identical answers to all 154 questions; share correct `0.93` on both (no difference).
+  b) **System consistency:** the exported best system (`sentence window 5`), re-run on Colab, gave identical answers to all 154 questions; share correct `0.93` on both (no difference).
 
 - Each run records its GPU, Ollama version and model IDs.
 
@@ -155,13 +155,15 @@ notebooks/
   test_retest_colab.ipynb            reproducibility check on a second machine
 results/
   results.csv                        final run, one row per answer
+  column_guide_results.md            what each column of results.csv means
   accuracy_by_system.png             the chart
+  best_rag.zip                       the exported best system (index + settings), used by the Colab notebooks
 benchmark/                           the report PDF, answer key, and the scripts that build and verify them
 deploy/                              web app + API with Langfuse tracing, and screenshots
 src/ragbench/                        the benchmark's logic as a package
 tests/                               pytest tests (offline, ~5 s)
 .github/workflows/tests.yml          runs the tests on every push
-pyproject.toml                       package and test dependencies
+pyproject.toml                       package and test dependencies                    package and test dependencies
 ```
 
 **Note:** Kerrowan Marine Systems plc, its people, and its figures are entirely **fictional**. The report and the questions were generated using an AI assistant (Claude) and verified automatically against the rendered PDF.
