@@ -164,7 +164,7 @@ deploy/                              web app + API with Langfuse tracing, and sc
 src/ragbench/                        the benchmark's logic as a package
 tests/                               pytest tests (offline, ~5 s)
 .github/workflows/tests.yml          runs the tests on every push
-pyproject.toml                       package and test dependencies                    package and test dependencies
+pyproject.toml                       package and test dependencies                 
 ```
 
 **Note:** Kerrowan Marine Systems plc, its people, and its figures are entirely **fictional**. The report and the questions were generated using an AI assistant (Claude) and verified automatically against the rendered PDF.
