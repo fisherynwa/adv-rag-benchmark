@@ -8,14 +8,12 @@
 
 Which LlamaIndex retrieval methods answer questions about a document more accurately, and where does each one fail? This project compares **sentence-window** and **auto-merging** retrieval against **basic RAG** and a **full-context** reference, using a purpose-built benchmark where the correct answer and the exact (ground truth) sentence that supports it are known for every question.
 
-## 
-
 ![Accuracy by system](results/accuracy_by_system.png)
 
 ## Key findings
 
 1. **Sentence window beats auto-merging, and the difference is real.** At LlamaIndex's default settings,
-   `sentence window 3` answered 90% correctly vs. 79% for auto-merging. 
+   `sentence window 3` answered 90% correctly vs. 79% for auto-merging. Compared question by question, the difference is −0.11 (95% CI −0.18 to −0.05) 
 
 2. **Retrieval is the bottleneck, not the model.** Wrong answers were mostly *retrieval failures* (the evidence
    never reached the model, 8–22% of answers). *Generation failures*, where the evidence was there but the answer
@@ -87,25 +85,22 @@ questions would cost about $4,900 with sentence window 5 vs. $31,200 with full c
 
 ## Live demo
 
-The best system (`sentence window 5` tested) runs as a web page and REST API on a free Colab GPU
+The best system (`sentence window 5`) runs as a web page and REST API on a free Colab GPU
 (`deploy/deploy_colab.ipynb`), with every question traced and scored in `Langfuse`.
 
 ![Demo page](deploy/demo_ui.png)
 
-**Live test, 14 out-of-context and false-premise questions:** all refused, including two prompt injections.
+**Live test, 14 out-of-context and false-premise questions:** all 14 refused, including two prompt injections.
 Two failures, both retrieval failures, show up clearly in the traces:
 
 a) **Superseded figure:** "How many people did Kerrowan employ at 31 December 2025?" was answered with the
   preliminary 1,240 instead of the corrected 1,262.
 
-  A superseded figure is a number or statistic that has been replaced by a later, corrected version in the same document. For instance, the report gives the headcount `on 31 December 2025` as **1,240 on Page 13** ("At 31 December 2025 the Group employed 1,240 people"), but corrects its number on `Page 22`: "The final employee count at 31 December 2025 was 1,262."
+  A superseded figure is a number or statistic that has been replaced by a later, corrected version in the same document. For instance, the report gives the headcount `on 31 December 2025` as **1,240 on page 13** ("At 31 December 2025 the Group employed 1,240 people"), but corrects its number on `page 22`: "The final employee count at 31 December 2025 was 1,262."
 
 b) **Over-refusal:** "What are the four pillars of the Course 2028 strategy?" was answered "the report does not
-  say", albeit `Page 6` lists all four. The repeated name "Course 2028" crowded the relevant sentences out of
+  say", although `page 6` lists all four. The repeated name "Course 2028" crowded the relevant sentences out of
   the top 6. A plausible remedy is hybrid (keyword + vector) search; a quick offline check is promising, but it has not yet been evaluated on the benchmark.
-
-
-![Langfuse trace](deploy/langfuse_trace.png)
 
 
 ## How it is measured
@@ -126,9 +121,9 @@ b) **Over-refusal:** "What are the four pillars of the Course 2028 strategy?" wa
 - **Machine to machine:** `test_retest_colab.ipynb` loads the exported best system on a Colab GPU, re-judges the
   Kaggle answers (`judge consistency`) and answers all 154 questions again (system consistency). 
 
-  a) **Judge consistency:** the same 154 answers re-judged on Colab gave the same verdict on 100%.
+  a) **Judge consistency:** the same 154 answers re-judged on Colab gave the same verdict on 100% (`Cohen’s κ = 1.00`).
 
-  b) **System consistency**: the exported best system (`sentence window 5`), re-run on Colab, gave identical answers to all 154 questions; share correct `0.93` on both (no difference; `Cohen’s κ = 1.00`).
+  b) **System consistency**: the exported best system (`sentence window 5`), re-run on Colab, gave identical answers to all 154 questions; share correct `0.93` on both (no difference).
 
 - Each run records its GPU, Ollama version and model IDs.
 
@@ -144,13 +139,12 @@ b) **Over-refusal:** "What are the four pillars of the Course 2028 strategy?" wa
 - **Fixed `top_k = 6` and no reranker:** the methods are compared on equal terms, not each at its best. With
   only six hits, auto-merging rarely merges.
 
-## To reproduce:
+## Reproduce
 
-1. **Kaggle:** open `notebooks/bench-halluc-judge-adv-rag.ipynb`, turn on **GPU** and **Internet**, and add the
-   `benchmark/` files (`kerrowan_annual_report_2025.pdf`, `answer_key.json`) as a dataset. *Save & Run All*
-   takes about 5.5 hours on a T4.
-2. **Colab (optional):** run `notebooks/test_retest_colab.ipynb` with the `best_rag.zip` from the Kaggle output.
-3. **Rebuild the benchmark (optional):** `cd benchmark && python build_pdf.py && python verify_and_build.py`.
+- **Benchmark:** run `notebooks/bench-halluc-judge-adv-rag.ipynb` on Kaggle (GPU + Internet on, `benchmark/` files added as a dataset); about 5.5 h on a T4.
+- **Test-retest:** run `notebooks/test_retest_colab.ipynb` on Colab with `results/best_rag.zip`.
+- **Demo:** run `deploy/deploy_colab.ipynb` on Colab (T4 GPU).
+- **Tests:** `pip install -e ".[test]" && pytest` (offline, ~5 s).
 
 ## Repository layout
 
@@ -163,6 +157,7 @@ results/
   results.csv                        final run, one row per answer
   accuracy_by_system.png             the chart
 benchmark/                           the report PDF, answer key, and the scripts that build and verify them
+deploy/                              web app + API with Langfuse tracing, and screenshots
 src/ragbench/                        the benchmark's logic as a package
 tests/                               pytest tests (offline, ~5 s)
 .github/workflows/tests.yml          runs the tests on every push
