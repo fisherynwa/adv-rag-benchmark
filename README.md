@@ -6,7 +6,7 @@
 ![GPU](https://img.shields.io/badge/runs%20on-free%20Kaggle%20T4-20BEFF?logo=kaggle&logoColor=white)
 ![reproducible](https://img.shields.io/badge/test--retest-100%25%20identical-2E7D32)
 
-Which LlamaIndex retrieval methods answer questions about a document more accurately, and where does each one fail? This project compares **sentence-window** and **auto-merging** retrieval against **""basic RAG""** and a **full-context** reference, using a purpose-built benchmark where the correct answer and the exact (ground truth) sentence that supports it are known for every question.
+Which LlamaIndex retrieval methods answer questions about a document more accurately, and where does each one fail? This project compares **sentence-window** and **auto-merging** retrieval against **basic RAG** and a **full-context** reference, using a purpose-built benchmark where the correct answer and the exact (ground truth) sentence that supports it are known for every question.
 
 ## 
 
@@ -21,7 +21,7 @@ Which LlamaIndex retrieval methods answer questions about a document more accura
    never reached the model, 8–22% of answers). *Generation failures*, where the evidence was there but the answer
    was still wrong, were 0–2% for every system.
 
-3. **Summaries are where RAG breaks.** Each RAG system scored 0.42–0.67 (`8 out of 12`) on section summaries (`12 in total`) vs. 0.92 for **full context**. 
+3. **Summaries are where RAG breaks.** Each RAG system scored 0.42–0.67 (`5-8 of 12`) on section summaries (`12 in total`) vs. 0.92 for **full context**. 
 
 4. **The model refuses rather than hallucinates.** No system answered an unanswerable question, and no answer
    contained an invented figure. The real error is over-caution. RAG systems refused 9–24% of answerable
@@ -85,6 +85,28 @@ The number check flagged one answer per system ("83 ports"), a false positive: t
 **Cost:** $0 on a free Kaggle GPU. With a mid-tier API model (~$2 per million input tokens), answering a million
 questions would cost about $4,900 with sentence window 5 vs. $31,200 with full context, before prompt caching.
 
+## Live demo
+
+The best system (`sentence window 5` tested) runs as a web page and REST API on a free Colab GPU
+(`deploy/deploy_colab.ipynb`), with every question traced and scored in `Langfuse`.
+
+![Demo page](deploy/demo_ui.png)
+
+**Live test, 14 out-of-context and false-premise questions:** all refused, including two prompt injections.
+Two failures, both retrieval failures, show up clearly in the traces:
+
+a) **Superseded figure:** "How many people did Kerrowan employ at 31 December 2025?" was answered with the
+  preliminary 1,240 instead of the corrected 1,262.
+
+  A superseded figure is a number or statistic that has been replaced by a later, corrected version in the same document. For instance, the report gives the headcount `on 31 December 2025` as **1,240 on Page 13** ("At 31 December 2025 the Group employed 1,240 people"), but corrects its number on `Page 22`: "The final employee count at 31 December 2025 was 1,262."
+
+b) **Over-refusal:** "What are the four pillars of the Course 2028 strategy?" was answered "the report does not
+  say", albeit `Page 6` lists all four. The repeated name "Course 2028" crowded the relevant sentences out of
+  the top 6. A plausible remedy is hybrid (keyword + vector) search; a quick offline check is promising, but it has not yet been evaluated on the benchmark.
+
+
+![Langfuse trace](deploy/langfuse_trace.png)
+
 
 ## How it is measured
 
@@ -106,11 +128,10 @@ questions would cost about $4,900 with sentence window 5 vs. $31,200 with full c
 
   a) **Judge consistency:** the same 154 answers re-judged on Colab gave the same verdict on 100%.
 
-  b) **System consistency**: the exported best system (`sentence window 5`), re-run on Colab, gave identical answers to all 154 questions; share correct `0.93` on both (no difference).
+  b) **System consistency**: the exported best system (`sentence window 5`), re-run on Colab, gave identical answers to all 154 questions; share correct `0.93` on both (no difference; `Cohen’s κ = 1.00`).
 
 - Each run records its GPU, Ollama version and model IDs.
 
-- Run to run: two Kaggle runs gave identical evidence found and context size for every system.
 
 ## Limitations
 
@@ -123,7 +144,7 @@ questions would cost about $4,900 with sentence window 5 vs. $31,200 with full c
 - **Fixed `top_k = 6` and no reranker:** the methods are compared on equal terms, not each at its best. With
   only six hits, auto-merging rarely merges.
 
-## Run it yourself
+## To reproduce:
 
 1. **Kaggle:** open `notebooks/bench-halluc-judge-adv-rag.ipynb`, turn on **GPU** and **Internet**, and add the
    `benchmark/` files (`kerrowan_annual_report_2025.pdf`, `answer_key.json`) as a dataset. *Save & Run All*
