@@ -3,6 +3,7 @@
 [![tests](https://github.com/fisherynwa/adv-rag-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/fisherynwa/adv-rag-benchmark/actions/workflows/tests.yml)
 ![Python](https://img.shields.io/badge/python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0.14-6E40C9)
+![Langfuse](https://img.shields.io/badge/tracing-Langfuse-0A60FF)
 ![GPU](https://img.shields.io/badge/runs%20on-free%20Kaggle%20T4-20BEFF?logo=kaggle&logoColor=white)
 ![reproducible](https://img.shields.io/badge/test--retest-100%25%20identical-2E7D32)
 
